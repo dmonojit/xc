@@ -1,3 +1,4 @@
+import sys
 from scipy.sparse import *
 from scipy import *
 
@@ -37,4 +38,5 @@ def get_matrices_from_file(filepath):
 	return total_points, feature_dm, number_of_labels, feature_matrix, label_vectors
 
 if __name__ == '__main__':
-	print(123)
+	total_points, feature_dm, number_of_labels, feature_matrix, label_vectors = get_matrices_from_file(sys.argv[1])
+	print(feature_matrix.todense())	
