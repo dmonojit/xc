@@ -18,6 +18,7 @@ def get_matrices_from_file(filepath):
 		labels = []
 
 		if row[0] == '':
+			row.pop(0)
 			label_vectors.append([])
 		else:
 			label_vectors.append([*map(lambda x: int(x), row.pop(0).split(','))])
@@ -29,7 +30,7 @@ def get_matrices_from_file(filepath):
 			value = double(value)
 			feature_indices.append(index)
 			feature_data.append(value)
-		feature_indptr.append(length)
+		feature_indptr.append(feature_indptr[-1] + length)
 
 	feature_matrix = csr_matrix((feature_data, feature_indices, feature_indptr), dtype=double)
 
