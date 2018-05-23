@@ -1,4 +1,8 @@
 import sys
+import networkx as nx
+import datetime
+import operator
+from functools import reduce
 from scipy.sparse import *
 from scipy import *
 
@@ -35,8 +39,31 @@ def get_matrices_from_file(filepath):
 
 	feature_matrix = csr_matrix((feature_data, feature_indices, feature_indptr), dtype=double)
 
-	return total_points, feature_dm, number_of_labels, feature_matrix, label_vectors
+
+	label_graph = build_label_graph(label_vectors)
+
+	return total_points, feature_dm, number_of_labels, feature_matrix, label_vectors, label_graph
+
+def build_label_graph(label_vectors):
+	V = set(reduce(operator.concat, label_vectors))
+	E = {}
+	for vector in label_vectors:
+		for u in range(len(vector)):
+			for v in range(u+1, len(vector)):
+				t = tuple(sorted([vector[u], vector[v]]))
+				if t not in E:
+					E[t] = 1
+				else:
+					E[t] += 1
+
+	G = nx.Graph()
+	G.add_edges_from(E.keys())
+
+	return G
 
 if __name__ == '__main__':
-	total_points, feature_dm, number_of_labels, feature_matrix, label_vectors = get_matrices_from_file(sys.argv[1])
-	print(feature_matrix.todense())	
+	total_points, feature_dm, number_of_labels, feature_matrix, label_vectors, label_graph = get_matrices_from_file(sys.argv[1])
+	graph_filepath = sys.argv[2] if len(sys.argv) == 3 else 'label_graph_{}.graphml'.format(datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
+	nx.write_graphml(label_graph, graph_filepath)
+	print('Label graph generated at ' + graph_filepath)
+	print(feature_matrix.todense())
