@@ -78,6 +78,7 @@ def build_label_graph(Y, label_filepath, level=1):
 	bfs_q.put(0)
 	node_check = {}
 
+	label_dict = get_label_dict(label_filepath)
 	sub_g = nx.Graph()
 	l = 0
 	while not bfs_q.empty() and l <= level:
@@ -89,11 +90,14 @@ def build_label_graph(Y, label_filepath, level=1):
 		elif node_check.get(v, True):
 			node_check[v] = False
 			edges = list(g.edges(v))
+			print('Number of edges: ' + str(len(edges)) + ' for node: ' + label_dict[int(v)])
+			if len(edges) > 5000:
+				print('Ignoring node: ' + label_dict[int(v)])
+				continue
 			for uv_tuple in edges:
 				sub_g.add_edges_from([uv_tuple])
 				bfs_q.put(uv_tuple[1])
 
-	label_dict = get_label_dict(label_filepath)
 	def mapping(v):
 		return label_dict[v]
 
