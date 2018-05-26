@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="awareness" />
+    <node id="points" />
+    <node id="body" />
+    <node id="accident" />
+    <node id="pain" />
+    <node id="brain" />
+    <node id="body_language" />
+    <node id="body_image" />
+    <node id="learning" />
+    <node id="painting" />
+    <node id="dance" />
+    <node id="bodywork" />
+    <node id="gesundheit" />
+    <node id="health" />
+    <node id="wikipedia" />
+    <node id="fitness" />
+    <node id="proprioception" />
+    <node id="psychology" />
+    <node id="fibromyalgia" />
+    <node id="alternative" />
+    <node id="muscles" />
+    <node id="motion" />
+    <node id="medicine" />
+    <node id="eyes" />
+    <node id="funstuff" />
+    <node id="trigger" />
+    <node id="wissen" />
+    <node id="massage" />
+    <node id="pt" />
+    <node id="joint" />
+    <node id="method" />
+    <node id="reference" />
+    <node id="move-dance" />
+    <node id="salud" />
+    <node id="movement" />
+    <node id="therapy" />
+    <node id="ergonomics" />
+    <node id="medical" />
+    <node id="articles" />
+    <node id="wiki" />
+    <node id="interesting" />
+    <edge source="awareness" target="bodywork" />
+    <edge source="points" target="bodywork" />
+    <edge source="body" target="bodywork" />
+    <edge source="accident" target="bodywork" />
+    <edge source="pain" target="bodywork" />
+    <edge source="brain" target="bodywork" />
+    <edge source="body_language" target="bodywork" />
+    <edge source="body_image" target="bodywork" />
+    <edge source="learning" target="bodywork" />
+    <edge source="painting" target="bodywork" />
+    <edge source="dance" target="bodywork" />
+    <edge source="bodywork" target="gesundheit" />
+    <edge source="bodywork" target="health" />
+    <edge source="bodywork" target="wikipedia" />
+    <edge source="bodywork" target="fitness" />
+    <edge source="bodywork" target="proprioception" />
+    <edge source="bodywork" target="psychology" />
+    <edge source="bodywork" target="fibromyalgia" />
+    <edge source="bodywork" target="alternative" />
+    <edge source="bodywork" target="muscles" />
+    <edge source="bodywork" target="motion" />
+    <edge source="bodywork" target="medicine" />
+    <edge source="bodywork" target="eyes" />
+    <edge source="bodywork" target="funstuff" />
+    <edge source="bodywork" target="trigger" />
+    <edge source="bodywork" target="wissen" />
+    <edge source="bodywork" target="massage" />
+    <edge source="bodywork" target="pt" />
+    <edge source="bodywork" target="joint" />
+    <edge source="bodywork" target="method" />
+    <edge source="bodywork" target="reference" />
+    <edge source="bodywork" target="move-dance" />
+    <edge source="bodywork" target="salud" />
+    <edge source="bodywork" target="movement" />
+    <edge source="bodywork" target="therapy" />
+    <edge source="bodywork" target="ergonomics" />
+    <edge source="bodywork" target="medical" />
+    <edge source="bodywork" target="articles" />
+    <edge source="bodywork" target="wiki" />
+    <edge source="bodywork" target="interesting" />
+  </graph>
+</graphml>
