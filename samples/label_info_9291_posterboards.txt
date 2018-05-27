@@ -1,0 +1,17 @@
+
+Number of edges: 6 for node: poster boards
+
+Number of edges: 2016 for node: home & kitchen
+Ignoring node in graph: home & kitchen
+
+Number of edges: 72 for node: posters & prints
+
+Number of edges: 39 for node: presentation boards
+
+Number of edges: 84 for node: artwork
+
+Number of edges: 1068 for node: office products
+Ignoring node in graph: office products
+
+Number of edges: 841 for node: office & school supplies
+Ignoring node in graph: office & school supplies

@@ -1,0 +1,26 @@
+
+Number of edges: 11 for node: salsas
+
+Number of edges: 8 for node: ranch
+
+Number of edges: 10 for node: vegetable
+
+Number of edges: 54 for node: snack food
+
+Number of edges: 112 for node: snack foods
+Ignoring node in graph: snack foods
+
+Number of edges: 30 for node: cheese & eggs
+
+Number of edges: 8 for node: onion
+
+Number of edges: 55 for node: sauces & dips
+
+Number of edges: 30 for node: dairy
+
+Number of edges: 9 for node: dips & spreads
+
+Number of edges: 787 for node: grocery & gourmet food
+Ignoring node in graph: grocery & gourmet food
+
+Number of edges: 4 for node: processed cheese

@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="kids' furniture" />
+    <node id="game room games" />
+    <node id="kids' room décor" />
+    <node id="games" />
+    <node id="kitchen &amp; dining" />
+    <node id="novelty &amp; gag toys" />
+    <node id="dining chairs" />
+    <node id="lunch boxes" />
+    <node id="patio" />
+    <node id="dining room furniture" />
+    <node id="patio furniture &amp; accessories" />
+    <node id="nursery" />
+    <node id="nursery dcor" />
+    <node id="nursery décor" />
+    <node id="nursery storage &amp; organization" />
+    <node id="armchairs" />
+    <node id="armoires" />
+    <node id="crafts &amp; sewing" />
+    <node id="wall dcor" />
+    <node id="wall décor" />
+    <node id="tea light holders" />
+    <node id="bean bags" />
+    <node id="art supplies" />
+    <node id="wall stickers &amp; murals" />
+    <node id="wallpaper" />
+    <node id="wallpaper borders" />
+    <node id="bed frames" />
+    <node id="headboards" />
+    <node id="headboards &amp; footboards" />
+    <node id="bedding" />
+    <node id="arts" />
+    <node id="bedroom furniture" />
+    <node id="office &amp; school supplies" />
+    <node id="money banks" />
+    <node id="office furniture &amp; lighting" />
+    <node id="office products" />
+    <node id="office storage supplies" />
+    <node id="gifts" />
+    <node id="step stools" />
+    <node id="inflatable beds" />
+    <node id="benches" />
+    <node id="combination table games" />
+    <node id="stools" />
+    <node id="storage &amp; organization" />
+    <node id="chairs" />
+    <node id="storage racks &amp; chests" />
+    <node id="lawn &amp; garden" />
+    <node id="highchairs" />
+    <node id="highchairs &amp; booster seats" />
+    <node id="baby &amp; toddler toys" />
+    <node id="learning &amp; education" />
+    <node id="folding chairs" />
+    <node id="baby products" />
+    <node id="dressers &amp; chests of drawers" />
+    <node id="picnic tables" />
+    <node id="sofas" />
+    <node id="chests &amp; dressers" />
+    <node id="cabinets &amp; shelves" />
+    <node id="outdoor furniture" />
+    <node id="pillows &amp; accessories" />
+    <node id="home &amp; garden" />
+    <node id="home &amp; kitchen" />
+    <node id="sets" />
+    <node id="home décor" />
+    <node id="blocks" />
+    <node id="rocking chairs" />
+    <node id="décor &amp; storage" />
+    <node id="fan shop" />
+    <node id="jigsaw puzzles" />
+    <node id="play tents &amp; tunnels" />
+    <node id="candleholders" />
+    <node id="play vehicles" />
+    <node id="painting supplies &amp; wall treatments" />
+    <node id="candles &amp; holders" />
+    <node id="tools &amp; home improvement" />
+    <node id="desks" />
+    <node id="desks &amp; workstations" />
+    <node id="puzzles" />
+    <node id="feeding" />
+    <node id="table &amp; chair sets" />
+    <node id="bookcases" />
+    <node id="vehicles &amp; remote-control" />
+    <node id="tables" />
+    <node id="toy banks" />
+    <node id="furniture" />
+    <node id="keepsakes" />
+    <node id="furniture collections" />
+    <node id="toys &amp; games" />
+    <node id="nightstands" />
+    <node id="sports &amp; outdoor play" />
+    <node id="sports &amp; outdoors" />
+    <node id="party supplies" />
+    <edge source="kids' furniture" target="outdoor furniture" />
+    <edge source="kids' furniture" target="décor &amp; storage" />
+    <edge source="kids' furniture" target="table &amp; chair sets" />
+    <edge source="game room games" target="décor &amp; storage" />
+    <edge source="kids' room décor" target="décor &amp; storage" />
+    <edge source="games" target="décor &amp; storage" />
+    <edge source="kitchen &amp; dining" target="décor &amp; storage" />
+    <edge source="novelty &amp; gag toys" target="décor &amp; storage" />
+    <edge source="dining chairs" target="décor &amp; storage" />
+    <edge source="lunch boxes" target="décor &amp; storage" />
+    <edge source="patio" target="outdoor furniture" />
+    <edge source="patio" target="décor &amp; storage" />
+    <edge source="patio" target="table &amp; chair sets" />
+    <edge source="dining room furniture" target="décor &amp; storage" />
+    <edge source="patio furniture &amp; accessories" target="outdoor furniture" />
+    <edge source="patio furniture &amp; accessories" target="décor &amp; storage" />
+    <edge source="patio furniture &amp; accessories" target="table &amp; chair sets" />
+    <edge source="nursery" target="décor &amp; storage" />
+    <edge source="nursery dcor" target="décor &amp; storage" />
+    <edge source="nursery décor" target="décor &amp; storage" />
+    <edge source="nursery storage &amp; organization" target="décor &amp; storage" />
+    <edge source="armchairs" target="décor &amp; storage" />
+    <edge source="armoires" target="décor &amp; storage" />
+    <edge source="crafts &amp; sewing" target="décor &amp; storage" />
+    <edge source="wall dcor" target="décor &amp; storage" />
+    <edge source="wall décor" target="décor &amp; storage" />
+    <edge source="tea light holders" target="décor &amp; storage" />
+    <edge source="bean bags" target="décor &amp; storage" />
+    <edge source="art supplies" target="décor &amp; storage" />
+    <edge source="wall stickers &amp; murals" target="décor &amp; storage" />
+    <edge source="wallpaper" target="décor &amp; storage" />
+    <edge source="wallpaper borders" target="décor &amp; storage" />
+    <edge source="bed frames" target="décor &amp; storage" />
+    <edge source="headboards" target="décor &amp; storage" />
+    <edge source="headboards &amp; footboards" target="décor &amp; storage" />
+    <edge source="bedding" target="décor &amp; storage" />
+    <edge source="arts" target="décor &amp; storage" />
+    <edge source="bedroom furniture" target="décor &amp; storage" />
+    <edge source="office &amp; school supplies" target="décor &amp; storage" />
+    <edge source="money banks" target="décor &amp; storage" />
+    <edge source="office furniture &amp; lighting" target="décor &amp; storage" />
+    <edge source="office furniture &amp; lighting" target="table &amp; chair sets" />
+    <edge source="office products" target="décor &amp; storage" />
+    <edge source="office products" target="table &amp; chair sets" />
+    <edge source="office storage supplies" target="décor &amp; storage" />
+    <edge source="gifts" target="décor &amp; storage" />
+    <edge source="step stools" target="décor &amp; storage" />
+    <edge source="inflatable beds" target="décor &amp; storage" />
+    <edge source="benches" target="outdoor furniture" />
+    <edge source="benches" target="décor &amp; storage" />
+    <edge source="combination table games" target="décor &amp; storage" />
+    <edge source="stools" target="décor &amp; storage" />
+    <edge source="storage &amp; organization" target="décor &amp; storage" />
+    <edge source="chairs" target="outdoor furniture" />
+    <edge source="chairs" target="décor &amp; storage" />
+    <edge source="storage racks &amp; chests" target="décor &amp; storage" />
+    <edge source="lawn &amp; garden" target="outdoor furniture" />
+    <edge source="lawn &amp; garden" target="décor &amp; storage" />
+    <edge source="lawn &amp; garden" target="table &amp; chair sets" />
+    <edge source="highchairs" target="décor &amp; storage" />
+    <edge source="highchairs &amp; booster seats" target="décor &amp; storage" />
+    <edge source="baby &amp; toddler toys" target="décor &amp; storage" />
+    <edge source="learning &amp; education" target="décor &amp; storage" />
+    <edge source="folding chairs" target="décor &amp; storage" />
+    <edge source="baby products" target="décor &amp; storage" />
+    <edge source="dressers &amp; chests of drawers" target="décor &amp; storage" />
+    <edge source="picnic tables" target="outdoor furniture" />
+    <edge source="picnic tables" target="décor &amp; storage" />
+    <edge source="sofas" target="décor &amp; storage" />
+    <edge source="chests &amp; dressers" target="décor &amp; storage" />
+    <edge source="cabinets &amp; shelves" target="décor &amp; storage" />
+    <edge source="outdoor furniture" target="home &amp; kitchen" />
+    <edge source="outdoor furniture" target="décor &amp; storage" />
+    <edge source="outdoor furniture" target="table &amp; chair sets" />
+    <edge source="outdoor furniture" target="furniture" />
+    <edge source="outdoor furniture" target="toys &amp; games" />
+    <edge source="pillows &amp; accessories" target="décor &amp; storage" />
+    <edge source="home &amp; garden" target="décor &amp; storage" />
+    <edge source="home &amp; kitchen" target="décor &amp; storage" />
+    <edge source="sets" target="décor &amp; storage" />
+    <edge source="home décor" target="décor &amp; storage" />
+    <edge source="blocks" target="décor &amp; storage" />
+    <edge source="rocking chairs" target="décor &amp; storage" />
+    <edge source="décor &amp; storage" target="fan shop" />
+    <edge source="décor &amp; storage" target="jigsaw puzzles" />
+    <edge source="décor &amp; storage" target="play tents &amp; tunnels" />
+    <edge source="décor &amp; storage" target="candleholders" />
+    <edge source="décor &amp; storage" target="play vehicles" />
+    <edge source="décor &amp; storage" target="painting supplies &amp; wall treatments" />
+    <edge source="décor &amp; storage" target="candles &amp; holders" />
+    <edge source="décor &amp; storage" target="tools &amp; home improvement" />
+    <edge source="décor &amp; storage" target="desks" />
+    <edge source="décor &amp; storage" target="desks &amp; workstations" />
+    <edge source="décor &amp; storage" target="puzzles" />
+    <edge source="décor &amp; storage" target="feeding" />
+    <edge source="décor &amp; storage" target="table &amp; chair sets" />
+    <edge source="décor &amp; storage" target="bookcases" />
+    <edge source="décor &amp; storage" target="vehicles &amp; remote-control" />
+    <edge source="décor &amp; storage" target="tables" />
+    <edge source="décor &amp; storage" target="toy banks" />
+    <edge source="décor &amp; storage" target="furniture" />
+    <edge source="décor &amp; storage" target="keepsakes" />
+    <edge source="décor &amp; storage" target="furniture collections" />
+    <edge source="décor &amp; storage" target="toys &amp; games" />
+    <edge source="décor &amp; storage" target="nightstands" />
+    <edge source="décor &amp; storage" target="sports &amp; outdoor play" />
+    <edge source="décor &amp; storage" target="sports &amp; outdoors" />
+    <edge source="décor &amp; storage" target="party supplies" />
+    <edge source="table &amp; chair sets" target="tables" />
+    <edge source="table &amp; chair sets" target="toys &amp; games" />
+  </graph>
+</graphml>

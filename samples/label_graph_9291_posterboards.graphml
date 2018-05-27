@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="sign &amp; poster kits" />
+    <node id="kitchen &amp; dining" />
+    <node id="kitchen accessories" />
+    <node id="popcorn" />
+    <node id="patio" />
+    <node id="kitchen utensils &amp; gadgets" />
+    <node id="miscellaneous" />
+    <node id="gardening" />
+    <node id="portable audio &amp; video" />
+    <node id="hardware" />
+    <node id="crafts &amp; sewing" />
+    <node id="electronics" />
+    <node id="mixed-media paintings" />
+    <node id="wall stickers &amp; murals" />
+    <node id="poster boards" />
+    <node id="reading &amp; writing" />
+    <node id="posters &amp; prints" />
+    <node id="accessories" />
+    <node id="accessories &amp; supplies" />
+    <node id="magnetic" />
+    <node id="indexes &amp; stamps" />
+    <node id="bedding" />
+    <node id="arts" />
+    <node id="arts &amp; crafts" />
+    <node id="labels" />
+    <node id="scaled model vehicles" />
+    <node id="artwork" />
+    <node id="office &amp; school supplies" />
+    <node id="office electronics" />
+    <node id="office products" />
+    <node id="trimmers &amp; clippers" />
+    <node id="action &amp; toy figures" />
+    <node id="health &amp; personal care" />
+    <node id="industrial &amp; scientific" />
+    <node id="science education" />
+    <node id="oil paintings" />
+    <node id="stencils &amp; templates" />
+    <node id="personal care" />
+    <node id="more systems" />
+    <node id="refrigerator magnets" />
+    <node id="docking stations" />
+    <node id="watercolor paintings" />
+    <node id="laptop &amp; netbook computer accessories" />
+    <node id="audio &amp; video accessories" />
+    <node id="laser pointers" />
+    <node id="pet supplies" />
+    <node id="pet supplies: international shipping available" />
+    <node id="snack food" />
+    <node id="snack foods" />
+    <node id="remote controls" />
+    <node id="presentation boards" />
+    <node id="bulletin boards" />
+    <node id="presentation products" />
+    <node id="presentation pointers" />
+    <node id="mounts" />
+    <node id="store signs &amp; displays" />
+    <node id="chalkboards" />
+    <node id="changeable letter boards" />
+    <node id="lawn &amp; garden" />
+    <node id="tv accessories" />
+    <node id="tv ceiling &amp; wall mounts" />
+    <node id="photographs" />
+    <node id="etchings &amp; woodcuts" />
+    <node id="mp3 players" />
+    <node id="mp3 players &amp; accessories" />
+    <node id="foam boards" />
+    <node id="photos" />
+    <node id="learning &amp; education" />
+    <node id="drawings" />
+    <node id="dance &amp; electronic" />
+    <node id="prints &amp; posters" />
+    <node id="biology classroom supplies" />
+    <node id="study guides" />
+    <node id="studying &amp; workbooks" />
+    <node id="hobbies" />
+    <node id="software" />
+    <node id="computer accessories" />
+    <node id="music" />
+    <node id="foot care" />
+    <node id="computer components" />
+    <node id="foot creams &amp; lotions" />
+    <node id="greenhouses" />
+    <node id="serigraphs &amp; silkscreen prints" />
+    <node id="blackboards &amp; whiteboards" />
+    <node id="computers &amp; accessories" />
+    <node id="home &amp; garden" />
+    <node id="home &amp; hobbies" />
+    <node id="home &amp; kitchen" />
+    <node id="dry erase boards" />
+    <node id="sony psp" />
+    <node id="home décor" />
+    <node id="home décor accents" />
+    <node id="grocery &amp; gourmet food" />
+    <node id="camera &amp; photo" />
+    <node id="plaques" />
+    <node id="shaving &amp; hair removal" />
+    <node id="needlework" />
+    <node id="fan shop" />
+    <node id="painting supplies &amp; wall treatments" />
+    <node id="paintings" />
+    <node id="tools &amp; home improvement" />
+    <node id="playstation 2" />
+    <node id="message boards &amp; signs" />
+    <node id="lithographs" />
+    <node id="books" />
+    <node id="quilting" />
+    <node id="education &amp; reference" />
+    <node id="r&amp;b" />
+    <node id="toys &amp; games" />
+    <node id="video games" />
+    <node id="sports &amp; outdoors" />
+    <node id="figures" />
+    <edge source="sign &amp; poster kits" target="posters &amp; prints" />
+    <edge source="sign &amp; poster kits" target="artwork" />
+    <edge source="kitchen &amp; dining" target="presentation boards" />
+    <edge source="kitchen accessories" target="presentation boards" />
+    <edge source="popcorn" target="posters &amp; prints" />
+    <edge source="popcorn" target="artwork" />
+    <edge source="patio" target="presentation boards" />
+    <edge source="kitchen utensils &amp; gadgets" target="presentation boards" />
+    <edge source="miscellaneous" target="posters &amp; prints" />
+    <edge source="miscellaneous" target="artwork" />
+    <edge source="gardening" target="presentation boards" />
+    <edge source="portable audio &amp; video" target="posters &amp; prints" />
+    <edge source="portable audio &amp; video" target="artwork" />
+    <edge source="hardware" target="posters &amp; prints" />
+    <edge source="hardware" target="artwork" />
+    <edge source="crafts &amp; sewing" target="posters &amp; prints" />
+    <edge source="crafts &amp; sewing" target="artwork" />
+    <edge source="electronics" target="posters &amp; prints" />
+    <edge source="electronics" target="artwork" />
+    <edge source="electronics" target="presentation boards" />
+    <edge source="mixed-media paintings" target="artwork" />
+    <edge source="wall stickers &amp; murals" target="posters &amp; prints" />
+    <edge source="wall stickers &amp; murals" target="artwork" />
+    <edge source="poster boards" target="posters &amp; prints" />
+    <edge source="poster boards" target="artwork" />
+    <edge source="poster boards" target="office &amp; school supplies" />
+    <edge source="poster boards" target="office products" />
+    <edge source="poster boards" target="presentation boards" />
+    <edge source="poster boards" target="home &amp; kitchen" />
+    <edge source="reading &amp; writing" target="presentation boards" />
+    <edge source="posters &amp; prints" target="accessories" />
+    <edge source="posters &amp; prints" target="accessories &amp; supplies" />
+    <edge source="posters &amp; prints" target="indexes &amp; stamps" />
+    <edge source="posters &amp; prints" target="bedding" />
+    <edge source="posters &amp; prints" target="arts" />
+    <edge source="posters &amp; prints" target="labels" />
+    <edge source="posters &amp; prints" target="scaled model vehicles" />
+    <edge source="posters &amp; prints" target="artwork" />
+    <edge source="posters &amp; prints" target="office &amp; school supplies" />
+    <edge source="posters &amp; prints" target="office products" />
+    <edge source="posters &amp; prints" target="action &amp; toy figures" />
+    <edge source="posters &amp; prints" target="health &amp; personal care" />
+    <edge source="posters &amp; prints" target="industrial &amp; scientific" />
+    <edge source="posters &amp; prints" target="science education" />
+    <edge source="posters &amp; prints" target="stencils &amp; templates" />
+    <edge source="posters &amp; prints" target="personal care" />
+    <edge source="posters &amp; prints" target="more systems" />
+    <edge source="posters &amp; prints" target="docking stations" />
+    <edge source="posters &amp; prints" target="laptop &amp; netbook computer accessories" />
+    <edge source="posters &amp; prints" target="audio &amp; video accessories" />
+    <edge source="posters &amp; prints" target="pet supplies" />
+    <edge source="posters &amp; prints" target="pet supplies: international shipping available" />
+    <edge source="posters &amp; prints" target="snack food" />
+    <edge source="posters &amp; prints" target="snack foods" />
+    <edge source="posters &amp; prints" target="remote controls" />
+    <edge source="posters &amp; prints" target="presentation boards" />
+    <edge source="posters &amp; prints" target="mp3 players" />
+    <edge source="posters &amp; prints" target="mp3 players &amp; accessories" />
+    <edge source="posters &amp; prints" target="dance &amp; electronic" />
+    <edge source="posters &amp; prints" target="prints &amp; posters" />
+    <edge source="posters &amp; prints" target="biology classroom supplies" />
+    <edge source="posters &amp; prints" target="study guides" />
+    <edge source="posters &amp; prints" target="studying &amp; workbooks" />
+    <edge source="posters &amp; prints" target="hobbies" />
+    <edge source="posters &amp; prints" target="software" />
+    <edge source="posters &amp; prints" target="computer accessories" />
+    <edge source="posters &amp; prints" target="music" />
+    <edge source="posters &amp; prints" target="foot care" />
+    <edge source="posters &amp; prints" target="computer components" />
+    <edge source="posters &amp; prints" target="foot creams &amp; lotions" />
+    <edge source="posters &amp; prints" target="computers &amp; accessories" />
+    <edge source="posters &amp; prints" target="home &amp; garden" />
+    <edge source="posters &amp; prints" target="home &amp; hobbies" />
+    <edge source="posters &amp; prints" target="home &amp; kitchen" />
+    <edge source="posters &amp; prints" target="sony psp" />
+    <edge source="posters &amp; prints" target="home décor" />
+    <edge source="posters &amp; prints" target="home décor accents" />
+    <edge source="posters &amp; prints" target="grocery &amp; gourmet food" />
+    <edge source="posters &amp; prints" target="camera &amp; photo" />
+    <edge source="posters &amp; prints" target="plaques" />
+    <edge source="posters &amp; prints" target="needlework" />
+    <edge source="posters &amp; prints" target="fan shop" />
+    <edge source="posters &amp; prints" target="painting supplies &amp; wall treatments" />
+    <edge source="posters &amp; prints" target="tools &amp; home improvement" />
+    <edge source="posters &amp; prints" target="playstation 2" />
+    <edge source="posters &amp; prints" target="books" />
+    <edge source="posters &amp; prints" target="quilting" />
+    <edge source="posters &amp; prints" target="education &amp; reference" />
+    <edge source="posters &amp; prints" target="r&amp;b" />
+    <edge source="posters &amp; prints" target="toys &amp; games" />
+    <edge source="posters &amp; prints" target="video games" />
+    <edge source="posters &amp; prints" target="sports &amp; outdoors" />
+    <edge source="posters &amp; prints" target="figures" />
+    <edge source="accessories" target="artwork" />
+    <edge source="accessories &amp; supplies" target="artwork" />
+    <edge source="accessories &amp; supplies" target="presentation boards" />
+    <edge source="magnetic" target="presentation boards" />
+    <edge source="indexes &amp; stamps" target="artwork" />
+    <edge source="bedding" target="artwork" />
+    <edge source="arts" target="artwork" />
+    <edge source="arts &amp; crafts" target="presentation boards" />
+    <edge source="labels" target="artwork" />
+    <edge source="scaled model vehicles" target="artwork" />
+    <edge source="artwork" target="office &amp; school supplies" />
+    <edge source="artwork" target="office products" />
+    <edge source="artwork" target="trimmers &amp; clippers" />
+    <edge source="artwork" target="action &amp; toy figures" />
+    <edge source="artwork" target="health &amp; personal care" />
+    <edge source="artwork" target="industrial &amp; scientific" />
+    <edge source="artwork" target="science education" />
+    <edge source="artwork" target="oil paintings" />
+    <edge source="artwork" target="stencils &amp; templates" />
+    <edge source="artwork" target="personal care" />
+    <edge source="artwork" target="more systems" />
+    <edge source="artwork" target="docking stations" />
+    <edge source="artwork" target="watercolor paintings" />
+    <edge source="artwork" target="laptop &amp; netbook computer accessories" />
+    <edge source="artwork" target="audio &amp; video accessories" />
+    <edge source="artwork" target="pet supplies" />
+    <edge source="artwork" target="pet supplies: international shipping available" />
+    <edge source="artwork" target="snack food" />
+    <edge source="artwork" target="snack foods" />
+    <edge source="artwork" target="remote controls" />
+    <edge source="artwork" target="presentation boards" />
+    <edge source="artwork" target="photographs" />
+    <edge source="artwork" target="etchings &amp; woodcuts" />
+    <edge source="artwork" target="mp3 players" />
+    <edge source="artwork" target="mp3 players &amp; accessories" />
+    <edge source="artwork" target="photos" />
+    <edge source="artwork" target="drawings" />
+    <edge source="artwork" target="dance &amp; electronic" />
+    <edge source="artwork" target="prints &amp; posters" />
+    <edge source="artwork" target="biology classroom supplies" />
+    <edge source="artwork" target="study guides" />
+    <edge source="artwork" target="studying &amp; workbooks" />
+    <edge source="artwork" target="hobbies" />
+    <edge source="artwork" target="software" />
+    <edge source="artwork" target="computer accessories" />
+    <edge source="artwork" target="music" />
+    <edge source="artwork" target="foot care" />
+    <edge source="artwork" target="computer components" />
+    <edge source="artwork" target="foot creams &amp; lotions" />
+    <edge source="artwork" target="serigraphs &amp; silkscreen prints" />
+    <edge source="artwork" target="computers &amp; accessories" />
+    <edge source="artwork" target="home &amp; garden" />
+    <edge source="artwork" target="home &amp; hobbies" />
+    <edge source="artwork" target="home &amp; kitchen" />
+    <edge source="artwork" target="sony psp" />
+    <edge source="artwork" target="home décor" />
+    <edge source="artwork" target="home décor accents" />
+    <edge source="artwork" target="grocery &amp; gourmet food" />
+    <edge source="artwork" target="camera &amp; photo" />
+    <edge source="artwork" target="plaques" />
+    <edge source="artwork" target="shaving &amp; hair removal" />
+    <edge source="artwork" target="needlework" />
+    <edge source="artwork" target="fan shop" />
+    <edge source="artwork" target="painting supplies &amp; wall treatments" />
+    <edge source="artwork" target="paintings" />
+    <edge source="artwork" target="tools &amp; home improvement" />
+    <edge source="artwork" target="playstation 2" />
+    <edge source="artwork" target="lithographs" />
+    <edge source="artwork" target="books" />
+    <edge source="artwork" target="quilting" />
+    <edge source="artwork" target="education &amp; reference" />
+    <edge source="artwork" target="r&amp;b" />
+    <edge source="artwork" target="toys &amp; games" />
+    <edge source="artwork" target="video games" />
+    <edge source="artwork" target="sports &amp; outdoors" />
+    <edge source="artwork" target="figures" />
+    <edge source="office &amp; school supplies" target="presentation boards" />
+    <edge source="office electronics" target="presentation boards" />
+    <edge source="office products" target="presentation boards" />
+    <edge source="refrigerator magnets" target="presentation boards" />
+    <edge source="audio &amp; video accessories" target="presentation boards" />
+    <edge source="laser pointers" target="presentation boards" />
+    <edge source="presentation boards" target="bulletin boards" />
+    <edge source="presentation boards" target="presentation products" />
+    <edge source="presentation boards" target="presentation pointers" />
+    <edge source="presentation boards" target="mounts" />
+    <edge source="presentation boards" target="store signs &amp; displays" />
+    <edge source="presentation boards" target="chalkboards" />
+    <edge source="presentation boards" target="changeable letter boards" />
+    <edge source="presentation boards" target="lawn &amp; garden" />
+    <edge source="presentation boards" target="tv accessories" />
+    <edge source="presentation boards" target="tv ceiling &amp; wall mounts" />
+    <edge source="presentation boards" target="foam boards" />
+    <edge source="presentation boards" target="learning &amp; education" />
+    <edge source="presentation boards" target="computer components" />
+    <edge source="presentation boards" target="greenhouses" />
+    <edge source="presentation boards" target="blackboards &amp; whiteboards" />
+    <edge source="presentation boards" target="computers &amp; accessories" />
+    <edge source="presentation boards" target="home &amp; kitchen" />
+    <edge source="presentation boards" target="dry erase boards" />
+    <edge source="presentation boards" target="message boards &amp; signs" />
+    <edge source="presentation boards" target="toys &amp; games" />
+  </graph>
+</graphml>

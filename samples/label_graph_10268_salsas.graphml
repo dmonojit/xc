@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="milk substitutes" />
+    <node id="salad dressings" />
+    <node id="ice cream cones &amp; toppings" />
+    <node id="ice cream &amp; novelties" />
+    <node id="vitamins &amp; supplements" />
+    <node id="kitchen &amp; dining" />
+    <node id="pasta sauce" />
+    <node id="popcorn" />
+    <node id="salsas" />
+    <node id="popped" />
+    <node id="hard" />
+    <node id="patio" />
+    <node id="raisins" />
+    <node id="saltines" />
+    <node id="pork rinds" />
+    <node id="cracker assortments" />
+    <node id="crackers" />
+    <node id="single herbs &amp; spices" />
+    <node id="tartar sauce" />
+    <node id="dips" />
+    <node id="ranch" />
+    <node id="dips &amp; spreads" />
+    <node id="ranch dips" />
+    <node id="cocktail sauce" />
+    <node id="coconut sauce" />
+    <node id="nutrition &amp; wellness" />
+    <node id="nutrition bars &amp; drinks" />
+    <node id="peanuts" />
+    <node id="nutrition gels" />
+    <node id="coffee creamers" />
+    <node id="pecorino" />
+    <node id="nuts &amp; seeds" />
+    <node id="breakfast &amp; cereal bars" />
+    <node id="breakfast foods" />
+    <node id="posters &amp; prints" />
+    <node id="cream cheese" />
+    <node id="potato chips" />
+    <node id="sauces" />
+    <node id="sauces &amp; dips" />
+    <node id="artisan cheese" />
+    <node id="artwork" />
+    <node id="brie" />
+    <node id="asian barbecue sauce" />
+    <node id="water" />
+    <node id="health &amp; personal care" />
+    <node id="flatbread" />
+    <node id="broths &amp; bouillon" />
+    <node id="teriyaki sauce" />
+    <node id="oils" />
+    <node id="olive spreads" />
+    <node id="pesto sauce" />
+    <node id="small appliances" />
+    <node id="stir-fry sauces" />
+    <node id="onion" />
+    <node id="onion dips" />
+    <node id="stocks" />
+    <node id="snack food" />
+    <node id="snack foods" />
+    <node id="relishes" />
+    <node id="the companion group" />
+    <node id="prepared food" />
+    <node id="curry sauce" />
+    <node id="flours &amp; meals" />
+    <node id="herbal supplements" />
+    <node id="herbs" />
+    <node id="marinades" />
+    <node id="adobo sauce" />
+    <node id="lawn &amp; garden" />
+    <node id="pretzels" />
+    <node id="gouda" />
+    <node id="mozzarella" />
+    <node id="graham crackers" />
+    <node id="cheddar" />
+    <node id="granola bars" />
+    <node id="cheese &amp; eggs" />
+    <node id="dairy" />
+    <node id="cheese assortments &amp; samplers" />
+    <node id="dairy milk" />
+    <node id="butter &amp; margarine" />
+    <node id="wheat" />
+    <node id="wheat flours &amp; meals" />
+    <node id="pickles &amp; relishes" />
+    <node id="dried fruit" />
+    <node id="gravies" />
+    <node id="processed cheese" />
+    <node id="processed cheese spreads" />
+    <node id="produce" />
+    <node id="food processors" />
+    <node id="soft-ripened" />
+    <node id="rice cakes" />
+    <node id="bagel chips" />
+    <node id="matzo" />
+    <node id="unpopped" />
+    <node id="sugars &amp; sweeteners" />
+    <node id="home &amp; kitchen" />
+    <node id="chile paste" />
+    <node id="condiments" />
+    <node id="chips" />
+    <node id="prunes" />
+    <node id="chips &amp; crisps" />
+    <node id="grocery &amp; gourmet food" />
+    <node id="all companion group" />
+    <node id="blue" />
+    <node id="blue cheese" />
+    <node id="jams" />
+    <node id="soy milk" />
+    <node id="soy sauce" />
+    <node id="honey" />
+    <node id="packaged cheese" />
+    <node id="guacamole" />
+    <node id="jellies &amp; spreads" />
+    <node id="pudding" />
+    <node id="puffed snacks" />
+    <node id="sweet &amp; sour sauce" />
+    <node id="fan shop" />
+    <node id="fresh fruits" />
+    <node id="swiss" />
+    <node id="fruit leather" />
+    <node id="barbecue sauce" />
+    <node id="hot sauces" />
+    <node id="vegetable" />
+    <node id="cooking &amp; baking supplies" />
+    <node id="canned &amp; jarred food" />
+    <node id="syrups" />
+    <node id="pantry staples" />
+    <node id="vegetable relishes" />
+    <node id="spices &amp; seasonings" />
+    <node id="plum sauce" />
+    <node id="tortilla chips" />
+    <node id="feta" />
+    <node id="hummus" />
+    <node id="eggs &amp; egg substitutes" />
+    <node id="microwave" />
+    <node id="sports &amp; outdoors" />
+    <node id="corn chips" />
+    <node id="bouillon" />
+    <node id="trail mix" />
+    <node id="vinegars &amp; salad dressings" />
+    <node id="party mix" />
+    <node id="yogurt" />
+    <node id="milk &amp; cream" />
+    <edge source="milk substitutes" target="cheese &amp; eggs" />
+    <edge source="milk substitutes" target="dairy" />
+    <edge source="salad dressings" target="ranch" />
+    <edge source="salad dressings" target="sauces &amp; dips" />
+    <edge source="ice cream cones &amp; toppings" target="snack food" />
+    <edge source="ice cream cones &amp; toppings" target="cheese &amp; eggs" />
+    <edge source="ice cream cones &amp; toppings" target="dairy" />
+    <edge source="ice cream &amp; novelties" target="cheese &amp; eggs" />
+    <edge source="ice cream &amp; novelties" target="dairy" />
+    <edge source="vitamins &amp; supplements" target="snack food" />
+    <edge source="kitchen &amp; dining" target="sauces &amp; dips" />
+    <edge source="pasta sauce" target="sauces &amp; dips" />
+    <edge source="popcorn" target="snack food" />
+    <edge source="salsas" target="ranch" />
+    <edge source="salsas" target="dips &amp; spreads" />
+    <edge source="salsas" target="sauces &amp; dips" />
+    <edge source="salsas" target="onion" />
+    <edge source="salsas" target="snack food" />
+    <edge source="salsas" target="snack foods" />
+    <edge source="salsas" target="cheese &amp; eggs" />
+    <edge source="salsas" target="dairy" />
+    <edge source="salsas" target="processed cheese" />
+    <edge source="salsas" target="grocery &amp; gourmet food" />
+    <edge source="salsas" target="vegetable" />
+    <edge source="popped" target="snack food" />
+    <edge source="hard" target="cheese &amp; eggs" />
+    <edge source="hard" target="dairy" />
+    <edge source="patio" target="sauces &amp; dips" />
+    <edge source="raisins" target="snack food" />
+    <edge source="saltines" target="snack food" />
+    <edge source="pork rinds" target="snack food" />
+    <edge source="cracker assortments" target="snack food" />
+    <edge source="crackers" target="snack food" />
+    <edge source="single herbs &amp; spices" target="onion" />
+    <edge source="tartar sauce" target="sauces &amp; dips" />
+    <edge source="dips" target="sauces &amp; dips" />
+    <edge source="dips" target="snack food" />
+    <edge source="ranch" target="dips &amp; spreads" />
+    <edge source="ranch" target="oils" />
+    <edge source="ranch" target="snack foods" />
+    <edge source="ranch" target="grocery &amp; gourmet food" />
+    <edge source="ranch" target="pantry staples" />
+    <edge source="ranch" target="vinegars &amp; salad dressings" />
+    <edge source="dips &amp; spreads" target="onion" />
+    <edge source="dips &amp; spreads" target="snack foods" />
+    <edge source="dips &amp; spreads" target="cheese &amp; eggs" />
+    <edge source="dips &amp; spreads" target="dairy" />
+    <edge source="dips &amp; spreads" target="processed cheese" />
+    <edge source="dips &amp; spreads" target="grocery &amp; gourmet food" />
+    <edge source="dips &amp; spreads" target="vegetable" />
+    <edge source="ranch dips" target="sauces &amp; dips" />
+    <edge source="cocktail sauce" target="sauces &amp; dips" />
+    <edge source="coconut sauce" target="sauces &amp; dips" />
+    <edge source="nutrition &amp; wellness" target="snack food" />
+    <edge source="nutrition bars &amp; drinks" target="snack food" />
+    <edge source="peanuts" target="snack food" />
+    <edge source="nutrition gels" target="snack food" />
+    <edge source="coffee creamers" target="cheese &amp; eggs" />
+    <edge source="coffee creamers" target="dairy" />
+    <edge source="pecorino" target="cheese &amp; eggs" />
+    <edge source="pecorino" target="dairy" />
+    <edge source="nuts &amp; seeds" target="snack food" />
+    <edge source="breakfast &amp; cereal bars" target="snack food" />
+    <edge source="breakfast foods" target="snack food" />
+    <edge source="posters &amp; prints" target="snack food" />
+    <edge source="cream cheese" target="cheese &amp; eggs" />
+    <edge source="cream cheese" target="dairy" />
+    <edge source="potato chips" target="snack food" />
+    <edge source="sauces" target="sauces &amp; dips" />
+    <edge source="sauces &amp; dips" target="asian barbecue sauce" />
+    <edge source="sauces &amp; dips" target="teriyaki sauce" />
+    <edge source="sauces &amp; dips" target="oils" />
+    <edge source="sauces &amp; dips" target="olive spreads" />
+    <edge source="sauces &amp; dips" target="pesto sauce" />
+    <edge source="sauces &amp; dips" target="small appliances" />
+    <edge source="sauces &amp; dips" target="stir-fry sauces" />
+    <edge source="sauces &amp; dips" target="onion dips" />
+    <edge source="sauces &amp; dips" target="relishes" />
+    <edge source="sauces &amp; dips" target="the companion group" />
+    <edge source="sauces &amp; dips" target="prepared food" />
+    <edge source="sauces &amp; dips" target="curry sauce" />
+    <edge source="sauces &amp; dips" target="flours &amp; meals" />
+    <edge source="sauces &amp; dips" target="herbs" />
+    <edge source="sauces &amp; dips" target="marinades" />
+    <edge source="sauces &amp; dips" target="adobo sauce" />
+    <edge source="sauces &amp; dips" target="lawn &amp; garden" />
+    <edge source="sauces &amp; dips" target="wheat flours &amp; meals" />
+    <edge source="sauces &amp; dips" target="pickles &amp; relishes" />
+    <edge source="sauces &amp; dips" target="gravies" />
+    <edge source="sauces &amp; dips" target="processed cheese spreads" />
+    <edge source="sauces &amp; dips" target="food processors" />
+    <edge source="sauces &amp; dips" target="home &amp; kitchen" />
+    <edge source="sauces &amp; dips" target="chile paste" />
+    <edge source="sauces &amp; dips" target="condiments" />
+    <edge source="sauces &amp; dips" target="grocery &amp; gourmet food" />
+    <edge source="sauces &amp; dips" target="all companion group" />
+    <edge source="sauces &amp; dips" target="jams" />
+    <edge source="sauces &amp; dips" target="soy sauce" />
+    <edge source="sauces &amp; dips" target="honey" />
+    <edge source="sauces &amp; dips" target="guacamole" />
+    <edge source="sauces &amp; dips" target="jellies &amp; spreads" />
+    <edge source="sauces &amp; dips" target="sweet &amp; sour sauce" />
+    <edge source="sauces &amp; dips" target="fan shop" />
+    <edge source="sauces &amp; dips" target="barbecue sauce" />
+    <edge source="sauces &amp; dips" target="hot sauces" />
+    <edge source="sauces &amp; dips" target="cooking &amp; baking supplies" />
+    <edge source="sauces &amp; dips" target="pantry staples" />
+    <edge source="sauces &amp; dips" target="vegetable relishes" />
+    <edge source="sauces &amp; dips" target="spices &amp; seasonings" />
+    <edge source="sauces &amp; dips" target="plum sauce" />
+    <edge source="sauces &amp; dips" target="hummus" />
+    <edge source="sauces &amp; dips" target="sports &amp; outdoors" />
+    <edge source="sauces &amp; dips" target="vinegars &amp; salad dressings" />
+    <edge source="artisan cheese" target="cheese &amp; eggs" />
+    <edge source="artisan cheese" target="dairy" />
+    <edge source="artwork" target="snack food" />
+    <edge source="brie" target="cheese &amp; eggs" />
+    <edge source="brie" target="dairy" />
+    <edge source="water" target="snack food" />
+    <edge source="health &amp; personal care" target="snack food" />
+    <edge source="flatbread" target="snack food" />
+    <edge source="broths &amp; bouillon" target="vegetable" />
+    <edge source="olive spreads" target="snack food" />
+    <edge source="onion" target="snack foods" />
+    <edge source="onion" target="herbs" />
+    <edge source="onion" target="grocery &amp; gourmet food" />
+    <edge source="onion" target="pantry staples" />
+    <edge source="onion" target="spices &amp; seasonings" />
+    <edge source="stocks" target="vegetable" />
+    <edge source="snack food" target="herbal supplements" />
+    <edge source="snack food" target="pretzels" />
+    <edge source="snack food" target="graham crackers" />
+    <edge source="snack food" target="granola bars" />
+    <edge source="snack food" target="wheat" />
+    <edge source="snack food" target="dried fruit" />
+    <edge source="snack food" target="produce" />
+    <edge source="snack food" target="rice cakes" />
+    <edge source="snack food" target="bagel chips" />
+    <edge source="snack food" target="matzo" />
+    <edge source="snack food" target="unpopped" />
+    <edge source="snack food" target="sugars &amp; sweeteners" />
+    <edge source="snack food" target="home &amp; kitchen" />
+    <edge source="snack food" target="chips" />
+    <edge source="snack food" target="prunes" />
+    <edge source="snack food" target="grocery &amp; gourmet food" />
+    <edge source="snack food" target="honey" />
+    <edge source="snack food" target="pudding" />
+    <edge source="snack food" target="puffed snacks" />
+    <edge source="snack food" target="fresh fruits" />
+    <edge source="snack food" target="fruit leather" />
+    <edge source="snack food" target="cooking &amp; baking supplies" />
+    <edge source="snack food" target="syrups" />
+    <edge source="snack food" target="pantry staples" />
+    <edge source="snack food" target="tortilla chips" />
+    <edge source="snack food" target="microwave" />
+    <edge source="snack food" target="corn chips" />
+    <edge source="snack food" target="trail mix" />
+    <edge source="snack food" target="party mix" />
+    <edge source="snack foods" target="cheese &amp; eggs" />
+    <edge source="snack foods" target="dairy" />
+    <edge source="snack foods" target="processed cheese" />
+    <edge source="snack foods" target="vegetable" />
+    <edge source="gouda" target="cheese &amp; eggs" />
+    <edge source="gouda" target="dairy" />
+    <edge source="mozzarella" target="cheese &amp; eggs" />
+    <edge source="mozzarella" target="dairy" />
+    <edge source="cheddar" target="cheese &amp; eggs" />
+    <edge source="cheddar" target="dairy" />
+    <edge source="cheese &amp; eggs" target="dairy" />
+    <edge source="cheese &amp; eggs" target="cheese assortments &amp; samplers" />
+    <edge source="cheese &amp; eggs" target="dairy milk" />
+    <edge source="cheese &amp; eggs" target="butter &amp; margarine" />
+    <edge source="cheese &amp; eggs" target="soft-ripened" />
+    <edge source="cheese &amp; eggs" target="grocery &amp; gourmet food" />
+    <edge source="cheese &amp; eggs" target="blue" />
+    <edge source="cheese &amp; eggs" target="blue cheese" />
+    <edge source="cheese &amp; eggs" target="soy milk" />
+    <edge source="cheese &amp; eggs" target="packaged cheese" />
+    <edge source="cheese &amp; eggs" target="swiss" />
+    <edge source="cheese &amp; eggs" target="feta" />
+    <edge source="cheese &amp; eggs" target="eggs &amp; egg substitutes" />
+    <edge source="cheese &amp; eggs" target="yogurt" />
+    <edge source="cheese &amp; eggs" target="milk &amp; cream" />
+    <edge source="dairy" target="cheese assortments &amp; samplers" />
+    <edge source="dairy" target="dairy milk" />
+    <edge source="dairy" target="butter &amp; margarine" />
+    <edge source="dairy" target="soft-ripened" />
+    <edge source="dairy" target="grocery &amp; gourmet food" />
+    <edge source="dairy" target="blue" />
+    <edge source="dairy" target="blue cheese" />
+    <edge source="dairy" target="soy milk" />
+    <edge source="dairy" target="packaged cheese" />
+    <edge source="dairy" target="swiss" />
+    <edge source="dairy" target="feta" />
+    <edge source="dairy" target="eggs &amp; egg substitutes" />
+    <edge source="dairy" target="yogurt" />
+    <edge source="dairy" target="milk &amp; cream" />
+    <edge source="processed cheese" target="grocery &amp; gourmet food" />
+    <edge source="chips &amp; crisps" target="vegetable" />
+    <edge source="grocery &amp; gourmet food" target="vegetable" />
+    <edge source="vegetable" target="canned &amp; jarred food" />
+    <edge source="vegetable" target="pantry staples" />
+    <edge source="vegetable" target="bouillon" />
+  </graph>
+</graphml>

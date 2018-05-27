@@ -1,0 +1,29 @@
+Number of edges: 10 for node: table & chair sets
+
+Number of edges: 214 for node: office furniture & lighting
+Ignoring node in graph: office furniture & lighting
+
+Number of edges: 1106 for node: toys & games
+Ignoring node in graph: toys & games
+
+Number of edges: 12 for node: outdoor furniture
+
+Number of edges: 130 for node: tables
+Ignoring node in graph: tables
+
+Number of edges: 1368 for node: lawn & garden
+Ignoring node in graph: lawn & garden
+
+Number of edges: 164 for node: patio furniture & accessories
+Ignoring node in graph: patio furniture & accessories
+
+Number of edges: 91 for node: décor & storage
+
+Number of edges: 1368 for node: patio
+Ignoring node in graph: patio
+
+Number of edges: 1068 for node: office products
+Ignoring node in graph: office products
+
+Number of edges: 111 for node: kids' furniture
+Ignoring node in graph: kids' furniture
