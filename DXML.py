@@ -43,8 +43,8 @@ from sklearn.ensemble import RandomForestRegressor
 
 
 # Get data
-X_train, X_test = np.loadtxt('data/X_train_birds.txt'), np.loadtxt('data/X_test_birds.txt')
-y_train, y_test = np.loadtxt('data/y_train_birds.txt'), np.loadtxt('data/y_test_birds.txt')
+X_train, X_test = np.loadtxt('samples/X_train_birds.txt'), np.loadtxt('samples/X_test_birds.txt')
+y_train, y_test = np.loadtxt('samples/y_train_birds.txt'), np.loadtxt('samples/y_test_birds.txt')
 birds_list = ["Brown Creeper","Pacific Wren","Pacific-slope Flycatcher","Red-breasted Nuthatch",
               "Dark-eyed Junco","Olive-sided Flycatcher","Hermit Thrush","Chestnut-backed Chickadee",
               "Varied Thrush","Hermit Warbler","Swainson's Thrush","Hammond's Flycatcher",
