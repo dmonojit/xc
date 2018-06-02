@@ -104,9 +104,9 @@ def build_label_graph(Y, label_filepath, level=1):
 			node_check[v] = False
 			edges = list(g.edges(v))
 			label_info_file.write('\nNumber of edges: ' + str(len(edges)) + ' for node: ' + mapping(v) + '\n')
-			if len(edges) > 100:
-				label_info_file.write('Ignoring node in graph: ' + mapping(v) + '\n')
-				continue
+			# if len(edges) > 100:
+			# 	label_info_file.write('Ignoring node in graph: ' + mapping(v) + '\n')
+			# 	continue
 			for uv_tuple in edges:
 				sub_g.add_edges_from([uv_tuple])
 				bfs_q.put(uv_tuple[1])
