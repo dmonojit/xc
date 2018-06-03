@@ -1,4 +1,14 @@
-#Example graphs with different file formats:
+# xc
+
+* Install dependencies: `conda install --yes --file requirements.txt`
+
+* Parse and generate label graph from a file in the Dataset - `python utils/util.py <data_file_path> <label_file_path>`
+
+Note: an example graph file is added already under `samples` to be viewed through [gephi](https://gephi.org)
+
+[Gephi Tutorial](https://gephi.org/tutorials/gephi-tutorial-quick_start.pdf)
+
+# Example graphs with different file formats:
 
 1. [Zachary's Karate Graph](http://www.cise.ufl.edu/research/sparse/matrices/Newman/karate.html)
 W. W. Zachary, An information flow model for conflict and fission in small groups, Journal of Anthropological Research 33, 452-473 (1977).

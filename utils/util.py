@@ -49,15 +49,34 @@ import matplotlib.pyplot as plt
 
 # 	return total_points, feature_dm, number_of_labels, feature_matrix, label_vectors, label_graph
 
-def get_matrices_from_file(filepath, label_filepath):
+def get_x_and_y(filepath):
 	with open(filepath, 'r') as file:
 		total_points, feature_dm, number_of_labels = map(lambda x: int(x), file.readline().split(' '))
 	
 	X, Y = load_svmlight_file(filepath, n_features=feature_dm, multilabel=True, offset=1)
 
+	return total_points, feature_dm, number_of_labels, X, Y
+
+
+def get_matrices_from_file(filepath, label_filepath):
+	with open(filepath, 'r') as file:
+		total_points, feature_dm, number_of_labels = map(lambda x: int(x), file.readline().split(' '))
+	
+	total_points, feature_dm, number_of_labels, X, Y = get_x_and_y(filepath)
+
 	label_graph = build_label_graph(Y, label_filepath)
 
 	return total_points, feature_dm, number_of_labels, X, Y, label_graph
+
+def get_label_edges(filepath):
+	total_points, feature_dm, number_of_labels, X, Y = get_x_and_y(filepath)
+
+	list_of_edge_lists = list(map(lambda x: list(itertools.combinations(x, 2)), Y))
+
+	V = set(itertools.chain.from_iterable(Y))
+	E = set(itertools.chain.from_iterable(list_of_edge_lists))
+
+	return X, Y, list(V), list(E)
 
 def build_label_graph(Y, label_filepath, level=1):
 	label_dict = get_label_dict(label_filepath)
