@@ -15,3 +15,7 @@ class ExactDXML(object):
 		Y_multi_hot_encoded = mlb.fit_transform(Y)
 
 		wv_model = DeepWalk().transform(label_edges, 'edgelist')
+
+		# need to work with wv_model.wv.vectors
+
+		

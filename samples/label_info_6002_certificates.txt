@@ -1,0 +1,928 @@
+
+Number of edges: 31 for node: certificates
+
+Number of edges: 84 for node: ca
+
+Number of edges: 67 for node: certificate
+
+Number of edges: 1344 for node: community
+Ignoring node in graph: community
+
+Number of edges: 29 for node: e-document
+
+Number of edges: 526 for node: encryption
+Ignoring node in graph: encryption
+
+Number of edges: 2273 for node: free
+Ignoring node in graph: free
+
+Number of edges: 212 for node: mail
+Ignoring node in graph: mail
+
+Number of edges: 486 for node: privacy
+Ignoring node in graph: privacy
+
+Number of edges: 1728 for node: security
+Ignoring node in graph: security
+
+Number of edges: 384 for node: service
+Ignoring node in graph: service
+
+Number of edges: 118 for node: ssl
+
+Number of edges: 41 for node: thawte
+
+Number of edges: 59 for node: tls
+
+Number of edges: 1845 for node: tools
+Ignoring node in graph: tools
+
+Number of edges: 114 for node: trust
+
+Number of edges: 38 for node: web_of_trust
+
+Number of edges: 19894 for node: wikipedia
+Ignoring node in graph: wikipedia
+
+Number of edges: 18 for node: x.509
+
+Number of edges: 1325 for node: cs
+Ignoring node in graph: cs
+
+Number of edges: 90 for node: csr
+
+Number of edges: 1870 for node: linux
+Ignoring node in graph: linux
+
+Number of edges: 35 for node: nfc
+
+Number of edges: 6786 for node: research
+Ignoring node in graph: research
+
+Number of edges: 744 for node: server
+Ignoring node in graph: server
+
+Number of edges: 45 for node: sys.admin
+
+Number of edges: 927 for node: sysadmin
+Ignoring node in graph: sysadmin
+
+Number of edges: 17 for node: tf
+
+Number of edges: 31 for node: tumbleweed
+
+Number of edges: 2350 for node: web
+Ignoring node in graph: web
+
+Number of edges: 814 for node: webdev
+Ignoring node in graph: webdev
+
+Number of edges: 1008 for node: wikipediapage
+Ignoring node in graph: wikipediapage
+
+Number of edges: 872 for node: america
+Ignoring node in graph: america
+
+Number of edges: 44 for node: bmas2008
+
+Number of edges: 376 for node: california
+Ignoring node in graph: california
+
+Number of edges: 132 for node: cool/places/us
+
+Number of edges: 172 for node: dr_cain
+
+Number of edges: 1186 for node: economy
+Ignoring node in graph: economy
+
+Number of edges: 2691 for node: encyclopedia
+Ignoring node in graph: encyclopedia
+
+Number of edges: 1148 for node: energy
+Ignoring node in graph: energy
+
+Number of edges: 2362 for node: english
+Ignoring node in graph: english
+
+Number of edges: 414 for node: facts
+Ignoring node in graph: facts
+
+Number of edges: 72 for node: fleur
+
+Number of edges: 1148 for node: geography
+Ignoring node in graph: geography
+
+Number of edges: 1335 for node: government
+Ignoring node in graph: government
+
+Number of edges: 665 for node: guide
+Ignoring node in graph: guide
+
+Number of edges: 7628 for node: history
+Ignoring node in graph: history
+
+Number of edges: 152 for node: la
+
+Number of edges: 248 for node: location
+Ignoring node in graph: location
+
+Number of edges: 25 for node: proud
+
+Number of edges: 200 for node: states
+
+Number of edges: 25 for node: the_grapes_of_wrath
+
+Number of edges: 1688 for node: travel
+Ignoring node in graph: travel
+
+Number of edges: 122 for node: trip
+
+Number of edges: 1717 for node: usa
+Ignoring node in graph: usa
+
+Number of edges: 13574 for node: wiki
+Ignoring node in graph: wiki
+
+Number of edges: 397 for node: 2009
+Ignoring node in graph: 2009
+
+Number of edges: 42 for node: aspa
+
+Number of edges: 2273 for node: book
+Ignoring node in graph: book
+
+Number of edges: 3239 for node: books
+Ignoring node in graph: books
+
+Number of edges: 20 for node: calendarbizplan
+
+Number of edges: 986 for node: database
+Ignoring node in graph: database
+
+Number of edges: 39 for node: describe
+
+Number of edges: 40 for node: ecs
+
+Number of edges: 5563 for node: interesting
+Ignoring node in graph: interesting
+
+Number of edges: 43 for node: isbn
+
+Number of edges: 20 for node: knihy
+
+Number of edges: 769 for node: library
+Ignoring node in graph: library
+
+Number of edges: 3102 for node: math
+Ignoring node in graph: math
+
+Number of edges: 34 for node: msd_refs
+
+Number of edges: 335 for node: publishing
+Ignoring node in graph: publishing
+
+Number of edges: 1109 for node: standards
+Ignoring node in graph: standards
+
+Number of edges: 1051 for node: system
+Ignoring node in graph: system
+
+Number of edges: 20 for node: web-based
+
+Number of edges: 1346 for node: analysis
+Ignoring node in graph: analysis
+
+Number of edges: 1330 for node: communication
+Ignoring node in graph: communication
+
+Number of edges: 179 for node: conversation
+
+Number of edges: 131 for node: cooperation
+
+Number of edges: 17 for node: h809
+
+Number of edges: 3375 for node: language
+Ignoring node in graph: language
+
+Number of edges: 1318 for node: linguistics
+Ignoring node in graph: linguistics
+
+Number of edges: 17 for node: obt&e_science
+
+Number of edges: 235 for node: propaganda
+Ignoring node in graph: propaganda
+
+Number of edges: 10734 for node: reference
+Ignoring node in graph: reference
+
+Number of edges: 223 for node: science_technology
+Ignoring node in graph: science_technology
+
+Number of edges: 1443 for node: sociology
+Ignoring node in graph: sociology
+
+Number of edges: 3229 for node: theory
+Ignoring node in graph: theory
+
+Number of edges: 1506 for node: thesis
+Ignoring node in graph: thesis
+
+Number of edges: 35 for node: bst
+
+Number of edges: 180 for node: cable
+
+Number of edges: 130 for node: cas
+
+Number of edges: 288 for node: drm
+Ignoring node in graph: drm
+
+Number of edges: 118 for node: dvb
+
+Number of edges: 9 for node: mwp
+
+Number of edges: 27 for node: stb
+
+Number of edges: 3716 for node: technology
+Ignoring node in graph: technology
+
+Number of edges: 2097 for node: work
+Ignoring node in graph: work
+
+Number of edges: 23 for node: cert
+
+Number of edges: 225 for node: certification
+Ignoring node in graph: certification
+
+Number of edges: 23 for node: compsec
+
+Number of edges: 456 for node: crypto
+Ignoring node in graph: crypto
+
+Number of edges: 510 for node: cryptography
+Ignoring node in graph: cryptography
+
+Number of edges: 3243 for node: development
+Ignoring node in graph: development
+
+Number of edges: 864 for node: digital
+Ignoring node in graph: digital
+
+Number of edges: 23 for node: ideal
+
+Number of edges: 656 for node: identity
+Ignoring node in graph: identity
+
+Number of edges: 210 for node: isel
+Ignoring node in graph: isel
+
+Number of edges: 195 for node: key
+
+Number of edges: 1691 for node: network
+Ignoring node in graph: network
+
+Number of edges: 31 for node: pki
+
+Number of edges: 353 for node: public
+Ignoring node in graph: public
+
+Number of edges: 23 for node: public-key
+
+Number of edges: 23 for node: sicurezza
+
+Number of edges: 103 for node: signature
+
+Number of edges: 23 for node: signing
+
+Number of edges: 338 for node: authentication
+Ignoring node in graph: authentication
+
+Number of edges: 50 for node: criptologia
+
+Number of edges: 69 for node: decentralized
+
+Number of edges: 69 for node: distributed_computing
+
+Number of edges: 232 for node: friends
+Ignoring node in graph: friends
+
+Number of edges: 40 for node: gpg
+
+Number of edges: 2546 for node: internet
+Ignoring node in graph: internet
+
+Number of edges: 1430 for node: networking
+Ignoring node in graph: networking
+
+Number of edges: 26 for node: para
+
+Number of edges: 40 for node: pgp
+
+Number of edges: 539 for node: phd
+Ignoring node in graph: phd
+
+Number of edges: 4076 for node: programming
+Ignoring node in graph: programming
+
+Number of edges: 137 for node: seguridad
+
+Number of edges: 1814 for node: social
+Ignoring node in graph: social
+
+Number of edges: 53 for node: weboftrust
+
+Number of edges: 14 for node: _tocheck
+
+Number of edges: 431 for node: cms
+Ignoring node in graph: cms
+
+Number of edges: 23 for node: cyberlaw
+
+Number of edges: 2693 for node: definition
+Ignoring node in graph: definition
+
+Number of edges: 110 for node: dms
+
+Number of edges: 521 for node: electronic
+Ignoring node in graph: electronic
+
+Number of edges: 14 for node: firma
+
+Number of edges: 541 for node: legal
+Ignoring node in graph: legal
+
+Number of edges: 14 for node: source:wikipedia
+
+Number of edges: 706 for node: *
+Ignoring node in graph: *
+
+Number of edges: 557 for node: c
+Ignoring node in graph: c
+
+Number of edges: 1788 for node: opensource
+Ignoring node in graph: opensource
+
+Number of edges: 11 for node: openssl
+
+Number of edges: 39 for node: edi
+
+Number of edges: 312 for node: http
+Ignoring node in graph: http
+
+Number of edges: 112 for node: ide
+
+Number of edges: 256 for node: integration
+Ignoring node in graph: integration
+
+Number of edges: 838 for node: protocol
+Ignoring node in graph: protocol
+
+Number of edges: 319 for node: protocols
+Ignoring node in graph: protocols
+
+Number of edges: 110 for node: rfc
+
+Number of edges: 255 for node: scm
+Ignoring node in graph: scm
+
+Number of edges: 641 for node: standard
+Ignoring node in graph: standard
+
+Number of edges: 39 for node: ubl
+
+Number of edges: 293 for node: webservices
+Ignoring node in graph: webservices
+
+Number of edges: 140 for node: from
+
+Number of edges: 68 for node: ftp
+
+Number of edges: 33 for node: network-know
+
+Number of edges: 97 for node: ssh
+
+Number of edges: 1220 for node: the
+Ignoring node in graph: the
+
+Number of edges: 221 for node: devel
+Ignoring node in graph: devel
+
+Number of edges: 243 for node: develop
+Ignoring node in graph: develop
+
+Number of edges: 63 for node: encyclopedias
+
+Number of edges: 150 for node: infosec
+
+Number of edges: 1509 for node: knowledge
+Ignoring node in graph: knowledge
+
+Number of edges: 2266 for node: -
+Ignoring node in graph: -
+
+Number of edges: 298 for node: @toread
+Ignoring node in graph: @toread
+
+Number of edges: 5195 for node: article
+Ignoring node in graph: article
+
+Number of edges: 767 for node: concepts
+Ignoring node in graph: concepts
+
+Number of edges: 875 for node: en
+Ignoring node in graph: en
+
+Number of edges: 50 for node: https
+
+Number of edges: 61 for node: layer
+
+Number of edges: 172 for node: soap
+
+Number of edges: 3385 for node: software
+Ignoring node in graph: software
+
+Number of edges: 218 for node: tcp/ip
+Ignoring node in graph: tcp/ip
+
+Number of edges: 153 for node: transport
+
+Number of edges: 88 for node: attacks
+
+Number of edges: 1175 for node: awesome
+Ignoring node in graph: awesome
+
+Number of edges: 704 for node: hack
+Ignoring node in graph: hack
+
+Number of edges: 2202 for node: ideas
+Ignoring node in graph: ideas
+
+Number of edges: 485 for node: ip
+Ignoring node in graph: ip
+
+Number of edges: 68 for node: messages
+
+Number of edges: 23 for node: mitm
+
+Number of edges: 300 for node: net
+Ignoring node in graph: net
+
+Number of edges: 23 for node: psst
+
+Number of edges: 23 for node: snooping
+
+Number of edges: 23 for node: spoofing
+
+Number of edges: 174 for node: *toread
+
+Number of edges: 1161 for node: 2008
+Ignoring node in graph: 2008
+
+Number of edges: 41 for node: 4y
+
+Number of edges: 25 for node: ba(is)
+
+Number of edges: 42 for node: billionaire
+
+Number of edges: 2068 for node: biography
+Ignoring node in graph: biography
+
+Number of edges: 2938 for node: business
+Ignoring node in graph: business
+
+Number of edges: 4652 for node: culture
+Ignoring node in graph: culture
+
+Number of edges: 148 for node: debian
+
+Number of edges: 533 for node: distribution
+Ignoring node in graph: distribution
+
+Number of edges: 3433 for node: education
+Ignoring node in graph: education
+
+Number of edges: 290 for node: entrepreneur
+Ignoring node in graph: entrepreneur
+
+Number of edges: 25 for node: favebar
+
+Number of edges: 144 for node: floss
+
+Number of edges: 25 for node: foocamp
+
+Number of edges: 167 for node: mark
+
+Number of edges: 176 for node: oss
+
+Number of edges: 4508 for node: people
+Ignoring node in graph: people
+
+Number of edges: 364 for node: ubuntu
+Ignoring node in graph: ubuntu
+
+Number of edges: 48 for node: eap
+
+Number of edges: 784 for node: hacking
+Ignoring node in graph: hacking
+
+Number of edges: 895 for node: microsoft
+Ignoring node in graph: microsoft
+
+Number of edges: 12 for node: nac
+
+Number of edges: 51 for node: radius
+
+Number of edges: 32 for node: sicurezza_informatica
+
+Number of edges: 246 for node: wifi
+Ignoring node in graph: wifi
+
+Number of edges: 501 for node: wireless
+Ignoring node in graph: wireless
+
+Number of edges: 33 for node: wpa2
+
+Number of edges: 151 for node: consumption
+
+Number of edges: 406 for node: effect
+Ignoring node in graph: effect
+
+Number of edges: 1210 for node: marketing
+Ignoring node in graph: marketing
+
+Number of edges: 3917 for node: politics
+Ignoring node in graph: politics
+
+Number of edges: 157 for node: psicologia
+
+Number of edges: 337 for node: psych
+Ignoring node in graph: psych
+
+Number of edges: 3062 for node: psychology
+Ignoring node in graph: psychology
+
+Number of edges: 103 for node: sales
+
+Number of edges: 48 for node: alqaeda
+
+Number of edges: 177 for node: anonymity
+
+Number of edges: 159 for node: ark
+
+Number of edges: 572 for node: asia
+Ignoring node in graph: asia
+
+Number of edges: 412 for node: banking
+Ignoring node in graph: banking
+
+Number of edges: 156 for node: banks
+
+Number of edges: 153 for node: commerce
+
+Number of edges: 2963 for node: cool
+Ignoring node in graph: cool
+
+Number of edges: 26 for node: cryptoanarchy
+
+Number of edges: 278 for node: currency
+Ignoring node in graph: currency
+
+Number of edges: 177 for node: debt
+
+Number of edges: 2310 for node: economics
+Ignoring node in graph: economics
+
+Number of edges: 246 for node: exchange
+Ignoring node in graph: exchange
+
+Number of edges: 1439 for node: finance
+Ignoring node in graph: finance
+
+Number of edges: 458 for node: financial
+Ignoring node in graph: financial
+
+Number of edges: 1033 for node: money
+Ignoring node in graph: money
+
+Number of edges: 669 for node: networks
+Ignoring node in graph: networks
+
+Number of edges: 52 for node: payments
+
+Number of edges: 103 for node: reputation
+
+Number of edges: 319 for node: trading
+Ignoring node in graph: trading
+
+Number of edges: 39 for node: contract_law
+
+Number of edges: 388 for node: econ
+Ignoring node in graph: econ
+
+Number of edges: 96 for node: etym
+
+Number of edges: 370 for node: etymology
+Ignoring node in graph: etymology
+
+Number of edges: 432 for node: latin
+Ignoring node in graph: latin
+
+Number of edges: 24 for node: latin.phrases
+
+Number of edges: 582 for node: quiz
+Ignoring node in graph: quiz
+
+Number of edges: 211 for node: realestate
+Ignoring node in graph: realestate
+
+Number of edges: 1835 for node: school
+Ignoring node in graph: school
+
+Number of edges: 562 for node: term
+Ignoring node in graph: term
+
+Number of edges: 509 for node: tips
+Ignoring node in graph: tips
+
+Number of edges: 34 for node: vocab%2forigin%2flatin
+
+Number of edges: 1724 for node: words
+Ignoring node in graph: words
+
+Number of edges: 1746 for node: computers
+Ignoring node in graph: computers
+
+Number of edges: 975 for node: conspiracy
+Ignoring node in graph: conspiracy
+
+Number of edges: 69 for node: darknet
+
+Number of edges: 37 for node: encrypted
+
+Number of edges: 160 for node: filesharing
+
+Number of edges: 478 for node: freedom
+Ignoring node in graph: freedom
+
+Number of edges: 482 for node: p2p
+Ignoring node in graph: p2p
+
+Number of edges: 27 for node: riaa
+
+Number of edges: 95 for node: t214
+
+Number of edges: 943 for node: to_read
+Ignoring node in graph: to_read
+
+Number of edges: 67 for node: _now
+
+Number of edges: 918 for node: anthropology
+Ignoring node in graph: anthropology
+
+Number of edges: 61 for node: barter
+
+Number of edges: 84 for node: ceremony
+
+Number of edges: 184 for node: economic_development_globalization
+
+Number of edges: 216 for node: ethnicity_culture
+Ignoring node in graph: ethnicity_culture
+
+Number of edges: 43 for node: gifteconomy
+
+Number of edges: 64 for node: objects
+
+Number of edges: 101 for node: origins
+
+Number of edges: 177 for node: relationship
+
+Number of edges: 22 for node: socialcapital
+
+Number of edges: 22 for node: socialobjects
+
+Number of edges: 143 for node: values
+
+Number of edges: 1470 for node: web2.0
+Ignoring node in graph: web2.0
+
+Number of edges: 1248 for node: activism
+Ignoring node in graph: activism
+
+Number of edges: 59 for node: consumer
+
+Number of edges: 43 for node: consumers
+
+Number of edges: 1387 for node: environment
+Ignoring node in graph: environment
+
+Number of edges: 147 for node: environmentalism
+
+Number of edges: 21 for node: froggreen
+
+Number of edges: 976 for node: green
+Ignoring node in graph: green
+
+Number of edges: 2249 for node: health
+Ignoring node in graph: health
+
+Number of edges: 251 for node: lifestyle
+Ignoring node in graph: lifestyle
+
+Number of edges: 21 for node: marketplace
+
+Number of edges: 21 for node: postmodernity
+
+Number of edges: 107 for node: responsibility
+
+Number of edges: 28 for node: segment
+
+Number of edges: 425 for node: shopping
+Ignoring node in graph: shopping
+
+Number of edges: 791 for node: sustainability
+Ignoring node in graph: sustainability
+
+Number of edges: 103 for node: 2004
+
+Number of edges: 235 for node: auto
+Ignoring node in graph: auto
+
+Number of edges: 37 for node: auto_show
+
+Number of edges: 30 for node: automobile.companies
+
+Number of edges: 29 for node: bilindustri
+
+Number of edges: 265 for node: car
+Ignoring node in graph: car
+
+Number of edges: 308 for node: cars
+Ignoring node in graph: cars
+
+Number of edges: 363 for node: corporate
+Ignoring node in graph: corporate
+
+Number of edges: 429 for node: daily
+Ignoring node in graph: daily
+
+Number of edges: 347 for node: enterprise
+Ignoring node in graph: enterprise
+
+Number of edges: 462 for node: globalization
+Ignoring node in graph: globalization
+
+Number of edges: 20 for node: gresco
+
+Number of edges: 1375 for node: japan
+Ignoring node in graph: japan
+
+Number of edges: 51 for node: multinational
+
+Number of edges: 107 for node: toyota
+
+Number of edges: 29 for node: transnational
+
+Number of edges: 29 for node: unsustainable
+
+Number of edges: 302 for node: governance
+Ignoring node in graph: governance
+
+Number of edges: 125 for node: reporting
+
+Number of edges: 38 for node: social_responsibility
+
+Number of edges: 67 for node: transparency
+
+Number of edges: 59 for node: (9)businessethics
+
+Number of edges: 204 for node: ac
+Ignoring node in graph: ac
+
+Number of edges: 24 for node: aisg
+
+Number of edges: 39 for node: b822_responsibility
+
+Number of edges: 64 for node: businesscase
+
+Number of edges: 85 for node: cim
+
+Number of edges: 100 for node: citizenship
+
+Number of edges: 442 for node: city
+Ignoring node in graph: city
+
+Number of edges: 135 for node: corporation
+
+Number of edges: 861 for node: ethics
+Ignoring node in graph: ethics
+
+Number of edges: 143 for node: justice
+
+Number of edges: 24 for node: social-responsibility
+
+Number of edges: 35 for node: hse
+
+Number of edges: 312 for node: iso
+Ignoring node in graph: iso
+
+Number of edges: 143 for node: knowledgemanagement
+
+Number of edges: 112 for node: monitoring
+
+Number of edges: 34 for node: novartis
+
+Number of edges: 148 for node: organisations
+
+Number of edges: 35 for node: pens
+
+Number of edges: 344 for node: quality
+Ignoring node in graph: quality
+
+Number of edges: 75 for node: ratings
+
+Number of edges: 45 for node: recycle
+
+Number of edges: 93 for node: safe
+
+Number of edges: 272 for node: automation
+Ignoring node in graph: automation
+
+Number of edges: 187 for node: cellphone
+
+Number of edges: 19 for node: contactless
+
+Number of edges: 1707 for node: hardware
+Ignoring node in graph: hardware
+
+Number of edges: 579 for node: home
+Ignoring node in graph: home
+
+Number of edges: 118 for node: hongkong
+
+Number of edges: 60 for node: keitai
+
+Number of edges: 36 for node: mcom
+
+Number of edges: 34 for node: micropayment
+
+Number of edges: 825 for node: online
+Ignoring node in graph: online
+
+Number of edges: 153 for node: rfid
+
+Number of edges: 143 for node: sc
+
+Number of edges: 43 for node: smartcard
+
+Number of edges: 100 for node: sony
+
+Number of edges: 55 for node: type%3a%3awikipage%3a%3awikipedia.en
+
+Number of edges: 16 for node: apt-get
+
+Number of edges: 1331 for node: howto
+Ignoring node in graph: howto
+
+Number of edges: 68 for node: install
+
+Number of edges: 153 for node: manager
+
+Number of edges: 90 for node: package
+
+Number of edges: 84 for node: packaging
+
+Number of edges: 209 for node: shell
+Ignoring node in graph: shell
+
+Number of edges: 134 for node: support
+
+Number of edges: 16 for node: thinkpad
+
+Number of edges: 898 for node: tutorial
+Ignoring node in graph: tutorial
+
+Number of edges: 333 for node: admin
+Ignoring node in graph: admin
+
+Number of edges: 59 for node: bind
+
+Number of edges: 16 for node: crawling
+
+Number of edges: 245 for node: dns
+Ignoring node in graph: dns
+
+Number of edges: 315 for node: email
+Ignoring node in graph: email
+
+Number of edges: 93 for node: ipv6
+
+Number of edges: 1189 for node: it
+Ignoring node in graph: it
+
+Number of edges: 44 for node: lookup
+
+Number of edges: 16 for node: named
+
+Number of edges: 67 for node: reverse
+
+Number of edges: 2014 for node: tech
+Ignoring node in graph: tech

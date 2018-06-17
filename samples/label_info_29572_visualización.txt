@@ -1,0 +1,59 @@
+
+Number of edges: 22 for node: visualización
+
+Number of edges: 3835 for node: art
+Ignoring node in graph: art
+
+Number of edges: 593 for node: arte
+Ignoring node in graph: arte
+
+Number of edges: 86 for node: beck
+
+Number of edges: 3672 for node: design
+Ignoring node in graph: design
+
+Number of edges: 372 for node: diagram
+Ignoring node in graph: diagram
+
+Number of edges: 171 for node: diseño
+
+Number of edges: 36 for node: harry
+
+Number of edges: 2896 for node: information
+Ignoring node in graph: information
+
+Number of edges: 813 for node: interface
+Ignoring node in graph: interface
+
+Number of edges: 228 for node: london
+Ignoring node in graph: london
+
+Number of edges: 567 for node: map
+Ignoring node in graph: map
+
+Number of edges: 55 for node: metro
+
+Number of edges: 4508 for node: people
+Ignoring node in graph: people
+
+Number of edges: 954 for node: resource
+Ignoring node in graph: resource
+
+Number of edges: 36 for node: subway
+
+Number of edges: 61 for node: train
+
+Number of edges: 22 for node: transporte
+
+Number of edges: 118 for node: tube
+
+Number of edges: 521 for node: ui
+Ignoring node in graph: ui
+
+Number of edges: 68 for node: undecided
+
+Number of edges: 909 for node: visualization
+Ignoring node in graph: visualization
+
+Number of edges: 19894 for node: wikipedia
+Ignoring node in graph: wikipedia

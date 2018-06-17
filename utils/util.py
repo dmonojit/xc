@@ -9,6 +9,7 @@ from sklearn.datasets import load_svmlight_file
 import itertools
 import numpy as np
 from queue import Queue
+from  collections import defaultdict
 import matplotlib.pyplot as plt
 
 # Deprecated
@@ -68,19 +69,34 @@ def get_matrices_from_file(filepath, label_filepath):
 
 	return total_points, feature_dm, number_of_labels, X, Y, label_graph
 
-def get_label_edges(filepath):
+def get_x_y_v_e(filepath):
 	total_points, feature_dm, number_of_labels, X, Y = get_x_and_y(filepath)
 
 	list_of_edge_lists = list(map(lambda x: list(itertools.combinations(x, 2)), Y))
 
-	V = set(itertools.chain.from_iterable(Y))
-	E = set(itertools.chain.from_iterable(list_of_edge_lists))
+	V = list(set(itertools.chain.from_iterable(Y)))
+	# E = set(itertools.chain.from_iterable(list_of_edge_lists))
+	E = defaultdict(lambda: 0)
+	for e in itertools.chain.from_iterable(list_of_edge_lists):
+		sorted_edge = tuple(sorted(e))
+		E[e] += 1
 
-	return X, Y, list(V), list(E)
+	return total_points, feature_dm, number_of_labels, X, Y, V, E
 
-def build_label_graph(Y, label_filepath, level=1):
+def get_subgraph(filepath, label_filepath, level=1, max_edges_per_node=None):
+	# total_points: total number of data points
+	# feature_dm: number of features per datapoint
+	# number_of_labels: total number of labels
+	# X: feature matrix of dimension total_points * feature_dm
+	# Y: list of size total_points. Each element of the list containing labels corresponding to one datapoint
+	# V: list of all labels (nodes)
+	# E: dict of edge tuple -> weight, eg. {(1, 4): 1, (2, 7): 3}
+	total_points, feature_dm, number_of_labels, X, Y, V, E = get_x_y_v_e(filepath)
+
+	# get a dict of label -> textual_label
 	label_dict = get_label_dict(label_filepath)
 
+	# an utility function to relabel nodes of upcoming graph with textual label names
 	def mapping(v):
 		v = int(v)
 		if v in label_dict:
@@ -88,6 +104,62 @@ def build_label_graph(Y, label_filepath, level=1):
 
 		return str(v)
 
+	# build a unweighted graph of all edges
+	g = nx.Graph()
+	g.add_edges_from(E.keys())
+
+	# Below section will try to build a smaller subgraph from the actual graph for visualization
+	
+	# select a random vertex to be the root
+	list_v = list(V)
+	np.random.shuffle(list_v)
+	v = list_v[0]
+
+	# two files to write the graph and label information
+	label_info_filepath = 'samples/label_info_{}.txt'.format(str(int(v)) + '_' + mapping(v)).replace(' ', '')
+	label_graph_filepath = 'samples/label_graph_{}.graphml'.format(str(int(v)) + '_' + mapping(v)).replace(' ', '')
+	label_info_file = open(label_info_filepath, 'w')
+
+	# build the subgraph using bfs
+	bfs_q = Queue()
+	bfs_q.put(v)
+	bfs_q.put(0)
+	node_check = {}
+
+	sub_g = nx.Graph()
+	l = 0
+	while not bfs_q.empty() and l <= level:
+		v = bfs_q.get()
+		if v == 0:
+			l += 1
+			bfs_q.put(0)
+			continue
+		elif node_check.get(v, True):
+			node_check[v] = False
+			edges = list(g.edges(v))
+			label_info_file.write('\nNumber of edges: ' + str(len(edges)) + ' for node: ' + mapping(v) + '\n')
+			if max_edges_per_node is not None and len(edges) > max_edges_per_node:
+				label_info_file.write('Ignoring node in graph: ' + mapping(v) + '\n')
+				continue
+			for uv_tuple in edges:
+				edge = tuple(sorted(uv_tuple))
+				sub_g.add_edge(edge[0], edge[1], weight=E[edge])
+				bfs_q.put(uv_tuple[1])
+		else:
+			continue
+
+	# relabel the nodes to reflect textual label
+	nx.relabel_nodes(sub_g, mapping, copy=False)
+
+	label_info_file.close()
+	nx.write_graphml(sub_g, label_graph_filepath)
+
+	print('Label info generated at ' + label_info_filepath)
+	print('Label graph generated at ' + label_graph_filepath)
+
+	return sub_g
+
+def build_label_graph(Y, label_filepath, level=1):
 	list_of_edge_lists = list(map(lambda x: list(itertools.combinations(x, 2)), Y))
 
 	V = set(itertools.chain.from_iterable(Y))
@@ -179,11 +251,11 @@ def get_label_dict(label_filepath):
 
 if __name__ == '__main__':
 	# sample call: python utils/util.py /Users/monojitdey/Downloads/Wiki10-31K/Wiki10/wiki10_test.txt /Users/monojitdey/Downloads/Wiki10-31K/Wiki10-31K_mappings/wiki10-31K_label_map.txt
-	# '/Users/monojitdey/Downloads/Wiki10-31K/Wiki10/wiki10_test.txt', '/Users/monojitdey/Downloads/Wiki10-31K/Wiki10-31K_mappings/wiki10-31K_label_map.txt'
+	# '/Users/monojitdey/ml/datasets/Wiki10-31K/Wiki10/wiki10_test.txt', '/Users/monojitdey/ml/datasets/Wiki10-31K/Wiki10-31K_mappings/wiki10-31K_label_map.txt'
 	assert len(sys.argv) >= 2, 'Data file is required'
 	if len(sys.argv) < 3:
 		print('Label file is not provided, graph will show numeric labels only')
-	total_points, feature_dm, number_of_labels, feature_matrix, label_vectors, label_graph = get_matrices_from_file(sys.argv[1], sys.argv[2])
-	nx.draw(label_graph)
-	plt.show()
+	label_graph = get_subgraph(sys.argv[1], sys.argv[2], level=1, max_edges_per_node=200)
+	# nx.draw(label_graph)
+	# plt.show()
 	# print(feature_matrix.todense())

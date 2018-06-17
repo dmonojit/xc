@@ -1,0 +1,18 @@
+
+Number of edges: 8 for node: singapore
+
+Number of edges: 1233 for node: foonetic
+
+Number of edges: 147 for node: recipe
+
+Number of edges: 1137 for node: foonetic/#xkcd
+
+Number of edges: 78 for node: orbit
+
+Number of edges: 4652 for node: culture
+
+Number of edges: 8 for node: yum
+
+Number of edges: 254 for node: recipes
+
+Number of edges: 1205 for node: food

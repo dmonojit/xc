@@ -1,0 +1,2279 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="long" for="edge" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="malcolmgladwell" />
+    <node id="japan" />
+    <node id="for" />
+    <node id="cheatsheet" />
+    <node id="japanstudies" />
+    <node id="management" />
+    <node id="japones" />
+    <node id="tube" />
+    <node id="tubes" />
+    <node id="rfid" />
+    <node id="manifesto" />
+    <node id="algebra2" />
+    <node id="rhythm" />
+    <node id="fork" />
+    <node id="culture" />
+    <node id="editor" />
+    <node id="&quot;video" />
+    <node id="editors" />
+    <node id="map" />
+    <node id="tutorial" />
+    <node id="mapping" />
+    <node id="maps" />
+    <node id="tv" />
+    <node id="foss" />
+    <node id="fotografia" />
+    <node id="type" />
+    <node id="typeface" />
+    <node id="typography" />
+    <node id="técnica" />
+    <node id="rock" />
+    <node id="historia" />
+    <node id="alternativa" />
+    <node id="history" />
+    <node id="ugc" />
+    <node id="ui" />
+    <node id="free" />
+    <node id="math" />
+    <node id="electronics" />
+    <node id="undecided" />
+    <node id="cinema" />
+    <node id="elektronika" />
+    <node id="underground" />
+    <node id="jr" />
+    <node id="freeware" />
+    <node id="mathematics" />
+    <node id="frequency" />
+    <node id="circuits" />
+    <node id="juguetes" />
+    <node id="elmélet" />
+    <node id="amp" />
+    <node id="home" />
+    <node id="politics" />
+    <node id="amplifier" />
+    <node id="amplifiers" />
+    <node id="cities" />
+    <node id="nokia_trends" />
+    <node id="frontend" />
+    <node id="rup" />
+    <node id="mcom" />
+    <node id="urban+planning" />
+    <node id="bit200f06" />
+    <node id="stream" />
+    <node id="streaming" />
+    <node id="usa" />
+    <node id="media" />
+    <node id="bjork" />
+    <node id="encyclopedia" />
+    <node id="futurism" />
+    <node id="stuff" />
+    <node id="poster" />
+    <node id="style" />
+    <node id="postmodernism" />
+    <node id="blink" />
+    <node id="closed" />
+    <node id="deadwood" />
+    <node id="blog" />
+    <node id="english" />
+    <node id="subway" />
+    <node id="blogging" />
+    <node id="numerodos" />
+    <node id="blogs" />
+    <node id="deca" />
+    <node id="gamedesign" />
+    <node id="gamedevelopment" />
+    <node id="decision" />
+    <node id="scandal" />
+    <node id="decisions" />
+    <node id="kirjat" />
+    <node id="deco" />
+    <node id="1phd" />
+    <node id="environment" />
+    <node id="object" />
+    <node id="definition" />
+    <node id="epf" />
+    <node id="science" />
+    <node id="degreeproject%2aclass%2a" />
+    <node id="gear" />
+    <node id="208" />
+    <node id="ia" />
+    <node id="book" />
+    <node id="methodology" />
+    <node id="methods" />
+    <node id="viajar" />
+    <node id="metro" />
+    <node id="vibration" />
+    <node id="viajes" />
+    <node id="ibm" />
+    <node id="process" />
+    <node id="apocalypse" />
+    <node id="video" />
+    <node id="symmetries" />
+    <node id="symmetry" />
+    <node id="books" />
+    <node id="collaboration" />
+    <node id="collaborative" />
+    <node id="oldies" />
+    <node id="apple" />
+    <node id="michel" />
+    <node id="michelgondry" />
+    <node id="videos" />
+    <node id="products" />
+    <node id="videosharing" />
+    <node id="application" />
+    <node id="2read" />
+    <node id="applications" />
+    <node id="booktoread" />
+    <node id="idea" />
+    <node id="lab" />
+    <node id="ideas" />
+    <node id="gente" />
+    <node id="vinyl" />
+    <node id="identity" />
+    <node id="design" />
+    <node id="programming" />
+    <node id="online" />
+    <node id="design_history" />
+    <node id="designer" />
+    <node id="geometry" />
+    <node id="project-management" />
+    <node id="arcade" />
+    <node id="visualización" />
+    <node id="visualization" />
+    <node id="eternal" />
+    <node id="projectmanagement" />
+    <node id="open-source" />
+    <node id="tagging" />
+    <node id="german" />
+    <node id="comics" />
+    <node id="architect" />
+    <node id="mind" />
+    <node id="dev" />
+    <node id="germany" />
+    <node id="architecture" />
+    <node id="ethics" />
+    <node id="illustration" />
+    <node id="comments" />
+    <node id="development" />
+    <node id="opensource" />
+    <node id="arduino" />
+    <node id="gg1" />
+    <node id="image" />
+    <node id="proportion" />
+    <node id="commons" />
+    <node id="ghost" />
+    <node id="arevoir" />
+    <node id="braun" />
+    <node id="ghost_town" />
+    <node id="brazil" />
+    <node id="law" />
+    <node id="giddens" />
+    <node id="community" />
+    <node id="diagram" />
+    <node id="gimp" />
+    <node id="company" />
+    <node id="5411+week7" />
+    <node id="tcc" />
+    <node id="comparison" />
+    <node id="gladwell" />
+    <node id="competitor" />
+    <node id="art" />
+    <node id="art&quot;" />
+    <node id="art-deco" />
+    <node id="art-design" />
+    <node id="ims201e_fall08" />
+    <node id="complexity" />
+    <node id="art157" />
+    <node id="art_deco" />
+    <node id="psychology" />
+    <node id="digital" />
+    <node id="server" />
+    <node id="gm" />
+    <node id="technique" />
+    <node id="artdeco" />
+    <node id="arte" />
+    <node id="watch" />
+    <node id="technology" />
+    <node id="article" />
+    <node id="tecnologias" />
+    <node id="articles" />
+    <node id="otaku" />
+    <node id="indie" />
+    <node id="computer" />
+    <node id="computer%2felectronics" />
+    <node id="modern" />
+    <node id="web" />
+    <node id="industrial" />
+    <node id="web2.0" />
+    <node id="artist" />
+    <node id="les" />
+    <node id="artists" />
+    <node id="gondry" />
+    <node id="sharing" />
+    <node id="webdesign" />
+    <node id="webdev" />
+    <node id="google" />
+    <node id="@homework" />
+    <node id="infographics" />
+    <node id="money" />
+    <node id="director" />
+    <node id="artículos" />
+    <node id="directors" />
+    <node id="information" />
+    <node id="monopoly" />
+    <node id="@wikipedia" />
+    <node id="ashoka" />
+    <node id="shop" />
+    <node id="montreal" />
+    <node id="buy" />
+    <node id="informationarchitecture" />
+    <node id="diseño" />
+    <node id="licencia" />
+    <node id="license" />
+    <node id="licenses" />
+    <node id="licensing" />
+    <node id="informationtheory" />
+    <node id="painting" />
+    <node id="conglomerate" />
+    <node id="infovis" />
+    <node id="the" />
+    <node id="signal-analysis" />
+    <node id="consilience" />
+    <node id="graphic" />
+    <node id="astro_city" />
+    <node id="conspiracy" />
+    <node id="graphical_editor" />
+    <node id="graphicdesign" />
+    <node id="innovation" />
+    <node id="theory" />
+    <node id="graphics" />
+    <node id="calculating" />
+    <node id="movies" />
+    <node id="inspiration" />
+    <node id="wiki" />
+    <node id="thesis" />
+    <node id="link" />
+    <node id="instinct" />
+    <node id="parisnypaper" />
+    <node id="thingstoread" />
+    <node id="abandoned" />
+    <node id="thinking" />
+    <node id="railways" />
+    <node id="wikipedia" />
+    <node id="canada" />
+    <node id="canadian" />
+    <node id="about" />
+    <node id="list" />
+    <node id="intelligence" />
+    <node id="audio" />
+    <node id="patent" />
+    <node id="patents" />
+    <node id="raster" />
+    <node id="capitalism" />
+    <node id="academia" />
+    <node id="academic" />
+    <node id="group128" />
+    <node id="captioning" />
+    <node id="academic_interests" />
+    <node id="car" />
+    <node id="payment" />
+    <node id="cool" />
+    <node id="group93" />
+    <node id="card" />
+    <node id="grouptheory" />
+    <node id="interface" />
+    <node id="ferramentas" />
+    <node id="interiordesign" />
+    <node id="career" />
+    <node id="read" />
+    <node id="career_technologies" />
+    <node id="cop" />
+    <node id="gsdev" />
+    <node id="tm" />
+    <node id="internet" />
+    <node id="smartcard" />
+    <node id="copyleft" />
+    <node id="copyright" />
+    <node id="acoustic" />
+    <node id="reading" />
+    <node id="acoustics" />
+    <node id="automobile" />
+    <node id="music" />
+    <node id="downloads" />
+    <node id="guitar" />
+    <node id="cartography" />
+    <node id="penguin" />
+    <node id="penninternetpolicystuff" />
+    <node id="music_theory" />
+    <node id="guru" />
+    <node id="sns" />
+    <node id="musica.rock" />
+    <node id="people" />
+    <node id="london" />
+    <node id="london_underground" />
+    <node id="reccomended" />
+    <node id="londres" />
+    <node id="cassandre" />
+    <node id="film" />
+    <node id="todelete" />
+    <node id="words" />
+    <node id="todo" />
+    <node id="musictheory" />
+    <node id="investigacion" />
+    <node id="filmmaking" />
+    <node id="tokyo" />
+    <node id="ba" />
+    <node id="ba-interview" />
+    <node id="ip" />
+    <node id="socialnetworking" />
+    <node id="person" />
+    <node id="adobe" />
+    <node id="finance" />
+    <node id="socialsoftware" />
+    <node id="reference" />
+    <node id="cc" />
+    <node id="references" />
+    <node id="sociology" />
+    <node id="ccl" />
+    <node id="software" />
+    <node id="fire" />
+    <node id="advertising" />
+    <node id="creative" />
+    <node id="creative.commons" />
+    <node id="creativecommons" />
+    <node id="mythology" />
+    <node id="tovisit" />
+    <node id="towns" />
+    <node id="toy" />
+    <node id="band" />
+    <node id="toys" />
+    <node id="bands" />
+    <node id="aesthetics" />
+    <node id="harry" />
+    <node id="flash" />
+    <node id="traffic" />
+    <node id="train" />
+    <node id="trains" />
+    <node id="criticism" />
+    <node id="it" />
+    <node id="sound" />
+    <node id="agile" />
+    <node id="transit" />
+    <node id="sounds" />
+    <node id="transport" />
+    <node id="transportation" />
+    <node id="transporte" />
+    <node id="research" />
+    <node id="photo" />
+    <node id="travel" />
+    <node id="photography" />
+    <node id="ive" />
+    <node id="photoshop" />
+    <node id="youtube" />
+    <node id="be" />
+    <node id="phsyics" />
+    <node id="resonance" />
+    <node id="font" />
+    <node id="resource" />
+    <node id="fonts" />
+    <node id="ecommerce" />
+    <node id="make" />
+    <node id="physics" />
+    <node id="beck" />
+    <node id="malcolm" />
+    <edge source="malcolmgladwell" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="japan" target="tube">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="japan" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="for" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cheatsheet" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="japanstudies" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="management" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="management" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="japones" target="tube">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="tubes">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="map">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="tutorial">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="mapping">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="maps">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="type">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="typeface">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="typography">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="history">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="ugc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="ui">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="free">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="electronics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="undecided">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="elektronika">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="underground">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="frequency">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="circuits">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="amp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="amplifier">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="amplifiers">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="bit200f06">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="stream">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="streaming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="media">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="closed">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="blog">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="subway">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="blogging">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="blogs">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="definition">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="gear">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="metro">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="vibration">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="video">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="collaboration">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="collaborative">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="videos">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="videosharing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="idea">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="design">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="tube" target="online">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="visualización">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="visualization">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="tagging">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="architecture">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="comments">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="community">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="diagram">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="competitor">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="art">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="server">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="arte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="watch">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="technology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="otaku">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="computer%2felectronics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="web">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="web2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="sharing">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="webdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="google">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="infographics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="information">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="informationarchitecture">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="infovis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="signal-analysis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="graphic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="theory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="calculating">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="wiki">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="tube" target="thesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="wikipedia">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="tube" target="audio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="group128">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="captioning">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="group93">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="interface">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="acoustic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="acoustics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="music">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="guitar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="cartography">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="penninternetpolicystuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="music_theory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="sns">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="people">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="london">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="tube" target="london_underground">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="londres">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="socialnetworking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="socialsoftware">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="tovisit">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="harry">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="flash">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="trains">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="it">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="sound">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="transit">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="sounds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="transport">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="research">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="youtube">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="tube" target="phsyics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="resonance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="font">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="resource">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="fonts">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="make">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="physics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tube" target="beck">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="rfid" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="manifesto" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algebra2" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rhythm" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fork" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="editor" target="diseño">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="&quot;video" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="editors" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="map" target="undecided">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="map" target="subway">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="map" target="metro">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="map" target="visualización">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="map" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="map" target="harry">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="map" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="map" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="map" target="beck">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="mapping" target="subway">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mapping" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mapping" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mapping" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="maps" target="subway">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="maps" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="maps" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="maps" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tv" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="foss" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fotografia" target="undecided">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fotografia" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="técnica" target="undecided">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rock" target="undecided">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historia" target="undecided">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="alternativa" target="undecided">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="undecided">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="subway">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="undecided">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="subway">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="visualización">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="free" target="diseño">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="math" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="cities">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="encyclopedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="deadwood">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="subway">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="numerodos">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="gamedesign">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="viajar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="viajes">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="process">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="apocalypse">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="oldies">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="design">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="arcade">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="visualización">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="visualization">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="image">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="ghost">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="ghost_town">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="diagram">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="art">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="undecided" target="art157">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="technique">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="arte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="technology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="tecnologias">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="indie">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="artist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="information">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="montreal">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="wiki">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="undecided" target="abandoned">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="wikipedia">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="undecided" target="canada">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="canadian">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="list">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="patent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="patents">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="cool">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="interface">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="music">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="musica.rock">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="people">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="undecided" target="london">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="words">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="fire">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="towns">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="band">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="bands">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="photo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="photography">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="resource">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="undecided" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cinema" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="underground" target="subway">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="underground" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="underground" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="underground" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jr" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="freeware" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mathematics" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="juguetes" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elmélet" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="home" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="politics" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="politics" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="nokia_trends" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="frontend" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rup" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mcom" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="urban+planning" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="usa" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bjork" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="futurism" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="stuff" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="poster" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="style" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="postmodernism" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="blink" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="english" target="metro">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="metro">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="subway" target="idea">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="design">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="subway" target="visualización">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="visualization">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="subway" target="diagram">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="art">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="arte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="infographics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="information">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="informationarchitecture">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="infovis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="graphic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="wikipedia">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="subway" target="interface">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="subway" target="cartography">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="people">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="london">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="subway" target="london_underground">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="londres">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="harry">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="subway" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="trains">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="transit">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="resource">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subway" target="beck">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="deca" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamedesign" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamedevelopment" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="decision" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="scandal" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="decisions" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kirjat" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deco" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1phd" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="environment" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="object" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="epf" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="science" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="degreeproject%2aclass%2a" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="208" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ia" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="book" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="methodology" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="methods" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="collaboration">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="idea">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="lab">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="design">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="metro" target="visualización">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="visualization">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="metro" target="diagram">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="art">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="arte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="infographics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="money">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="information">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="informationarchitecture">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="infovis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="graphic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="railways">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="wikipedia">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="metro" target="payment">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="card">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="interface">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="metro" target="smartcard">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="cartography">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="penguin">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="people">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="london">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="metro" target="london_underground">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="londres">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="tokyo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="finance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="harry">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="metro" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="trains">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="transit">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="transportation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="travel">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="resource">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metro" target="beck">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="ibm" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="process" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="video" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="symmetries" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="symmetry" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="books" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="books" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="apple" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="michel" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="michelgondry" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="videos" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="products" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="application" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2read" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="applications" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="booktoread" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="idea" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="idea" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ideas" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gente" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="vinyl" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="visualización">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="diseño">
+      <data key="d0">8</data>
+    </edge>
+    <edge source="design" target="harry">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="design" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="beck">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="programming" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design_history" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="designer" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="geometry" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="project-management" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="visualization">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="diagram">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="art">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="arte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="information">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="interface">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="people">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="london">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="resource">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualización" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualization" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualization" target="harry">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="visualization" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualization" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualization" target="beck">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="eternal" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="projectmanagement" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open-source" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="german" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="comics" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="architect" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mind" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dev" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="germany" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="architecture" target="diseño">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="ethics" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="illustration" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="development" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="development" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="opensource" target="diseño">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="arduino" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gg1" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="image" target="diseño">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="proportion" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="commons" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="arevoir" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="braun" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="brazil" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="law" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="giddens" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diagram" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diagram" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diagram" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diagram" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diagram" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gimp" target="diseño">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="company" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="5411+week7" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tcc" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="comparison" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gladwell" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="art" target="diseño">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="art" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="art" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="art" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="art" target="beck">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="art&quot;" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="art-deco" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="art-design" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ims201e_fall08" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="complexity" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="art_deco" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="psychology" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gm" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="artdeco" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="arte" target="diseño">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="arte" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="arte" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="arte" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="arte" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="articles" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="modern" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="web" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="industrial" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="artist" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="les" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="artists" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gondry" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="webdesign" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="@homework" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="infographics" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="infographics" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="director" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="artículos" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="directors" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="information" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="information" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="information" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="information" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="information" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="monopoly" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="@wikipedia" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ashoka" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="shop" target="diseño">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="buy" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="informationarchitecture" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="informationarchitecture" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="licencia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="license">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="licenses">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="licensing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="informationtheory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="painting">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="the">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="consilience">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="graphic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="astro_city">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="graphical_editor">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="graphicdesign">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="innovation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="graphics">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="diseño" target="inspiration">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="wiki">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="diseño" target="thesis">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="diseño" target="link">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="parisnypaper">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="wikipedia">
+      <data key="d0">9</data>
+    </edge>
+    <edge source="diseño" target="about">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="raster">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="grouptheory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="interface">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="ferramentas">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="interiordesign">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="career">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="career_technologies">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="gsdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="tm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="copyleft">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="copyright">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="downloads">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="guru">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="people">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="diseño" target="london">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="cassandre">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="todo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="musictheory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="investigacion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="ba">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="ba-interview">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="ip">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="person">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="adobe">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="reference">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="diseño" target="cc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="ccl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="software">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="diseño" target="creative">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="creative.commons">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="creativecommons">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="toy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="toys">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="aesthetics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="criticism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="agile">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="photo">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="diseño" target="photography">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="diseño" target="ive">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="photoshop">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="diseño" target="resource">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="ecommerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="physics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diseño" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="conglomerate" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="infovis" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="infovis" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="graphic" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="graphic" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="conspiracy" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="theory" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="movies" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="inspiration" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wiki" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="instinct" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="thingstoread" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="thinking" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipedia" target="harry">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="wikipedia" target="train">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="wikipedia" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipedia" target="beck">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="intelligence" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="capitalism" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="academia" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="academic" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="academic_interests" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="car" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interface" target="harry">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="interface" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interface" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interface" target="beck">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="read" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cop" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reading" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="automobile" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="music" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cartography" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cartography" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="people" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="people" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="people" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="people" target="beck">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="london" target="harry">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="london" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="london" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="london" target="beck">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="london_underground" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="london_underground" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reccomended" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="londres" target="harry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="londres" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="film" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="todelete" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="filmmaking" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="references" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sociology" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="advertising" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mythology" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="harry" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="harry" target="trains">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="harry" target="transit">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="harry" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="harry" target="resource">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="harry" target="beck">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="traffic" target="train">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="train" target="transport">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="train" target="transportation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="train" target="transporte">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="train" target="resource">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="train" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="train" target="malcolm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="trains" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="transit" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="transporte" target="resource">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="transporte" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="research" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="be" target="beck">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="resource" target="beck">
+      <data key="d0">1</data>
+    </edge>
+  </graph>
+</graphml>
