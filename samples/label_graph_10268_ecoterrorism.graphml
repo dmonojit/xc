@@ -1,0 +1,2481 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="long" for="edge" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="foonetic" />
+    <node id="foonetic/#xkcd" />
+    <node id="economics" />
+    <node id="zionism" />
+    <node id="ecoterrorism" />
+    <node id="!todo" />
+    <node id="jar" />
+    <node id="revolution" />
+    <node id="speedterritorycommunication" />
+    <node id="cult" />
+    <node id="chemistry" />
+    <node id="pio" />
+    <node id="heroes" />
+    <node id="culture" />
+    <node id="turundus" />
+    <node id="spirituality" />
+    <node id="network" />
+    <node id="tuumajama" />
+    <node id="#afterdarkclub" />
+    <node id="education" />
+    <node id="networking" />
+    <node id="#lawn" />
+    <node id="fortran" />
+    <node id="fortran:90" />
+    <node id="neuralnetworks" />
+    <node id="best" />
+    <node id="jew" />
+    <node id="bestest" />
+    <node id="marketing" />
+    <node id="jewish" />
+    <node id="jewisharabconflict" />
+    <node id="jews" />
+    <node id="plants" />
+    <node id="robot" />
+    <node id="robotics" />
+    <node id="new_left" />
+    <node id="fpc" />
+    <node id="cyberpunk" />
+    <node id="cyborg" />
+    <node id="cyborgs" />
+    <node id="bible" />
+    <node id="christianity" />
+    <node id="stability" />
+    <node id="plo" />
+    <node id="stalin" />
+    <node id="ucp" />
+    <node id="history" />
+    <node id="newthing" />
+    <node id="**readlater" />
+    <node id="cia" />
+    <node id="freedom" />
+    <node id="point" />
+    <node id="bin" />
+    <node id="america" />
+    <node id="american" />
+    <node id="hn_links" />
+    <node id="elements" />
+    <node id="mathematics" />
+    <node id="judaism" />
+    <node id="elf" />
+    <node id="biodiversity" />
+    <node id="rpm" />
+    <node id="political" />
+    <node id="matrix" />
+    <node id="political-terms" />
+    <node id="biography" />
+    <node id="darpa" />
+    <node id="politics" />
+    <node id="cities" />
+    <node id="stim" />
+    <node id="front" />
+    <node id="unread" />
+    <node id="civil-rights" />
+    <node id="civil.rights" />
+    <node id="civilisation" />
+    <node id="russia" />
+    <node id="civilisations" />
+    <node id="urban" />
+    <node id="noosphere" />
+    <node id="anarchism" />
+    <node id="popculture" />
+    <node id="anarchy" />
+    <node id="fun" />
+    <node id="sabotage" />
+    <node id="us" />
+    <node id="en" />
+    <node id="us-politics" />
+    <node id="usa" />
+    <node id="media" />
+    <node id="media-art" />
+    <node id="encyclopedia" />
+    <node id="end-times" />
+    <node id="student" />
+    <node id="end_times" />
+    <node id="future" />
+    <node id="endoftheworld" />
+    <node id="angel" />
+    <node id="futurism" />
+    <node id="futurist" />
+    <node id="energy" />
+    <node id="stupid" />
+    <node id="posthuman" />
+    <node id="ussr" />
+    <node id="nuclear" />
+    <node id="engineering" />
+    <node id="death" />
+    <node id="power" />
+    <node id="subversion" />
+    <node id="subversive" />
+    <node id="megastructure" />
+    <node id="english" />
+    <node id="game" />
+    <node id="debug" />
+    <node id="1960s" />
+    <node id="debugging" />
+    <node id="humanity" />
+    <node id="anonymous" />
+    <node id="1973" />
+    <node id="sc" />
+    <node id="nyc" />
+    <node id="games" />
+    <node id="obama" />
+    <node id="gametheory" />
+    <node id="anti" />
+    <node id="environment" />
+    <node id="garden" />
+    <node id="gardening" />
+    <node id="surf" />
+    <node id="definition" />
+    <node id="sci-fi" />
+    <node id="science" />
+    <node id="vernor_vinge" />
+    <node id="gcc" />
+    <node id="2012" />
+    <node id="metaphysics" />
+    <node id="scifi" />
+    <node id="scifigenreresearch" />
+    <node id="geek" />
+    <node id="privacy" />
+    <node id="deltagreen" />
+    <node id="ia" />
+    <node id="book" />
+    <node id="via%3asiggibecker.de" />
+    <node id="20thcentury" />
+    <node id="cointelpro" />
+    <node id="apocalypse" />
+    <node id="books" />
+    <node id="icekarma" />
+    <node id="books.scifi" />
+    <node id="kurzweil" />
+    <node id="depressing" />
+    <node id="collapse" />
+    <node id="eschatology" />
+    <node id="genetics" />
+    <node id="2p" />
+    <node id="2read" />
+    <node id="sysadmin" />
+    <node id="omega" />
+    <node id="omega_point" />
+    <node id="ideas" />
+    <node id="omegapoint" />
+    <node id="system" />
+    <node id="vinge" />
+    <node id="identity" />
+    <node id="violent" />
+    <node id="programming" />
+    <node id="laden" />
+    <node id="virtual" />
+    <node id="middle_east" />
+    <node id="essay" />
+    <node id="geography" />
+    <node id="middleeast" />
+    <node id="virtual_reality" />
+    <node id="mideast" />
+    <node id="lame" />
+    <node id="column" />
+    <node id="virtualreality" />
+    <node id="virtualworlds" />
+    <node id="vision" />
+    <node id="military%2fscience%2fpolitics" />
+    <node id="comics" />
+    <node id="mind" />
+    <node id="ethics" />
+    <node id="brain" />
+    <node id="development" />
+    <node id="archive" />
+    <node id="vocabulary" />
+    <node id="branding" />
+    <node id="misc" />
+    <node id="iml104net" />
+    <node id="immortality" />
+    <node id="events" />
+    <node id="50s" />
+    <node id="import" />
+    <node id="evolution" />
+    <node id="gl" />
+    <node id="5gw" />
+    <node id="compiler" />
+    <node id="art" />
+    <node id="art-bell" />
+    <node id="organisations" />
+    <node id="organization" />
+    <node id="learning" />
+    <node id="example" />
+    <node id="complexity" />
+    <node id="mm" />
+    <node id="war" />
+    <node id="tech" />
+    <node id="70's" />
+    <node id="psychology" />
+    <node id="waste" />
+    <node id="osama" />
+    <node id="technology" />
+    <node id="left" />
+    <node id="article" />
+    <node id="911" />
+    <node id="articles" />
+    <node id="computer" />
+    <node id="sf" />
+    <node id=":read" />
+    <node id="artificial" />
+    <node id="externado" />
+    <node id="dip" />
+    <node id="info" />
+    <node id="artscience" />
+    <node id="computing" />
+    <node id="extraordinary_people" />
+    <node id="google" />
+    <node id="business" />
+    <node id="money" />
+    <node id="term" />
+    <node id="arvuti" />
+    <node id="as" />
+    <node id="terror" />
+    <node id="terrorism" />
+    <node id="terrorist" />
+    <node id="terrorists" />
+    <node id="@wikipedia" />
+    <node id="liberation" />
+    <node id="library" />
+    <node id="weekly" />
+    <node id="buy" />
+    <node id="weird" />
+    <node id="buzz" />
+    <node id="facts" />
+    <node id="life" />
+    <node id="c++" />
+    <node id="sic" />
+    <node id="the" />
+    <node id="palestine" />
+    <node id="consciousness" />
+    <node id="_tobuy" />
+    <node id="cad" />
+    <node id="_todo" />
+    <node id="_toread" />
+    <node id="theology" />
+    <node id="conspiracy" />
+    <node id="innovation" />
+    <node id="theory" />
+    <node id="famous" />
+    <node id="a-lire" />
+    <node id="constitution" />
+    <node id="wiki" />
+    <node id="radical_left" />
+    <node id="wiki.article" />
+    <node id="radioactive" />
+    <node id="radioactivity" />
+    <node id="simulacra" />
+    <node id="linkersandloaders" />
+    <node id="contact" />
+    <node id="simulation" />
+    <node id="simulated" />
+    <node id="links" />
+    <node id="dns" />
+    <node id="doc" />
+    <node id="linux" />
+    <node id="thinkers" />
+    <node id="green" />
+    <node id="thinks" />
+    <node id="singularity" />
+    <node id="particles" />
+    <node id="wikipedia" />
+    <node id="random" />
+    <node id="favorite" />
+    <node id="list" />
+    <node id="intelligence" />
+    <node id="fbi" />
+    <node id="wikipediapage" />
+    <node id="wikipeople" />
+    <node id="literature" />
+    <node id="academic" />
+    <node id="time" />
+    <node id="cool" />
+    <node id="car" />
+    <node id="sla" />
+    <node id="interesting" />
+    <node id="livrosquequeroler" />
+    <node id="groupthink" />
+    <node id="doomsday" />
+    <node id="author" />
+    <node id="read" />
+    <node id="international" />
+    <node id="multiversal" />
+    <node id="authors" />
+    <node id="internet" />
+    <node id="internetculture" />
+    <node id="guerilla" />
+    <node id="guerillagardening" />
+    <node id="guerrilla" />
+    <node id="guerrillagardening" />
+    <node id="fiction" />
+    <node id="fiction%2fstorystuff" />
+    <node id="autonomous" />
+    <node id="readme" />
+    <node id="to-read" />
+    <node id="cars" />
+    <node id="fifth" />
+    <node id="with" />
+    <node id="activism" />
+    <node id="reality" />
+    <node id="acts" />
+    <node id="file_formats" />
+    <node id="reasearch" />
+    <node id="reason" />
+    <node id="to_read" />
+    <node id="cosmology" />
+    <node id="people" />
+    <node id="social" />
+    <node id="tobuy" />
+    <node id="counter" />
+    <node id="words" />
+    <node id="inventor" />
+    <node id="counterterrorism" />
+    <node id="todo" />
+    <node id="work" />
+    <node id="additional" />
+    <node id="filosofia" />
+    <node id="ip" />
+    <node id="wow" />
+    <node id="reference" />
+    <node id="sociology" />
+    <node id="iraq" />
+    <node id="writing" />
+    <node id="advanced" />
+    <node id="crazy" />
+    <node id="advert" />
+    <node id="cdt-thesis" />
+    <node id="advertising" />
+    <node id="creative" />
+    <node id="mythesis" />
+    <node id="dwarf" />
+    <node id="creativity" />
+    <node id="wtf" />
+    <node id="mythology" />
+    <node id="aero" />
+    <node id="islam" />
+    <node id="religion" />
+    <node id="crime" />
+    <node id="island" />
+    <node id="fix" />
+    <node id="center" />
+    <node id="afghanistan" />
+    <node id="isotope" />
+    <node id="israel" />
+    <node id="israel_palestine" />
+    <node id="philosophy" />
+    <node id="transhuman" />
+    <node id="earth" />
+    <node id="transhumanism" />
+    <node id="it_project" />
+    <node id="agriculture" />
+    <node id="research" />
+    <node id="challenge" />
+    <node id="challenges" />
+    <node id="health" />
+    <node id="ai" />
+    <node id="nature" />
+    <node id="soviet" />
+    <node id="yiddish" />
+    <node id="sovietunion" />
+    <node id="space" />
+    <node id="eco" />
+    <node id="heavy" />
+    <node id="ecology" />
+    <node id="resources" />
+    <node id="food" />
+    <node id="al-qaeda" />
+    <node id="physics" />
+    <node id="economic" />
+    <node id="chart" />
+    <edge source="foonetic" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="foonetic/#xkcd" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="economics" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="zionism" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="elf">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="political">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="front">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="unread">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="sabotage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="future">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="anonymous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="environment">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="misc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="technology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="activism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ecoterrorism" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="!todo" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jar" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="revolution" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="revolution" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="speedterritorycommunication" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cult" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="chemistry" target="isotope">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="pio" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="heroes" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="culture" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="turundus" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="spirituality" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="network" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tuumajama" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="#afterdarkclub" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="education" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="networking" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="#lawn" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fortran" target="elf">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fortran:90" target="elf">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="neuralnetworks" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="best" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jew" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bestest" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="marketing" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jewish" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jewisharabconflict" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jews" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="plants" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="plants" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="robot" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="robotics" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="new_left" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fpc" target="elf">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cyberpunk" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cyborg" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cyborgs" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bible" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="christianity" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="stability" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="plo" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="stalin" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ucp" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ucp" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="terrorist">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="history" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="newthing" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="**readlater" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cia" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="freedom" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="point" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bin" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="america" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="america" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="american" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hn_links" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elements" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mathematics" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="judaism" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="political">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="front">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="unread">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="sabotage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="future">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="debug">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="debugging">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="anonymous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="environment">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="gcc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="programming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="development">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="misc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="compiler">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="technology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="c++">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="linkersandloaders">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="activism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="file_formats">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="work">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="dwarf">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="elf" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="biodiversity" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="biodiversity" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rpm" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="front">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="sabotage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="matrix" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="political-terms" target="sabotage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="biography" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="darpa" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="politics" target="sabotage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="politics" target="terrorist">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="politics" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="politics" target="guerilla">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="politics" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="politics" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="politics" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cities" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cities" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="stim" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="unread">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="sabotage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="future">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="anonymous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="environment">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="misc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="technology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="activism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="front" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unread" target="sabotage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unread" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unread" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unread" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unread" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unread" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unread" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unread" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unread" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unread" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="civil-rights" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="civil.rights" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="civilisation" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="russia" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="civilisations" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="urban" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="urban" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="noosphere" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anarchism" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="popculture" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="popculture" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anarchy" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anarchy" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fun" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="future">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="subversion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="anonymous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="environment">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="scifigenreresearch">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="column">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="military%2fscience%2fpolitics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="misc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="technology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="term">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="the">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="conspiracy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="fiction%2fstorystuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="fifth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="activism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="social">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="sociology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sabotage" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="us" target="terrorist">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="us" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="en" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="us-politics" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="usa" target="terrorist">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="usa" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="media" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="media-art" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="encyclopedia" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="encyclopedia" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="end-times" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="student" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="end_times" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="future" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="future" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="future" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="future" target="singularity">
+      <data key="d0">10</data>
+    </edge>
+    <edge source="future" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="future" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="future" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="future" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="future" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="endoftheworld" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="angel" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="futurism" target="singularity">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="futurist" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="energy" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="energy" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="stupid" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="stupid" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="posthuman" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ussr" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="nuclear" target="isotope">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="engineering" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="death" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="power" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subversive" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="subversive" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="megastructure" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="english" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="game" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1960s" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="humanity" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymous" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymous" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymous" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymous" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymous" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymous" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymous" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymous" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymous" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1973" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="1973" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sc" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="nyc" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="games" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="obama" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gametheory" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anti" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anti" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="environment" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="environment" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="environment" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="environment" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="environment" target="guerilla">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="environment" target="guerrilla">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="environment" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="environment" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="environment" target="isotope">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="garden" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="garden" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gardening" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gardening" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="surf" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definition" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sci-fi" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="science" target="singularity">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="science" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="science" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="vernor_vinge" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2012" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metaphysics" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="scifi" target="singularity">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="geek" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="privacy" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="deltagreen" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ia" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="book" target="singularity">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="via%3asiggibecker.de" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="20thcentury" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cointelpro" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="apocalypse" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="books" target="singularity">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="icekarma" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="books.scifi" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kurzweil" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="depressing" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="collapse" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="eschatology" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="genetics" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2p" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2read" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sysadmin" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="omega" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="omega_point" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ideas" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ideas" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ideas" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="omegapoint" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="system" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="vinge" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="violent" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="violent" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laden" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtual" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="middle_east" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="essay" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="geography" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="middleeast" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtual_reality" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mideast" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lame" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtualreality" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtualworlds" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="vision" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="comics" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mind" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ethics" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="brain" target="singularity">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="archive" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="vocabulary" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="branding" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="misc" target="terrorist">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="misc" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="misc" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="misc" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="misc" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="misc" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="misc" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="misc" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="misc" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="iml104net" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="immortality" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="events" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="events" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="50s" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="import" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="evolution" target="singularity">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="gl" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="5gw" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="art" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="art-bell" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="organisations" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="organisations" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="organization" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="learning" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="example" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="example" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="complexity" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mm" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="war" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tech" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="70's" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="70's" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="psychology" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="waste" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="osama" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="singularity">
+      <data key="d0">8</data>
+    </edge>
+    <edge source="technology" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="left" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="left" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="singularity">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="article" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="911" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="articles" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="computer" target="autonomous">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="sf" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source=":read" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="artificial" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="externado" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dip" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="info" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="info" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="info" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="artscience" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computing" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="extraordinary_people" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="google" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="business" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="money" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="arvuti" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="as" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terror" target="terrorist">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terror" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorism" target="terrorist">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="terrorism" target="terrorists">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="terrorists">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="terrorist" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="facts">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="cad">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="wiki">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="terrorist" target="radical_left">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="wikipedia">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="terrorist" target="list">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="wikipediapage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="wikipeople">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="sla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="interesting">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="international">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="guerilla">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="terrorist" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="with">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="activism">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="terrorist" target="acts">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="people">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="terrorist" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="reference">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="terrorist" target="iraq">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="aero">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="islam">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="afghanistan">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="it_project">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="research">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="terrorist" target="resources">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="terrorist" target="al-qaeda">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorist" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="liberation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="cad">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="wikipedia">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="terrorists" target="list">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="with">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="activism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="acts">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="resources">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terrorists" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="@wikipedia" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="palestine">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="wikipedia">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="liberation" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="activism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="israel">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="israel_palestine">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="liberation" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="library" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="weekly" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="buy" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="weird" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="buzz" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="life" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="sic" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="consciousness" target="singularity">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="_tobuy" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="_todo" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="_toread" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="theology" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="conspiracy" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="conspiracy" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="innovation" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="theory" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="theory" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="famous" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a-lire" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="constitution" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wiki" target="singularity">
+      <data key="d0">9</data>
+    </edge>
+    <edge source="wiki" target="guerilla">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="wiki" target="guerrilla">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="wiki" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wiki" target="counterterrorism">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="wiki" target="isotope">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="wiki.article" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="radioactive" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="radioactivity" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="simulacra" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="contact" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="simulation" target="singularity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="simulated" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="links" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dns" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="doc" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="thinkers" target="singularity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="green" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="green" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="thinks" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="wikipedia">
+      <data key="d0">13</data>
+    </edge>
+    <edge source="singularity" target="random">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="favorite">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="intelligence">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="literature">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="singularity" target="academic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="time">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="cool">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="singularity" target="interesting">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="singularity" target="livrosquequeroler">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="groupthink">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="doomsday">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="author">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="read">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="singularity" target="multiversal">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="authors">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="readme">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="to-read">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="activism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="reality">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="reason">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="to_read">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="cosmology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="people">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="singularity" target="social">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="tobuy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="inventor">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="todo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="additional">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="filosofia">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="singularity" target="wow">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="reference">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="singularity" target="sociology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="writing">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="singularity" target="advanced">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="crazy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="cdt-thesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="creative">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="creativity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="mythology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="religion">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="singularity" target="fix">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="center">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="philosophy">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="singularity" target="transhuman">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="transhumanism">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="singularity" target="research">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="singularity" target="health">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="ai">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="singularity" target="space">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="singularity" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="particles" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipedia" target="guerilla">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="wikipedia" target="guerrilla">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="wikipedia" target="autonomous">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="wikipedia" target="counterterrorism">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="wikipedia" target="isotope">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="intelligence" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fbi" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipediapage" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="car" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sla" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interesting" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="international" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="internet" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="internetculture" target="guerilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="guerillagardening">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="guerrilla">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="guerilla" target="guerrillagardening">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="activism">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="guerilla" target="people">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="social">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="words">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="reference">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="guerilla" target="advert">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="advertising">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="agriculture">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="nature">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="space">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="eco">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="ecology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="resources">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="food">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerilla" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerillagardening" target="guerrilla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="guerrillagardening">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="autonomous">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="activism">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="guerrilla" target="people">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="social">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="agriculture">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="nature">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="space">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="eco">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="ecology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="food">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guerrilla" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="cars">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="activism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="ip">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="mythesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="religion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="challenge">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="challenges">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="soviet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="yiddish">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="sovietunion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="autonomous" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="activism" target="counterterrorism">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="activism" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reasearch" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="counter" target="counterterrorism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="counterterrorism" target="wtf">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="counterterrorism" target="crime">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="counterterrorism" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="counterterrorism" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="counterterrorism" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reference" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="island" target="isotope">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="isotope" target="earth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="isotope" target="heavy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="isotope" target="physics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="isotope" target="economic">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="isotope" target="chart">
+      <data key="d0">1</data>
+    </edge>
+  </graph>
+</graphml>

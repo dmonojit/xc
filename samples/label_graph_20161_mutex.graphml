@@ -1,0 +1,1158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="long" for="edge" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="ddb" />
+    <node id="pick" />
+    <node id="kernel" />
+    <node id="slate" />
+    <node id="csp" />
+    <node id="managed" />
+    <node id="multithreading" />
+    <node id="international" />
+    <node id="coordination" />
+    <node id="exclusion" />
+    <node id="javascript" />
+    <node id="lock" />
+    <node id="compsci" />
+    <node id="algorithm" />
+    <node id="locking" />
+    <node id="lockpicking" />
+    <node id="locks" />
+    <node id="memory" />
+    <node id="to-read" />
+    <node id="hewitt" />
+    <node id="algorithms" />
+    <node id="computation" />
+    <node id="pthreads" />
+    <node id="article" />
+    <node id="actor" />
+    <node id="#hup.hu" />
+    <node id="9/10" />
+    <node id="articles" />
+    <node id="interview" />
+    <node id="model" />
+    <node id="computer" />
+    <node id="interviews" />
+    <node id="cas" />
+    <node id=":dev" />
+    <node id="computer-science" />
+    <node id="scholarly_communication" />
+    <node id="web" />
+    <node id="social" />
+    <node id="industria_sa" />
+    <node id="knowledge" />
+    <node id="messaging" />
+    <node id="操作系统" />
+    <node id="definition" />
+    <node id="mestrado" />
+    <node id="science" />
+    <node id="workflow" />
+    <node id="temp" />
+    <node id="coding" />
+    <node id="investing" />
+    <node id="computerscience" />
+    <node id="investment" />
+    <node id="线程" />
+    <node id="shared" />
+    <node id="investments" />
+    <node id="perl" />
+    <node id="info" />
+    <node id="computing" />
+    <node id="categories" />
+    <node id="mutex" />
+    <node id="mutual" />
+    <node id="hacking" />
+    <node id="hacks" />
+    <node id="business" />
+    <node id="mutualfunds" />
+    <node id="money" />
+    <node id="ipc" />
+    <node id="finalyearproject" />
+    <node id="finance" />
+    <node id="iproject" />
+    <node id="finances" />
+    <node id="socialweb" />
+    <node id="financial" />
+    <node id="reference" />
+    <node id="financial_education" />
+    <node id="concurrency" />
+    <node id="concurrency%3a%3aarticles" />
+    <node id="concurrent" />
+    <node id="process" />
+    <node id="concurrentcomputing" />
+    <node id="irc" />
+    <node id="library" />
+    <node id="writing" />
+    <node id="software" />
+    <node id="peterson" />
+    <node id="is582" />
+    <node id="c" />
+    <node id="mathematics" />
+    <node id="hardware:cpu" />
+    <node id="sysadmin" />
+    <node id=".future" />
+    <node id="distributed" />
+    <node id="design" />
+    <node id="programming" />
+    <node id="phd" />
+    <node id="programming-languages" />
+    <node id="m362" />
+    <node id="phil/sci" />
+    <node id="lambdacalculus" />
+    <node id="lamport" />
+    <node id="politics" />
+    <node id="theory" />
+    <node id="embedded" />
+    <node id="critical-sections" />
+    <node id="nanoresearch08" />
+    <node id="stm" />
+    <node id="parallel" />
+    <node id="calculus" />
+    <node id="transactional" />
+    <node id="parallelism" />
+    <node id="wiki" />
+    <node id="philosophy" />
+    <node id="language" />
+    <node id="database" />
+    <node id="radical" />
+    <node id="security" />
+    <node id="transfer" />
+    <node id="languages" />
+    <node id="philosphy" />
+    <node id="ether" />
+    <node id="dev" />
+    <node id="native" />
+    <node id="linux" />
+    <node id="atomicity" />
+    <node id="development" />
+    <node id="research" />
+    <node id="agua" />
+    <node id="bit200f08" />
+    <node id="commerce" />
+    <node id="later" />
+    <node id="msc" />
+    <node id="wikipedia" />
+    <node id="documentation" />
+    <node id="fund" />
+    <node id="thread" />
+    <node id="threading" />
+    <node id="threads" />
+    <node id="communication" />
+    <node id="funds" />
+    <node id="cs" />
+    <node id="pos" />
+    <node id="howto" />
+    <node id="interaction" />
+    <node id="fondo" />
+    <node id="posix" />
+    <node id="evaluating_information" />
+    <node id="ajax" />
+    <node id="wikipediapage" />
+    <node id="comp-sci" />
+    <node id="interactivecomputation" />
+    <node id="multi-threading" />
+    <edge source="ddb" target="exclusion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="lock">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="algorithm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="temp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="mutex">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="concurrency">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="peterson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="design">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="programming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="parallel">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="wikipediapage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ddb" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pick" target="lock">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kernel" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="slate" target="lock">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="slate" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="csp" target="concurrent">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="csp" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="managed" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="multithreading" target="exclusion">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="multithreading" target="lock">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="multithreading" target="concurrent">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="multithreading" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="international" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="coordination" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="javascript">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="lock">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="compsci">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="algorithm">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="exclusion" target="algorithms">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="article">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="articles">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="computer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="cas">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="computer-science">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="science">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="temp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="computerscience">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="mutex">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="concurrency">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="exclusion" target="concurrent">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="exclusion" target="concurrentcomputing">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="exclusion" target="software">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="peterson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target=".future">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="design">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="exclusion" target="programming">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="exclusion" target="lamport">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="critical-sections">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="parallel">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="exclusion" target="dev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="wikipedia">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="exclusion" target="thread">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="threads">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="cs">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="ajax">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="wikipediapage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exclusion" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="javascript" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="javascript" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="algorithm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="locking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="lockpicking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="locks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="memory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="to-read">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="article">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="9/10">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="computer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="industria_sa">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="science">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="temp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="shared">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="perl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="mutex">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="hacking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="hacks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="concurrency">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="lock" target="concurrent">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="lock" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="writing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="software">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="peterson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="is582">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="design">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="programming">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="lock" target="programming-languages">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="politics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="nanoresearch08">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="stm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="parallel">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="lock" target="transactional">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="database">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="radical">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="security">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="transfer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="wikipedia">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="lock" target="documentation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="threads">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="pos">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="howto">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lock" target="wikipediapage">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="lock" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="compsci" target="concurrent">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="compsci" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithm" target="mutex">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithm" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithm" target="concurrent">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="algorithm" target="concurrentcomputing">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="algorithm" target="peterson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithm" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithm" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="memory" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="to-read" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hewitt" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithms" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithms" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computation" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pthreads" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="actor" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="#hup.hu" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="articles" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="articles" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interview" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="model" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer" target="concurrent">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="computer" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interviews" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cas" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cas" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source=":dev" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-science" target="concurrent">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="computer-science" target="concurrentcomputing">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="scholarly_communication" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="web" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="social" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="knowledge" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="messaging" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="操作系统" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definition" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mestrado" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="science" target="concurrent">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="science" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="workflow" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="temp" target="mutex">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="temp" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="temp" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="temp" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="temp" target="peterson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="temp" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="temp" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="coding" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="investing" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerscience" target="concurrent">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="computerscience" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="investment" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="线程" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="shared" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="investments" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="perl" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="info" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computing" target="concurrent">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="categories" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="mutual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="concurrency">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="peterson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="design">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="programming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="parallel">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="wikipediapage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutex" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="business">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="mutualfunds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="money">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="finance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="finances">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="financial">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="financial_education">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="concurrency">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="peterson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="design">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="programming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="parallel">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="agua">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="bit200f08">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="fund">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="funds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="fondo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="wikipediapage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mutual" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ipc" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="finalyearproject" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="iproject" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialweb" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reference" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reference" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrency" target="concurrent">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="concurrency" target="concurrentcomputing">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="concurrency" target="peterson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrency" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrency" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrency%3a%3aarticles" target="concurrent">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="process">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="concurrent" target="concurrentcomputing">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="concurrent" target="irc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="library">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="software">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="concurrent" target="peterson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="mathematics">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="concurrent" target="hardware:cpu">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="sysadmin">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target=".future">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="distributed">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="design">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="concurrent" target="programming">
+      <data key="d0">8</data>
+    </edge>
+    <edge source="concurrent" target="phd">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="programming-languages">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="m362">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="phil/sci">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="lambdacalculus">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="lamport">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="theory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="embedded">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="critical-sections">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="stm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="parallel">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="concurrent" target="calculus">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="transactional">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="parallelism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="wiki">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="concurrent" target="philosophy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="language">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="concurrent" target="languages">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="philosphy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="ether">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="dev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="native">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="development">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="concurrent" target="later">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="msc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="wikipedia">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="concurrent" target="thread">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="concurrent" target="threading">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="concurrent" target="threads">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="concurrent" target="communication">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="cs">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="concurrent" target="interaction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="posix">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="evaluating_information">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="ajax">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="wikipediapage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="comp-sci">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="interactivecomputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrent" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="process" target="concurrentcomputing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="software">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="peterson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target=".future">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="design">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="concurrentcomputing" target="programming">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="concurrentcomputing" target="phd">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="lambdacalculus">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="lamport">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="critical-sections">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="parallel">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="concurrentcomputing" target="calculus">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="dev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="msc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="wikipedia">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="concurrentcomputing" target="thread">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="threads">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="cs">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="ajax">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="wikipediapage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="comp-sci">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="interactivecomputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concurrentcomputing" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="peterson" target="c">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="peterson" target="design">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="peterson" target="programming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="peterson" target="parallel">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="peterson" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="peterson" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="peterson" target="wikipediapage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="peterson" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="c" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="c" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programming" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programming" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="parallel" target="atomicity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="parallel" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="atomicity" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="atomicity" target="wikipediapage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="atomicity" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipedia" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipediapage" target="multi-threading">
+      <data key="d0">1</data>
+    </edge>
+  </graph>
+</graphml>

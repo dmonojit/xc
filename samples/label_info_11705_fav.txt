@@ -1,0 +1,195 @@
+
+Number of edges: 75 for node: fav[11705]
+
+Number of edges: 22 for node: abstract-expressionism[1494.0]
+
+Number of edges: 37 for node: abstractexpressionism[1498.0]
+
+Number of edges: 110 for node: abstraction[1499.0]
+
+Number of edges: 863 for node: american[2331.0]
+Ignoring node in graph: american
+
+Number of edges: 3835 for node: art[3093.0]
+Ignoring node in graph: art
+
+Number of edges: 1351 for node: artist[3224.0]
+Ignoring node in graph: artist
+
+Number of edges: 1263 for node: artists[3235.0]
+Ignoring node in graph: artists
+
+Number of edges: 2068 for node: biography[4427.0]
+Ignoring node in graph: biography
+
+Number of edges: 510 for node: cryptography[8125.0]
+Ignoring node in graph: cryptography
+
+Number of edges: 386 for node: curiosidades[8299.0]
+Ignoring node in graph: curiosidades
+
+Number of edges: 412 for node: drawing[9855.0]
+Ignoring node in graph: drawing
+
+Number of edges: 2691 for node: encyclopedia[10708.0]
+Ignoring node in graph: encyclopedia
+
+Number of edges: 22 for node: exhibitions[11326.0]
+
+Number of edges: 22 for node: fineart[12027.0]
+
+Number of edges: 105 for node: flowers[12183.0]
+
+Number of edges: 73 for node: gesture[13220.0]
+
+Number of edges: 97 for node: montage[19696.0]
+
+Number of edges: 104 for node: paint[21789.0]
+
+Number of edges: 190 for node: painter[21790.0]
+
+Number of edges: 536 for node: painting[21792.0]
+Ignoring node in graph: painting
+
+Number of edges: 6786 for node: research[24485.0]
+Ignoring node in graph: research
+
+Number of edges: 84 for node: ub[28866.0]
+
+Number of edges: 53 for node: 208[723.0]
+
+Number of edges: 871 for node: 2read[805.0]
+Ignoring node in graph: 2read
+
+Number of edges: 58 for node: 458time[944.0]
+
+Number of edges: 56 for node: 71.detente-litterature[1085.0]
+
+Number of edges: 28 for node: auteurs[3604.0]
+
+Number of edges: 1078 for node: author[3610.0]
+Ignoring node in graph: author
+
+Number of edges: 2273 for node: book[4826.0]
+Ignoring node in graph: book
+
+Number of edges: 3239 for node: books[4873.0]
+Ignoring node in graph: books
+
+Number of edges: 811 for node: creativity[7967.0]
+Ignoring node in graph: creativity
+
+Number of edges: 429 for node: criticism[8053.0]
+Ignoring node in graph: criticism
+
+Number of edges: 132 for node: dad[8435.0]
+
+Number of edges: 2362 for node: english[10794.0]
+Ignoring node in graph: english
+
+Number of edges: 226 for node: famous[11623.0]
+Ignoring node in graph: famous
+
+Number of edges: 228 for node: figures[11880.0]
+Ignoring node in graph: figures
+
+Number of edges: 99 for node: lake[17229.0]
+
+Number of edges: 2561 for node: literature[17901.0]
+Ignoring node in graph: literature
+
+Number of edges: 128 for node: littérature[17916.0]
+
+Number of edges: 311 for node: modernism[19591.0]
+Ignoring node in graph: modernism
+
+Number of edges: 266 for node: novels[20969.0]
+Ignoring node in graph: novels
+
+Number of edges: 4508 for node: people[22146.0]
+Ignoring node in graph: people
+
+Number of edges: 4158 for node: philosophy[22392.0]
+Ignoring node in graph: philosophy
+
+Number of edges: 10734 for node: reference[24290.0]
+Ignoring node in graph: reference
+
+Number of edges: 183 for node: suicide[27201.0]
+
+Number of edges: 1220 for node: the[27955.0]
+Ignoring node in graph: the
+
+Number of edges: 28 for node: virginiawoolf[29516.0]
+
+Number of edges: 19894 for node: wikipedia[30134.0]
+Ignoring node in graph: wikipedia
+
+Number of edges: 634 for node: women[30331.0]
+Ignoring node in graph: women
+
+Number of edges: 38 for node: 1pr[628.0]
+
+Number of edges: 57 for node: 3esh[893.0]
+
+Number of edges: 38 for node: 4st[977.0]
+
+Number of edges: 52 for node: 6hi[1067.0]
+
+Number of edges: 57 for node: >![1180.0]
+
+Number of edges: 385 for node: ajax[2015.0]
+Ignoring node in graph: ajax
+
+Number of edges: 28 for node: ajaxframework[2016.0]
+
+Number of edges: 439 for node: api[2796.0]
+Ignoring node in graph: api
+
+Number of edges: 28 for node: coder[6815.0]
+
+Number of edges: 1255 for node: dev[9107.0]
+Ignoring node in graph: dev
+
+Number of edges: 3243 for node: development[9124.0]
+Ignoring node in graph: development
+
+Number of edges: 213 for node: extension[11434.0]
+Ignoring node in graph: extension
+
+Number of edges: 321 for node: firefox[12050.0]
+Ignoring node in graph: firefox
+
+Number of edges: 473 for node: framework[12485.0]
+Ignoring node in graph: framework
+
+Number of edges: 485 for node: gui[13903.0]
+Ignoring node in graph: gui
+
+Number of edges: 28 for node: itdict[16279.0]
+
+Number of edges: 495 for node: javascript[16443.0]
+Ignoring node in graph: javascript
+
+Number of edges: 39 for node: javascriptapi[16445.0]
+
+Number of edges: 108 for node: js[16676.0]
+
+Number of edges: 28 for node: jsframework[16680.0]
+
+Number of edges: 769 for node: library[17654.0]
+Ignoring node in graph: library
+
+Number of edges: 4076 for node: programming[23364.0]
+Ignoring node in graph: programming
+
+Number of edges: 28 for node: scriptaculous[25355.0]
+
+Number of edges: 2350 for node: web[29833.0]
+Ignoring node in graph: web
+
+Number of edges: 920 for node: webdesign[29882.0]
+Ignoring node in graph: webdesign
+
+Number of edges: 13574 for node: wiki[30071.0]
+Ignoring node in graph: wiki

@@ -1,0 +1,5320 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="long" for="edge" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="foonetic" />
+    <node id="albert-laszlo_barabasi" />
+    <node id="foonetic/#xkcd" />
+    <node id="economic_crisis" />
+    <node id="economics" />
+    <node id="trw" />
+    <node id="for" />
+    <node id="japan" />
+    <node id="japanese" />
+    <node id="beer" />
+    <node id="malware" />
+    <node id="economy" />
+    <node id="japanime" />
+    <node id="pid" />
+    <node id="check" />
+    <node id="management" />
+    <node id="behaviour" />
+    <node id="cube" />
+    <node id="managment" />
+    <node id="foreign" />
+    <node id="foreign-exchange-market" />
+    <node id="behaviours" />
+    <node id="nerds" />
+    <node id="revolution" />
+    <node id="cuda" />
+    <node id="manga" />
+    <node id="reward" />
+    <node id="java" />
+    <node id="zork" />
+    <node id="net" />
+    <node id="edg" />
+    <node id="forex" />
+    <node id="javascript" />
+    <node id="spiel" />
+    <node id="netflix" />
+    <node id="culture" />
+    <node id="herramientas" />
+    <node id="manyworlds" />
+    <node id="algorithm" />
+    <node id="turundus" />
+    <node id="cultureshock2" />
+    <node id="tutorials" />
+    <node id="network" />
+    <node id="hfappdev" />
+    <node id="algorithms" />
+    <node id="maps" />
+    <node id="tv" />
+    <node id="network.theory" />
+    <node id="network_theory" />
+    <node id="education" />
+    <node id="forrester" />
+    <node id="networking" />
+    <node id="networks" />
+    <node id="place" />
+    <node id="high" />
+    <node id="currency" />
+    <node id="best" />
+    <node id="jesus" />
+    <node id="forums" />
+    <node id="market" />
+    <node id="アニメ" />
+    <node id="twitter" />
+    <node id="marketing" />
+    <node id="rlc" />
+    <node id="beta" />
+    <node id="type" />
+    <node id="導讀資料" />
+    <node id="cut-up" />
+    <node id="jisc-emerge-2007-06-07" />
+    <node id="new-short-story" />
+    <node id="cyber" />
+    <node id="platform" />
+    <node id="cybercrime" />
+    <node id="alqaeda" />
+    <node id="cyberlaw" />
+    <node id="cyberpunk" />
+    <node id="&amp;" />
+    <node id="fps" />
+    <node id="player" />
+    <node id="players" />
+    <node id="christ" />
+    <node id="christian" />
+    <node id="bible" />
+    <node id="sso" />
+    <node id="jobs" />
+    <node id="christianity" />
+    <node id="christie" />
+    <node id="newpost" />
+    <node id="bibliografia" />
+    <node id="news" />
+    <node id="historical_social" />
+    <node id="history" />
+    <node id="*" />
+    <node id="pm" />
+    <node id="pmog" />
+    <node id="ui" />
+    <node id="da" />
+    <node id="*can_wait" />
+    <node id="joomla" />
+    <node id="free" />
+    <node id="starcraft" />
+    <node id="masterthesis" />
+    <node id="joseluis" />
+    <node id="amazing" />
+    <node id="dagictberoep" />
+    <node id="daily" />
+    <node id="nick'swebsites" />
+    <node id="cikk" />
+    <node id="math" />
+    <node id="cil2008" />
+    <node id="freelance" />
+    <node id="statistics" />
+    <node id="-" />
+    <node id="unclassified" />
+    <node id="status" />
+    <node id="cinema.netflix" />
+    <node id="jscript" />
+    <node id="mathematics" />
+    <node id="policy" />
+    <node id="uni" />
+    <node id="rpg" />
+    <node id="cip" />
+    <node id=".forward." />
+    <node id="nixon" />
+    <node id="maths" />
+    <node id=".imported" />
+    <node id="holland" />
+    <node id="no_tag" />
+    <node id="cis500" />
+    <node id="biography" />
+    <node id="friends" />
+    <node id="cita320" />
+    <node id="from" />
+    <node id="ruby" />
+    <node id="universe" />
+    <node id="rubyonrails" />
+    <node id="politics" />
+    <node id="cities" />
+    <node id="data-management" />
+    <node id="unix" />
+    <node id="polling" />
+    <node id="mba" />
+    <node id="juura" />
+    <node id="homework" />
+    <node id="emergency" />
+    <node id="emergent" />
+    <node id="storage" />
+    <node id="civilization" />
+    <node id="analysis" />
+    <node id="datamining" />
+    <node id="analytics" />
+    <node id="cl" />
+    <node id="storytelling" />
+    <node id="claims" />
+    <node id="dataviz" />
+    <node id="full" />
+    <node id="bitchun" />
+    <node id="fun" />
+    <node id="dates" />
+    <node id="hosting" />
+    <node id="strategy" />
+    <node id="mecha" />
+    <node id="northwest" />
+    <node id="streaming" />
+    <node id="biz" />
+    <node id="street" />
+    <node id="porter" />
+    <node id="usa" />
+    <node id="bizdev" />
+    <node id="115f" />
+    <node id="classification" />
+    <node id="media" />
+    <node id="classx" />
+    <node id="funny" />
+    <node id="encyclopedia" />
+    <node id="android" />
+    <node id="clever" />
+    <node id="future" />
+    <node id="novel" />
+    <node id="mediatheory" />
+    <node id="futurism" />
+    <node id="saml" />
+    <node id="userexperience" />
+    <node id="html" />
+    <node id="style" />
+    <node id="fyi" />
+    <node id="http" />
+    <node id="medmod" />
+    <node id="animals" />
+    <node id="closeness" />
+    <node id="blog" />
+    <node id="animated" />
+    <node id="animation" />
+    <node id="engine" />
+    <node id="gaia_bookmarks_for_ryan" />
+    <node id="engineering" />
+    <node id="anime" />
+    <node id="english" />
+    <node id="club" />
+    <node id="successful" />
+    <node id="kids" />
+    <node id="game" />
+    <node id="debt" />
+    <node id="game-engine" />
+    <node id="blogs" />
+    <node id="pr" />
+    <node id="value" />
+    <node id="anonymity" />
+    <node id="anonymous" />
+    <node id="cms" />
+    <node id="decentralized" />
+    <node id="nvidia" />
+    <node id="gamedev" />
+    <node id="scale-free" />
+    <node id="humor" />
+    <node id="scalefree" />
+    <node id="decisions" />
+    <node id="entertainment" />
+    <node id="gameprogramming" />
+    <node id="games" />
+    <node id="gamesdev" />
+    <node id="bluetooth" />
+    <node id="entrepreneur" />
+    <node id="prediction" />
+    <node id="entrepreneurship" />
+    <node id="hw" />
+    <node id="gaming" />
+    <node id="gamming" />
+    <node id="environment" />
+    <node id="2.0" />
+    <node id="prereg" />
+    <node id="anti-pattern" />
+    <node id="school" />
+    <node id="code" />
+    <node id="presentation" />
+    <node id="supply" />
+    <node id="knowledge" />
+    <node id="messaging" />
+    <node id="definition" />
+    <node id="definitions" />
+    <node id="2007" />
+    <node id="knowlege" />
+    <node id="science" />
+    <node id="pricingservices" />
+    <node id="science-fiction" />
+    <node id="hypertext" />
+    <node id="coding" />
+    <node id="2008" />
+    <node id="degree" />
+    <node id="antipatterns" />
+    <node id="science_technology" />
+    <node id="hypothesis" />
+    <node id="printed" />
+    <node id="korea" />
+    <node id="i+d" />
+    <node id="geek" />
+    <node id="privacy" />
+    <node id="scm" />
+    <node id="metaverse" />
+    <node id="geeks" />
+    <node id="book" />
+    <node id="era" />
+    <node id="eras" />
+    <node id="probability" />
+    <node id="iam" />
+    <node id="methodology" />
+    <node id="metrics" />
+    <node id="api" />
+    <node id="procedural" />
+    <node id="sxsw" />
+    <node id="booklist" />
+    <node id="demoscene" />
+    <node id="process" />
+    <node id="processes" />
+    <node id="processimprovement" />
+    <node id="icam" />
+    <node id="video" />
+    <node id="processmanagement" />
+    <node id="bookmarksbar" />
+    <node id="generate" />
+    <node id="books" />
+    <node id="scriptie" />
+    <node id="collaboration" />
+    <node id="icon" />
+    <node id="videogames" />
+    <node id="icons" />
+    <node id="kyberpunk" />
+    <node id="collective" />
+    <node id="application" />
+    <node id="olpc" />
+    <node id="2read" />
+    <node id="view" />
+    <node id="idea" />
+    <node id="views" />
+    <node id="sysadmin" />
+    <node id="genre" />
+    <node id="ideas" />
+    <node id="ideation" />
+    <node id="on-demand" />
+    <node id="identity" />
+    <node id="identity2.0" />
+    <node id="identitymanagement" />
+    <node id="design" />
+    <node id="systems" />
+    <node id="programming" />
+    <node id="microsoft" />
+    <node id="search" />
+    <node id="espionage" />
+    <node id="online" />
+    <node id="virtual" />
+    <node id="virtual-reality" />
+    <node id="essay" />
+    <node id="geography" />
+    <node id="programminglanguage" />
+    <node id="middlewares" />
+    <node id="virtual_worlds" />
+    <node id="design_patterns" />
+    <node id="idm" />
+    <node id="virtualisation" />
+    <node id="idp" />
+    <node id="middleware" />
+    <node id="secession" />
+    <node id="second" />
+    <node id="second_life" />
+    <node id="37signals" />
+    <node id="secondlife" />
+    <node id="virtualworlds" />
+    <node id="virtualworld" />
+    <node id="project" />
+    <node id="geometry" />
+    <node id="designpatterns" />
+    <node id="mil" />
+    <node id="3d" />
+    <node id="if" />
+    <node id="project-username" />
+    <node id="estimation" />
+    <node id="language" />
+    <node id="visual" />
+    <node id="security" />
+    <node id="project_management" />
+    <node id="igoogle" />
+    <node id="et" />
+    <node id="open+source" />
+    <node id="comet" />
+    <node id="visualization" />
+    <node id="projectmanagement" />
+    <node id="bpm" />
+    <node id="visualizations" />
+    <node id="bpr" />
+    <node id="comics" />
+    <node id="mind" />
+    <node id="etheric" />
+    <node id="laptopdance" />
+    <node id="dev" />
+    <node id="project~" />
+    <node id="architecture" />
+    <node id="command-line" />
+    <node id="largo" />
+    <node id="brain" />
+    <node id="self" />
+    <node id="openid" />
+    <node id="illustration" />
+    <node id="development" />
+    <node id="commerce" />
+    <node id="commnications" />
+    <node id="opensource" />
+    <node id="self-organization" />
+    <node id="im" />
+    <node id="image" />
+    <node id="latin" />
+    <node id="vod" />
+    <node id="4gl" />
+    <node id="4hww" />
+    <node id="communication" />
+    <node id="law" />
+    <node id="communities" />
+    <node id="community" />
+    <node id="voronoi" />
+    <node id="aris" />
+    <node id="mis" />
+    <node id="protocol" />
+    <node id="4y" />
+    <node id="protocols" />
+    <node id="ark" />
+    <node id="communitytheory" />
+    <node id="immersive" />
+    <node id="diagram" />
+    <node id="vr" />
+    <node id="diagrams" />
+    <node id="vs" />
+    <node id="optimization" />
+    <node id="proximity" />
+    <node id="company" />
+    <node id="webserver" />
+    <node id="gis" />
+    <node id="sense" />
+    <node id="tcc" />
+    <node id="580" />
+    <node id="orbit" />
+    <node id="le.ge.nd_inspiration" />
+    <node id="tcp/ip" />
+    <node id="dictionary" />
+    <node id="art" />
+    <node id="improvement" />
+    <node id="organization" />
+    <node id="learning" />
+    <node id="teaching" />
+    <node id="complex" />
+    <node id="complexity" />
+    <node id="complexnetworks" />
+    <node id="complexsys" />
+    <node id="complexsystems" />
+    <node id="learningcommunities" />
+    <node id="exchange" />
+    <node id="mmo" />
+    <node id="mmorpg" />
+    <node id="tech" />
+    <node id="series" />
+    <node id="composition" />
+    <node id="incarnation" />
+    <node id="psychology" />
+    <node id="glove" />
+    <node id="server" />
+    <node id="digital" />
+    <node id="glvo" />
+    <node id="mobile" />
+    <node id="lecture" />
+    <node id="digital-life" />
+    <node id="service" />
+    <node id="servicedesign" />
+    <node id="services" />
+    <node id="independence" />
+    <node id="technology" />
+    <node id="public" />
+    <node id="article" />
+    <node id="digitalculture" />
+    <node id="tecnología" />
+    <node id="computationalgeometry" />
+    <node id="article_projectmanagement" />
+    <node id="articles" />
+    <node id="digitalidentity" />
+    <node id="computer" />
+    <node id="expla" />
+    <node id="computer-games" />
+    <node id="publicidad" />
+    <node id="god" />
+    <node id="digitalstorytelling" />
+    <node id="web" />
+    <node id="teledicom" />
+    <node id="computer_science" />
+    <node id="artikel" />
+    <node id="web2.0" />
+    <node id="computergames" />
+    <node id="computergraphics" />
+    <node id="computers" />
+    <node id="inference" />
+    <node id="good" />
+    <node id="computerstuff" />
+    <node id="push" />
+    <node id="diploma_humer" />
+    <node id="info" />
+    <node id="webculture" />
+    <node id="webdesign" />
+    <node id="google" />
+    <node id="business" />
+    <node id="infoarch2*class*" />
+    <node id="webhosting" />
+    <node id="infocom" />
+    <node id="comunidade" />
+    <node id="business-process" />
+    <node id="money" />
+    <node id="infographics" />
+    <node id="pyschology" />
+    <node id="business_acumen" />
+    <node id="p2p" />
+    <node id="python" />
+    <node id="concept" />
+    <node id="shibboleth" />
+    <node id="p2p-geography" />
+    <node id="terms" />
+    <node id="terms-economics" />
+    <node id="business_process" />
+    <node id="li843" />
+    <node id="businessanalysis" />
+    <node id="businessanalyst" />
+    <node id="information" />
+    <node id="businesscase" />
+    <node id="businesscontinuity" />
+    <node id="lib" />
+    <node id="website" />
+    <node id="disaster" />
+    <node id="disaster-recovery" />
+    <node id="disasterrecovery" />
+    <node id="concepts" />
+    <node id="@toread" />
+    <node id="businessprocess" />
+    <node id="asia" />
+    <node id="library" />
+    <node id="test" />
+    <node id="shopping_cart" />
+    <node id="shoppingcart" />
+    <node id="moo" />
+    <node id="moodle" />
+    <node id="asp" />
+    <node id="text" />
+    <node id="gpu" />
+    <node id="moos" />
+    <node id="moos&amp;muds" />
+    <node id="disney" />
+    <node id="life" />
+    <node id="quantitative" />
+    <node id="infosec" />
+    <node id="texture" />
+    <node id="moreinfo" />
+    <node id="display" />
+    <node id="graduation_project" />
+    <node id="infrastructure" />
+    <node id="dissertation" />
+    <node id="c1" />
+    <node id="distance" />
+    <node id="connection" />
+    <node id="grammar" />
+    <node id="lights" />
+    <node id="consciousness" />
+    <node id="distribution" />
+    <node id="_temp" />
+    <node id="graph" />
+    <node id="graph_presentation" />
+    <node id="graphic" />
+    <node id="quiz" />
+    <node id="_toread" />
+    <node id="whuffie" />
+    <node id="innovation" />
+    <node id="a" />
+    <node id="astronomy" />
+    <node id="theory" />
+    <node id="graphics" />
+    <node id="astroturfing" />
+    <node id="calartsfe014" />
+    <node id="paradigmshift" />
+    <node id="graphs" />
+    <node id="asynchronous" />
+    <node id="parallel.universes" />
+    <node id="movies" />
+    <node id="inspiration" />
+    <node id="fandom:atla" />
+    <node id="rad" />
+    <node id="wiki" />
+    <node id="inspire" />
+    <node id="thesis" />
+    <node id="install" />
+    <node id="installation" />
+    <node id="california" />
+    <node id="consulting" />
+    <node id="a_visionner" />
+    <node id="wiki.trading" />
+    <node id="dms" />
+    <node id="simulation" />
+    <node id="simulations" />
+    <node id="dni-os" />
+    <node id="rag" />
+    <node id="do" />
+    <node id="links" />
+    <node id="dns" />
+    <node id="thingstoknow" />
+    <node id="linux" />
+    <node id="docs" />
+    <node id="content" />
+    <node id="single-sign-on" />
+    <node id="abbreviation" />
+    <node id="doctorow" />
+    <node id="wikinomics" />
+    <node id="wikip" />
+    <node id="msc" />
+    <node id="wikipedia" />
+    <node id="continuity" />
+    <node id="canada" />
+    <node id="liste" />
+    <node id="rapid" />
+    <node id="wikipedia_entry" />
+    <node id="doll" />
+    <node id="interaction" />
+    <node id="griefing" />
+    <node id="tic" />
+    <node id="interactive" />
+    <node id="convergence" />
+    <node id="interactive_fiction" />
+    <node id="conversations" />
+    <node id="mud" />
+    <node id="interactivefiction" />
+    <node id="pattern" />
+    <node id="muds" />
+    <node id="domains" />
+    <node id="wikipédia" />
+    <node id="literature" />
+    <node id="federated" />
+    <node id="patterns" />
+    <node id="federation" />
+    <node id="academic" />
+    <node id="time" />
+    <node id="sl" />
+    <node id="cool" />
+    <node id="payment" />
+    <node id="payment_gateway" />
+    <node id="interesting" />
+    <node id="feide" />
+    <node id="multicultural" />
+    <node id="paypal" />
+    <node id="multiculturalism" />
+    <node id="payments" />
+    <node id="don" />
+    <node id="pc" />
+    <node id="tin" />
+    <node id="multiplayer" />
+    <node id="auth" />
+    <node id="authentication" />
+    <node id="interface" />
+    <node id="author" />
+    <node id="read" />
+    <node id="career" />
+    <node id="multiversal" />
+    <node id="windows" />
+    <node id="multiverse" />
+    <node id="authorization" />
+    <node id="dos" />
+    <node id="cop" />
+    <node id="small" />
+    <node id="gsdev" />
+    <node id="smallworld" />
+    <node id="dotnet" />
+    <node id="local" />
+    <node id="internet" />
+    <node id="internet2" />
+    <node id="copyleft" />
+    <node id="copyright" />
+    <node id="internet_safety" />
+    <node id="location" />
+    <node id="reading" />
+    <node id="pedagogy" />
+    <node id="acredesign" />
+    <node id="peer" />
+    <node id="fiction" />
+    <node id="readme" />
+    <node id="guide" />
+    <node id="actionscript" />
+    <node id="guides" />
+    <node id="sms" />
+    <node id="sna" />
+    <node id="logic" />
+    <node id="activism" />
+    <node id="dr" />
+    <node id="availability" />
+    <node id="pending" />
+    <node id="penguin" />
+    <node id="cartoon" />
+    <node id="logistics" />
+    <node id="avatar" />
+    <node id="cartoons" />
+    <node id="interweb" />
+    <node id="ad" />
+    <node id="so/ir242" />
+    <node id="cosmology" />
+    <node id="case" />
+    <node id="soa" />
+    <node id="to_read" />
+    <node id="people" />
+    <node id="soc" />
+    <node id="costofliving" />
+    <node id="social" />
+    <node id="long" />
+    <node id="film" />
+    <node id="perception" />
+    <node id="words" />
+    <node id="todo" />
+    <node id="work" />
+    <node id="lookingglass" />
+    <node id="social_networking" />
+    <node id="social_networks" />
+    <node id="drp" />
+    <node id="ha" />
+    <node id="recovery" />
+    <node id="perl" />
+    <node id="world" />
+    <node id="filmstudies" />
+    <node id="drupal" />
+    <node id="socialcomputing" />
+    <node id="hack" />
+    <node id="socialgraph" />
+    <node id="hacker" />
+    <node id="hackers" />
+    <node id="hacking" />
+    <node id="coverage" />
+    <node id="filosoofia" />
+    <node id="muve" />
+    <node id="ip-address" />
+    <node id="socialmedia" />
+    <node id="administration" />
+    <node id="socialnetworking" />
+    <node id="socialnetworks" />
+    <node id="cpa" />
+    <node id="tool" />
+    <node id="dspace" />
+    <node id="iphone" />
+    <node id="socialnetworktheory" />
+    <node id="personal" />
+    <node id="cave" />
+    <node id="finance" />
+    <node id="caves" />
+    <node id="socialsoftware" />
+    <node id="tools" />
+    <node id="background" />
+    <node id="financial" />
+    <node id="wow" />
+    <node id="reference" />
+    <node id="myblog" />
+    <node id="society" />
+    <node id="wp" />
+    <node id="socio" />
+    <node id="backup" />
+    <node id="referencia" />
+    <node id="personality" />
+    <node id="sociology" />
+    <node id="sociometry" />
+    <node id="reflection" />
+    <node id="irc" />
+    <node id="writing" />
+    <node id="dungeon" />
+    <node id="finger" />
+    <node id="software" />
+    <node id="adventure" />
+    <node id="dvd" />
+    <node id="regulating" />
+    <node id="ws-security" />
+    <node id="advice" />
+    <node id="is589" />
+    <node id="pfc" />
+    <node id="relations" />
+    <node id="firstperson" />
+    <node id="relationships" />
+    <node id="toy" />
+    <node id="móviles" />
+    <node id="crime" />
+    <node id="banking" />
+    <node id="phd" />
+    <node id="banks" />
+    <node id="center" />
+    <node id="harvard" />
+    <node id="centeredset" />
+    <node id="hash" />
+    <node id="e-commerce" />
+    <node id="name" />
+    <node id="trading" />
+    <node id="flash" />
+    <node id="e-learning" />
+    <node id="e-privacy" />
+    <node id="critical" />
+    <node id="e-security" />
+    <node id="afstuderen" />
+    <node id="philosophy" />
+    <node id="narrative" />
+    <node id="it" />
+    <node id="macroecon" />
+    <node id="hc" />
+    <node id="flocking-search" />
+    <node id="cfd" />
+    <node id="cg" />
+    <node id="madcow" />
+    <node id="transhumanism" />
+    <node id="hdg427%3adesignresearchstudio" />
+    <node id="phisics" />
+    <node id="hdg427designeragency" />
+    <node id="agile" />
+    <node id="reputation" />
+    <node id="chain" />
+    <node id="research" />
+    <node id="natural.sciences" />
+    <node id="bayes" />
+    <node id="bayesian" />
+    <node id="ai" />
+    <node id="ebook" />
+    <node id="ebooks" />
+    <node id="cryptoanarchy" />
+    <node id="photographie" />
+    <node id="bc" />
+    <node id="ive" />
+    <node id="heap" />
+    <node id="triangle" />
+    <node id="triangulation" />
+    <node id="bcp" />
+    <node id="php" />
+    <node id="bdp" />
+    <node id="maintenance" />
+    <node id="aktuell%26unsortiert" />
+    <node id="al" />
+    <node id="ecommerce" />
+    <node id="econ" />
+    <node id="physics" />
+    <node id="alaska" />
+    <node id="trust" />
+    <edge source="foonetic" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="foonetic" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="albert-laszlo_barabasi" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="foonetic/#xkcd" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="foonetic/#xkcd" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="economic_crisis" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="economics" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="economics" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="economics" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="trw" target="cultureshock2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="for" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="japan" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="japanese" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="beer" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="malware" target="kyberpunk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="economy" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="economy" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="japanime" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pid" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="check" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="management" target="kyberpunk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="management" target="identity2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="management" target="identitymanagement">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="management" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="management" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="management" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="management" target="drp">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="management" target="socialnetworks">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="management" target="e-commerce">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="management" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="management" target="bc">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="behaviour" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cube" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="managment" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="foreign" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="foreign-exchange-market" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="behaviours" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="nerds" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="revolution" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cuda" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="manga" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reward" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="java" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="java" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="zork" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="zork" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="net" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="net" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="edg" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="forex" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="javascript" target="e-commerce">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="spiel" target="cultureshock2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="spiel" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="spiel" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="spiel" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="netflix" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="kyberpunk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="identity2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="identitymanagement">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="culture" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="culture" target="e-commerce">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="culture" target="reputation">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="culture" target="bc">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="herramientas" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="manyworlds" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithm" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithm" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="turundus" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="maps">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="導讀資料">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="historical_social">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="history">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="ui">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="masterthesis">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="unclassified">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="rpg">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="from">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="cities">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="full">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="fun">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="street">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="novel">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="gaia_bookmarks_for_ryan">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="game">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="games">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="gaming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="definition">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="science_technology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="printed">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="view">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="views">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="genre">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="identity">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="programming">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="online">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="language">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="et">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="mind">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="self">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="4hww">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="communication">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="vs">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="psychology">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="article">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="expla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="google">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="python">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="p2p-geography">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="moo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="moos">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="moos&amp;muds">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="lights">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="consciousness">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="theory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="wiki">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="cultureshock2" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="wikip">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="wikipedia">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="cultureshock2" target="wikipedia_entry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="interactive">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="multicultural">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="multiculturalism">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="read">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="pending">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="social">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="perception">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="words">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="todo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="lookingglass">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="coverage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="iphone">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="personal">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="reference">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cultureshock2" target="society">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="sociology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="reflection">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="software">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="philosophy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="photographie">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cultureshock2" target="al">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tutorials" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="network" target="socialnetworks">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="network" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hfappdev" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithms" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithms" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="algorithms" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tv" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="network.theory" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="network_theory" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="education" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="education" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="forrester" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="networking" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="networking" target="socialnetworks">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="networks" target="socialnetworks">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="networks" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="place" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="high" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="currency" target="reputation">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="best" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jesus" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="forums" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="market" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="アニメ" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="twitter" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="marketing" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="marketing" target="e-commerce">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="marketing" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rlc" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="beta" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="type" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="導讀資料" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="導讀資料" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="導讀資料" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cut-up" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jisc-emerge-2007-06-07" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="new-short-story" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cyber" target="kyberpunk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="platform" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cybercrime" target="kyberpunk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="alqaeda" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cyberlaw" target="kyberpunk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cyberpunk" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="&amp;" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fps" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="player" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="players" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="christ" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="christian" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bible" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sso" target="identity2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jobs" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="christianity" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="christie" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="newpost" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bibliografia" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="news" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="history">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="ui">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="rpg">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="fun">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="game">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="gaming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="definition">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="genre">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="programming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="online">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="article">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="interactive">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="historical_social" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="interactive_fiction">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="history" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="history" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="history" target="bc">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="*" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pm" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pm" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pmog" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ui" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="kyberpunk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="identity2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="identitymanagement">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="da" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="*can_wait" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="joomla" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="free" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="free" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="starcraft" target="masterthesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="joseluis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="dagictberoep">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="-">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="unclassified">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="rpg">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="holland">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="no_tag">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="from">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="civilization">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="dataviz">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="full">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="fun">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="gaia_bookmarks_for_ryan">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="game">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="masterthesis" target="games">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="masterthesis" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="gaming">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="masterthesis" target="environment">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="definition">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="masterthesis" target="knowlege">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="science">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="hypothesis">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="printed">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="masterthesis" target="korea">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="metaverse">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="bookmarksbar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="videogames">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="genre">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="ideas">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="programming">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="masterthesis" target="online">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="masterthesis" target="virtual">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="masterthesis" target="virtual-reality">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="virtual_worlds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="virtualisation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="secondlife">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="virtualworlds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="language">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="visual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="et">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="visualization">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="project~">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="immersive">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="vr">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="exchange">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="glove">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="article">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="masterthesis" target="computer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="expla">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="infoarch2*class*">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="python">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="terms-economics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="moo">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="moos">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="moos&amp;muds">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="masterthesis" target="display">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="_toread">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="astronomy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="theory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="parallel.universes">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="wiki">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="masterthesis" target="wiki.trading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="wikipedia">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="masterthesis" target="liste">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="interactive">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="masterthesis" target="convergence">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="masterthesis" target="muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="time">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="sl">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="interesting">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="interface">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="read">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="multiversal">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="multiverse">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="pending">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="so/ir242">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="cosmology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="cave">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="finance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="caves">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="financial">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="reference">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="masterthesis" target="writing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="harvard">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="trading">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="philosophy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="macroecon">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="research">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="masterthesis" target="natural.sciences">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="ive">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="al">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="masterthesis" target="physics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="amazing" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="daily" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="daily" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="nick'swebsites" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cikk" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="math" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="math" target="socialnetworks">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="math" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cil2008" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="freelance" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="statistics" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="statistics" target="socialnetworks">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="-" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unclassified" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unclassified" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="status" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cinema.netflix" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="jscript" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mathematics" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mathematics" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="policy" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="uni" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rpg" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rpg" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rpg" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rpg" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rpg" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rpg" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rpg" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rpg" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="cip" target="kyberpunk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source=".forward." target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="nixon" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="nixon" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="maths" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source=".imported" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="no_tag" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cis500" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="biography" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="friends" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cita320" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="from" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="from" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ruby" target="bc">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="universe" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rubyonrails" target="bc">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="politics" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="politics" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="data-management" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="unix" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="polling" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mba" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="juura" target="kyberpunk">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="homework" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="emergency" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="emergent" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="storage" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="analysis" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="analysis" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="analysis" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="datamining" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="analytics" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cl" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="storytelling" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="claims" target="identity2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="full" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="full" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bitchun" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fun" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fun" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fun" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fun" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fun" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fun" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fun" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fun" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="fun" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dates" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hosting" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="strategy" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="strategy" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mecha" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="northwest" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="streaming" target="e-commerce">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="biz" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="porter" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="usa" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bizdev" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="115f" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="115f" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="classification" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="media" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="classx" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="funny" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="encyclopedia" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="encyclopedia" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="encyclopedia" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="encyclopedia" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="android" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="clever" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="future" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mediatheory" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="futurism" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="saml" target="identity2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="userexperience" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="html" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="style" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fyi" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="http" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="medmod" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="animals" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="closeness" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="blog" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="blog" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="animated" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="animation" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="animation" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="engine" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="engineering" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anime" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="english" target="interactive_fiction">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="english" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="club" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="successful" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kids" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="game" target="gamesdev">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="game" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="game" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="game" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="game" target="computerstuff">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="game" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="game" target="interactive_fiction">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="game" target="mud">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="game" target="avatar">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="game" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="game" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="debt" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="game-engine" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="blogs" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pr" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="value" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymity" target="identity2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymity" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anonymous" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cms" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="decentralized" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="nvidia" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamedev" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="scale-free" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="humor" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="scalefree" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="decisions" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="entertainment" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gameprogramming" target="gamesdev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="games" target="gamesdev">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="games" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="games" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="games" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="games" target="computerstuff">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="games" target="moos&amp;muds">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="games" target="interactive_fiction">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="games" target="mud">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="games" target="avatar">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="games" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="gaming">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="gamesdev" target="gamming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="definition">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="api">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="video">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="olpc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="genre">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="programming">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="gamesdev" target="online">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="middlewares">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="3d">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="dev">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="development">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="article">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="articles">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="computergraphics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="lib">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="library">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="gpu">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="graphics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="wiki">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="gamesdev" target="rag">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="wikipedia">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="gamesdev" target="doll">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="interactive">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="actionscript">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="irc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="flash">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="flocking-search">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="phisics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gamesdev" target="physics">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="bluetooth" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="entrepreneur" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="prediction" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="entrepreneurship" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hw" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gaming" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gaming" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gaming" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gaming" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gaming" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gaming" target="interactive_fiction">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="gaming" target="mud">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="gaming" target="avatar">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="2.0" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2.0" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="prereg" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="anti-pattern" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="school" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="school" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="code" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="presentation" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="supply" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="knowledge" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="messaging" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definition" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definition" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definition" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definition" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definition" target="moos&amp;muds">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="definition" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definition" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="definition" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definition" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definitions" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="definitions" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2007" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pricingservices" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="science-fiction" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hypertext" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hypertext" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="hypertext" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="coding" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2008" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="degree" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="antipatterns" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="printed" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="printed" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="i+d" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="geek" target="computerstuff">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="privacy" target="identity2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="privacy" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="scm" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metaverse" target="avatar">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="geeks" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="book" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="book" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="era" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="eras" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="probability" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="iam" target="identity2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="methodology" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="methodology" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="metrics" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="procedural" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="procedural" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sxsw" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="booklist" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="demoscene" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="process" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="processes" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="processimprovement" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="icam" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="video" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="video" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="processmanagement" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bookmarksbar" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="generate" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="books" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="scriptie" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="collaboration" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="collaboration" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="collaboration" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="icon" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="videogames" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="videogames" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="videogames" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="icons" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="identity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="identity2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="identitymanagement">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="espionage">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="online">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="virtual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="security">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="law">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="technology">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="article">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="web2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="computers">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="infrastructure">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="distance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="dni-os">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="wikipedia">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="kyberpunk" target="interesting">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="dos">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="internet">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="kyberpunk" target="copyright">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="hackers">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="filosoofia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="socialnetworking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="regulating">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="crime">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="critical">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="kyberpunk" target="research">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="kyberpunk" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="collective" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="application" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="2read" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="idea" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="idea" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sysadmin" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sysadmin" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="genre" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="genre" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="genre" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="genre" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="genre" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="genre" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="genre" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ideas" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ideation" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="on-demand" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity" target="identity2.0">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="identity" target="identitymanagement">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="identity" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity" target="reputation">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="identity" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="identitymanagement">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="programming">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="microsoft">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="online">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="virtual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="idm">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="idp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="middleware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="security">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="identity2.0" target="openid">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="opensource">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="tech">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="service">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="article">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="digitalidentity">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="web">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="identity2.0" target="web2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="shibboleth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="_toread">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="theory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="single-sign-on">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="wikipedia">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="identity2.0" target="federated">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="federation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="interesting">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="feide">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="auth">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="authentication">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="identity2.0" target="authorization">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="internet">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="identity2.0" target="internet2">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="location">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="filosoofia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="socialnetworking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="dspace">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="ws-security">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="e-learning">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="e-privacy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="e-security">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identity2.0" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="online">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="virtual">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="article">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="web2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="interesting">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="filosoofia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="socialnetworking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="identitymanagement" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="design" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="design" target="bc">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="systems" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programming" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programming" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programming" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programming" target="computerstuff">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="programming" target="moos&amp;muds">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="programming" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programming" target="mud">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="programming" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programming" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programming" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programming" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="search" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="online" target="laptopdance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="online" target="digital-life">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="online" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="online" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="online" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="online" target="moos&amp;muds">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="online" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="online" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="online" target="avatar">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="online" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="online" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="online" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="online" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="online" target="bc">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="virtual" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtual" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtual" target="avatar">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="virtual" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtual" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtual" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtual" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtual" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="essay" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="geography" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="programminglanguage" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="virtual_worlds" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="design_patterns" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="secession" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="second" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="second_life" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="37signals" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="secondlife" target="avatar">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="virtualworlds" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="virtualworld" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="project" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="project" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="geometry" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="designpatterns" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mil" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3d" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="3d" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="if" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="if" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="project-username" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="estimation" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="language" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="language" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="security" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="security" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="security" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="project_management" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="igoogle" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="et" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="et" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="open+source" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="comet" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualization" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualization" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="projectmanagement" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="projectmanagement" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bpm" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="visualizations" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bpr" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="comics" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="etheric" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="digital-life">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="article">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="interactive">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="laptopdance" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dev" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="project~" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="architecture" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="architecture" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="architecture" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="command-line" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="command-line" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="largo" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="brain" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="illustration" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="development" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="development" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="development" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="development" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="development" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="development" target="bc">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="commerce" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="commerce" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="commnications" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="self-organization" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="im" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="image" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="latin" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="vod" target="e-commerce">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="4gl" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="communication" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="communities" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="communities" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="community" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="community" target="socialnetworks">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="community" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="voronoi" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="aris" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mis" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="protocol" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="4y" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="protocols" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ark" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="communitytheory" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diagram" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="vr" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diagrams" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="optimization" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="proximity" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="company" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="webserver" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gis" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sense" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tcc" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="580" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orbit" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="orbit" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="le.ge.nd_inspiration" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tcp/ip" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dictionary" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dictionary" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="art" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="improvement" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="organization" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="learning" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="teaching" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="complex" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="complexity" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="complexnetworks" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="complexsys" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="complexsystems" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="learningcommunities" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="exchange" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mmo" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mmo" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mmorpg" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mmorpg" target="avatar">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="tech" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tech" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tech" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="series" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="composition" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="incarnation" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="psychology" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="psychology" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="server" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="glvo" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mobile" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="lecture" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="article">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="digital-life" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="web2.0">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="wikipedia">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="digital-life" target="interactive">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="interesting">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="internet">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="digital-life" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="filosoofia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="socialnetworking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="socialsoftware">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="digital-life" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digital-life" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="service" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="servicedesign" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="services" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="independence" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="socialnetworks">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="technology" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="technology" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="public" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="computer-games">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="avatar">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="article" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="socialnetworks">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="article" target="e-commerce">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="article" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digitalculture" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tecnología" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computationalgeometry" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="article_projectmanagement" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="articles" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="expla" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="expla" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="wiki">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="interactive">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer-games" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="publicidad" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="god" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="digitalstorytelling" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="web" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="web" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="web" target="e-commerce">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="web" target="reputation">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="web" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="teledicom" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computer_science" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="artikel" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="web2.0" target="diploma_humer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="web2.0" target="avatar">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="web2.0" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="web2.0" target="socialnetworks">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="web2.0" target="e-commerce">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="web2.0" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="web2.0" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computergames" target="computerstuff">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="inference" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="good" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="good" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="infosec">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="texture">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="graphics">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="wiki">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="computerstuff" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="docs">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="content">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="msc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="wikipedia">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="computerstuff" target="interactive">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="cool">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="pc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="windows">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="small">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="internet_safety">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="hack">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="hacker">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="hackers">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="hacking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="reference">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="computerstuff" target="software">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="computerstuff" target="advice">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="push" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="wikipedia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="interesting">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="filosoofia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="socialnetworking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="diploma_humer" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="info" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="webculture" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="webdesign" target="e-commerce">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="business" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="business" target="drp">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="business" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="business" target="e-commerce">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="business" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="webhosting" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="infocom" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="infocom" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="comunidade" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="business-process" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="money" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="money" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="infographics" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pyschology" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="business_acumen" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="p2p" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="python" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="python" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concept" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terms" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="terms" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="business_process" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="li843" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="businessanalysis" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="businessanalyst" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="information" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="information" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="businesscase" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="businesscontinuity" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="website" target="e-commerce">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="disaster" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="disaster-recovery" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="disasterrecovery" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="concepts" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="@toread" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="businessprocess" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="asia" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="asia" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="test" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="shopping_cart" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="shoppingcart" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moo" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moo" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moodle" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="asp" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="text" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="text" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moos" target="moos&amp;muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moos" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moos&amp;muds" target="wiki">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="moos&amp;muds" target="linux">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moos&amp;muds" target="wikipedia">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="moos&amp;muds" target="interactive">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="moos&amp;muds" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moos&amp;muds" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="moos&amp;muds" target="muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moos&amp;muds" target="read">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moos&amp;muds" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moos&amp;muds" target="pending">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moos&amp;muds" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moos&amp;muds" target="reference">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="moos&amp;muds" target="al">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="disney" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="life" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="quantitative" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="moreinfo" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="graduation_project" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="infrastructure" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dissertation" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="c1" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="connection" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="grammar" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="distribution" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="_temp" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="graph" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="graph_presentation" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="graphic" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="quiz" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="whuffie" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="innovation" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="theory" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="theory" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="theory" target="socialnetworks">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="graphics" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="graphics" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="astroturfing" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="calartsfe014" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="paradigmshift" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="graphs" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="graphs" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="asynchronous" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="movies" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="movies" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="inspiration" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="inspiration" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fandom:atla" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rad" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wiki" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wiki" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="wiki" target="avatar">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="wiki" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wiki" target="e-commerce">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="wiki" target="reputation">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="inspire" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="thesis" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="install" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="installation" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="california" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="california" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="consulting" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="consulting" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="a_visionner" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dms" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="simulation" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="simulations" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="do" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="links" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dns" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="thingstoknow" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="linux" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="linux" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="linux" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="linux" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="abbreviation" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="doctorow" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikinomics" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipedia" target="interactive_fiction">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="wikipedia" target="mud">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="wikipedia" target="avatar">
+      <data key="d0">6</data>
+    </edge>
+    <edge source="wikipedia" target="drp">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="wikipedia" target="socialnetworks">
+      <data key="d0">9</data>
+    </edge>
+    <edge source="wikipedia" target="e-commerce">
+      <data key="d0">7</data>
+    </edge>
+    <edge source="wikipedia" target="reputation">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="wikipedia" target="bc">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="continuity" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="canada" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="rapid" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interaction" target="mud">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="griefing" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tic" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive" target="interactive_fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="interactive" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="mud">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="interactive_fiction" target="interactivefiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="literature">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="fiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="film">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="filmstudies">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="reference">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="interactive_fiction" target="dungeon">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="adventure">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="firstperson">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="narrative">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="interactive_fiction" target="hdg427%3adesignresearchstudio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="hdg427designeragency">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interactive_fiction" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="conversations" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="interactivefiction">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="pattern">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="muds">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="patterns">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="interesting">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="multiplayer">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="read">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="internet">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="pending">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="socialsoftware">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="mud" target="reference">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="mud" target="society">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="personality">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="writing">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="dungeon">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="software">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="mud" target="adventure">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="phd">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="narrative">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="maintenance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="mud" target="al">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="domains" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wikipédia" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="patterns" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="academic" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sl" target="avatar">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="cool" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cool" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cool" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="payment" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="payment_gateway" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interesting" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interesting" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interesting" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interesting" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interesting" target="reputation">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="interesting" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="paypal" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="payments" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="don" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tin" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="author" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="read" target="socialnetworks">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="career" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cop" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="gsdev" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="smallworld" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dotnet" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dotnet" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="local" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="internet" target="avatar">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="internet" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="internet" target="socialnetworks">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="internet" target="e-commerce">
+      <data key="d0">3</data>
+    </edge>
+    <edge source="internet" target="reputation">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="internet" target="bc">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="copyleft" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="copyright" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="location" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reading" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="pedagogy" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="acredesign" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="peer" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="fiction" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="readme" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guide" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="guides" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sms" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="sna" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="logic" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="activism" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dr" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="availability" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="penguin" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cartoon" target="avatar">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="logistics" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="logistics" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="cartoons">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="social">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="world">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="filosoofia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="muve">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="ip-address">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="socialnetworking">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="avatar" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="tool">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="tools">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="background">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="wow">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="reference">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="avatar" target="toy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="hash">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="research">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="avatar" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="avatar" target="aktuell%26unsortiert">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="interweb" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="ad" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="case" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="soa" target="e-commerce">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="to_read" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="people" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="soc" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="costofliving" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="social" target="socialnetworks">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="social" target="reputation">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="long" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="film" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="words" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="words" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="work" target="drp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="work" target="e-commerce">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="work" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="social_networking" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="social_networks" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="ha">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="recovery">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="filosoofia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="socialnetworking">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="socialsoftware">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="reference">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="backup">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="software">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="is589">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="pfc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="it">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="hc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="agile">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="chain">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="bcp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drp" target="bdp">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="perl" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drupal" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="drupal" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialcomputing" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialgraph" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="filosoofia" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="filosoofia" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="filosoofia" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="filosoofia" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialmedia" target="socialnetworks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="administration" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworking" target="socialnetworks">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="socialnetworking" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworking" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworking" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="socialnetworktheory">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="finance">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="socialsoftware">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="socialnetworks" target="tools">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="reference">
+      <data key="d0">5</data>
+    </edge>
+    <edge source="socialnetworks" target="socio">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="referencia">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="sociometry">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="finger">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="relations">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="relationships">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="centeredset">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="afstuderen">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="philosophy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="research">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="socialnetworks" target="bayes">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="bayesian">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="ai">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialnetworks" target="heap">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cpa" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="personal" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="finance" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="finance" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialsoftware" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="socialsoftware" target="reputation">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="socialsoftware" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="tools" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="financial" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reference" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reference" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="myblog" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="wp" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="writing" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="software" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="software" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="software" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="dvd" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="móviles" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="banking" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="banks" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="center" target="e-commerce">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="e-commerce" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="e-commerce" target="chain">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="e-commerce" target="research">
+      <data key="d0">2</data>
+    </edge>
+    <edge source="e-commerce" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="e-commerce" target="php">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="e-commerce" target="ecommerce">
+      <data key="d0">4</data>
+    </edge>
+    <edge source="e-commerce" target="econ">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="name" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="trading" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cfd" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="cg" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="madcow" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="transhumanism" target="reputation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reputation" target="research">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reputation" target="ebook">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reputation" target="ebooks">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reputation" target="cryptoanarchy">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reputation" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="reputation" target="trust">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="research" target="bc">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bc" target="triangle">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bc" target="triangulation">
+      <data key="d0">1</data>
+    </edge>
+    <edge source="bc" target="alaska">
+      <data key="d0">1</data>
+    </edge>
+  </graph>
+</graphml>

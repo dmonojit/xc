@@ -1,0 +1,129 @@
+
+Number of edges: 49 for node: digital-life[9291]
+
+Number of edges: 5195 for node: article[3177.0]
+Ignoring node in graph: article
+
+Number of edges: 29 for node: computer-games[7292.0]
+
+Number of edges: 72 for node: computerstuff[7344.0]
+
+Number of edges: 84 for node: cultureshock2[8275.0]
+
+Number of edges: 2693 for node: definition[8858.0]
+Ignoring node in graph: definition
+
+Number of edges: 2328 for node: fun[12717.0]
+Ignoring node in graph: fun
+
+Number of edges: 1405 for node: game[12855.0]
+Ignoring node in graph: game
+
+Number of edges: 1696 for node: games[12900.0]
+Ignoring node in graph: games
+
+Number of edges: 60 for node: gamesdev[12908.0]
+
+Number of edges: 979 for node: gaming[12919.0]
+Ignoring node in graph: gaming
+
+Number of edges: 260 for node: genre[13106.0]
+Ignoring node in graph: genre
+
+Number of edges: 29 for node: historical_social[14540.0]
+
+Number of edges: 7628 for node: history[14548.0]
+Ignoring node in graph: history
+
+Number of edges: 321 for node: interactive[15838.0]
+Ignoring node in graph: interactive
+
+Number of edges: 73 for node: interactive_fiction[15843.0]
+
+Number of edges: 2546 for node: internet[15929.0]
+Ignoring node in graph: internet
+
+Number of edges: 29 for node: laptopdance[17299.0]
+
+Number of edges: 1870 for node: linux[17821.0]
+Ignoring node in graph: linux
+
+Number of edges: 122 for node: masterthesis[18677.0]
+
+Number of edges: 45 for node: moos&muds[19731.0]
+
+Number of edges: 97 for node: mud[19942.0]
+
+Number of edges: 825 for node: online[21323.0]
+Ignoring node in graph: online
+
+Number of edges: 4076 for node: programming[23364.0]
+Ignoring node in graph: programming
+
+Number of edges: 10734 for node: reference[24290.0]
+Ignoring node in graph: reference
+
+Number of edges: 295 for node: rpg[24880.0]
+Ignoring node in graph: rpg
+
+Number of edges: 302 for node: socialsoftware[26331.0]
+Ignoring node in graph: socialsoftware
+
+Number of edges: 521 for node: ui[28905.0]
+Ignoring node in graph: ui
+
+Number of edges: 13574 for node: wiki[30071.0]
+Ignoring node in graph: wiki
+
+Number of edges: 19894 for node: wikipedia[30134.0]
+Ignoring node in graph: wikipedia
+
+Number of edges: 126 for node: avatar[3695.0]
+
+Number of edges: 128 for node: bc[4032.0]
+
+Number of edges: 4652 for node: culture[8262.0]
+Ignoring node in graph: culture
+
+Number of edges: 268 for node: da[8426.0]
+Ignoring node in graph: da
+
+Number of edges: 25 for node: diploma_humer[9396.0]
+
+Number of edges: 93 for node: drp[9900.0]
+
+Number of edges: 167 for node: e-commerce[10066.0]
+
+Number of edges: 349 for node: filosoofia[11972.0]
+Ignoring node in graph: filosoofia
+
+Number of edges: 656 for node: identity[15166.0]
+Ignoring node in graph: identity
+
+Number of edges: 60 for node: identity2.0[15168.0]
+
+Number of edges: 25 for node: identitymanagement[15169.0]
+
+Number of edges: 5563 for node: interesting[15871.0]
+Ignoring node in graph: interesting
+
+Number of edges: 46 for node: kyberpunk[17179.0]
+
+Number of edges: 1697 for node: management[18457.0]
+Ignoring node in graph: management
+
+Number of edges: 103 for node: reputation[24469.0]
+
+Number of edges: 6786 for node: research[24485.0]
+Ignoring node in graph: research
+
+Number of edges: 425 for node: socialnetworking[26317.0]
+Ignoring node in graph: socialnetworking
+
+Number of edges: 153 for node: socialnetworks[26319.0]
+
+Number of edges: 459 for node: virtual[29519.0]
+Ignoring node in graph: virtual
+
+Number of edges: 1470 for node: web2.0[29845.0]
+Ignoring node in graph: web2.0

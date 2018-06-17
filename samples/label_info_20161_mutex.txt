@@ -1,0 +1,47 @@
+
+Number of edges: 18 for node: mutex[20161]
+
+Number of edges: 1486 for node: algorithm[2127.0]
+Ignoring node in graph: algorithm
+
+Number of edges: 18 for node: atomicity[3490.0]
+
+Number of edges: 557 for node: c[5415.0]
+Ignoring node in graph: c
+
+Number of edges: 242 for node: concurrency[7411.0]
+Ignoring node in graph: concurrency
+
+Number of edges: 107 for node: concurrent[7414.0]
+
+Number of edges: 48 for node: concurrentcomputing[7415.0]
+
+Number of edges: 18 for node: ddb[8704.0]
+
+Number of edges: 3672 for node: design[9026.0]
+Ignoring node in graph: design
+
+Number of edges: 39 for node: exclusion[11313.0]
+
+Number of edges: 55 for node: lock[17994.0]
+
+Number of edges: 18 for node: multi-threading[19960.0]
+
+Number of edges: 40 for node: mutual[20162.0]
+
+Number of edges: 252 for node: parallel[21871.0]
+Ignoring node in graph: parallel
+
+Number of edges: 18 for node: peterson[22300.0]
+
+Number of edges: 4076 for node: programming[23364.0]
+Ignoring node in graph: programming
+
+Number of edges: 655 for node: temp[27817.0]
+Ignoring node in graph: temp
+
+Number of edges: 19894 for node: wikipedia[30134.0]
+Ignoring node in graph: wikipedia
+
+Number of edges: 1008 for node: wikipediapage[30177.0]
+Ignoring node in graph: wikipediapage

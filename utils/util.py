@@ -45,7 +45,7 @@ def get_x_y_v_e(filepath):
 
 	return total_points, feature_dm, number_of_labels, X, Y, V, E
 
-def get_subgraph(filepath, label_filepath, level=1, max_edges_per_node=None):
+def get_subgraph(filepath, label_filepath, level=1, max_edges_per_node=None, root_node=None):
 	# total_points: total number of data points
 	# feature_dm: number of features per datapoint
 	# number_of_labels: total number of labels
@@ -72,10 +72,12 @@ def get_subgraph(filepath, label_filepath, level=1, max_edges_per_node=None):
 
 	# Below section will try to build a smaller subgraph from the actual graph for visualization
 	
+	if root_node is None:
 	# select a random vertex to be the root
-	list_v = list(V)
-	np.random.shuffle(list_v)
-	v = list_v[0]
+		np.random.shuffle(V)
+		v = V[0]
+	else:
+		v = root_node
 
 	# two files to write the graph and label information
 	label_info_filepath = 'samples/label_info_{}.txt'.format(str(int(v)) + '_' + mapping(v)).replace(' ', '')
@@ -99,7 +101,7 @@ def get_subgraph(filepath, label_filepath, level=1, max_edges_per_node=None):
 		elif node_check.get(v, True):
 			node_check[v] = False
 			edges = list(g.edges(v))
-			label_info_file.write('\nNumber of edges: ' + str(len(edges)) + ' for node: ' + mapping(v) + '\n')
+			label_info_file.write('\nNumber of edges: ' + str(len(edges)) + ' for node: ' + mapping(v) + '[' + str(v) + ']' + '\n')
 			if max_edges_per_node is not None and len(edges) > max_edges_per_node:
 				label_info_file.write('Ignoring node in graph: ' + mapping(v) + '\n')
 				continue
@@ -140,10 +142,13 @@ def get_label_dict(label_filepath):
 
 if __name__ == '__main__':
 	# sample call: python utils/util.py /Users/monojitdey/Downloads/Wiki10-31K/Wiki10/wiki10_test.txt /Users/monojitdey/Downloads/Wiki10-31K/Wiki10-31K_mappings/wiki10-31K_label_map.txt
-	# '/Users/monojitdey/ml/datasets/Wiki10-31K/Wiki10/wiki10_test.txt', '/Users/monojitdey/ml/datasets/Wiki10-31K/Wiki10-31K_mappings/wiki10-31K_label_map.txt'
 	assert len(sys.argv) >= 2, 'Data file is required'
 	if len(sys.argv) < 3:
 		print('Label file is not provided, graph will show numeric labels only')
-	label_graph = get_subgraph(sys.argv[1], sys.argv[2], level=1, max_edges_per_node=200)
+	if len(sys.argv) == 4:
+		root_node = int(sys.argv[3])
+	else:
+		root_node = None
+	label_graph = get_subgraph(sys.argv[1], sys.argv[2], level=1, max_edges_per_node=200, root_node=root_node)
 	# nx.draw(label_graph)
 	# plt.show()

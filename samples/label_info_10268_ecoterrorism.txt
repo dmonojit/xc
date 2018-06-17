@@ -1,0 +1,62 @@
+
+Number of edges: 24 for node: ecoterrorism[10268]
+
+Number of edges: 1248 for node: activism[1633.0]
+Ignoring node in graph: activism
+
+Number of edges: 215 for node: anonymous[2632.0]
+Ignoring node in graph: anonymous
+
+Number of edges: 73 for node: autonomous[3665.0]
+
+Number of edges: 48 for node: counterterrorism[7839.0]
+
+Number of edges: 572 for node: earth[10123.0]
+Ignoring node in graph: earth
+
+Number of edges: 275 for node: economic[10234.0]
+Ignoring node in graph: economic
+
+Number of edges: 39 for node: elf[10547.0]
+
+Number of edges: 1387 for node: environment[10877.0]
+Ignoring node in graph: environment
+
+Number of edges: 24 for node: front[12650.0]
+
+Number of edges: 1644 for node: future[12767.0]
+Ignoring node in graph: future
+
+Number of edges: 74 for node: guerilla[13892.0]
+
+Number of edges: 46 for node: guerrilla[13899.0]
+
+Number of edges: 50 for node: isotope[16227.0]
+
+Number of edges: 37 for node: liberation[17643.0]
+
+Number of edges: 846 for node: misc[19415.0]
+Ignoring node in graph: misc
+
+Number of edges: 461 for node: political[22841.0]
+Ignoring node in graph: political
+
+Number of edges: 37 for node: sabotage[25008.0]
+
+Number of edges: 198 for node: singularity[26023.0]
+
+Number of edges: 3716 for node: technology[27735.0]
+Ignoring node in graph: technology
+
+Number of edges: 84 for node: terrorist[27878.0]
+
+Number of edges: 39 for node: terrorists[27879.0]
+
+Number of edges: 274 for node: unread[29036.0]
+Ignoring node in graph: unread
+
+Number of edges: 13574 for node: wiki[30071.0]
+Ignoring node in graph: wiki
+
+Number of edges: 19894 for node: wikipedia[30134.0]
+Ignoring node in graph: wikipedia
