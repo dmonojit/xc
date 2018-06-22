@@ -1,0 +1,147 @@
+
+Number of edges: 57 for node: insanity[15722.0]
+
+Number of edges: 377 for node: #guild[106.0]
+Ignoring node in graph: #guild
+
+Number of edges: 30 for node: alfred.jarry[2106.0]
+
+Number of edges: 105 for node: antropology[2755.0]
+
+Number of edges: 21 for node: bed[4094.0]
+
+Number of edges: 163 for node: bug_tracking[5245.0]
+
+Number of edges: 847 for node: dixon[9580.0]
+Ignoring node in graph: dixon
+
+Number of edges: 572 for node: ears[10123.0]
+Ignoring node in graph: ears
+
+Number of edges: 46 for node: faulttolerance[11703.0]
+
+Number of edges: 163 for node: filsystem[11977.0]
+
+Number of edges: 21 for node: flavor[12139.0]
+
+Number of edges: 261 for node: garden[12943.0]
+Ignoring node in graph: garden
+
+Number of edges: 92 for node: insect[15723.0]
+
+Number of edges: 88 for node: killed[16955.0]
+
+Number of edges: 21 for node: lunar_project[18201.0]
+
+Number of edges: 21 for node: pessimism[22288.0]
+
+Number of edges: 21 for node: pessoal[22289.0]
+
+Number of edges: 110 for node: petrol[22308.0]
+
+Number of edges: 68 for node: pointer[22803.0]
+
+Number of edges: 21 for node: ticketing[28129.0]
+
+Number of edges: 555 for node: used[29143.0]
+Ignoring node in graph: used
+
+Number of edges: 13574 for node: wik[30071.0]
+Ignoring node in graph: wik
+
+Number of edges: 18 for node: arthritis[3168.0]
+
+Number of edges: 1626 for node: biologos[4448.0]
+Ignoring node in graph: biologos
+
+Number of edges: 196 for node: botanics[4951.0]
+
+Number of edges: 724 for node: dearborn[8737.0]
+Ignoring node in graph: dearborn
+
+Number of edges: 29 for node: funerary[12745.0]
+
+Number of edges: 18 for node: fungi[12746.0]
+
+Number of edges: 2249 for node: healt[14251.0]
+Ignoring node in graph: healt
+
+Number of edges: 160 for node: herbology[14377.0]
+
+Number of edges: 28 for node: immortaltechnique[15337.0]
+
+Number of edges: 846 for node: mirrors[19415.0]
+Ignoring node in graph: mirrors
+
+Number of edges: 868 for node: naturalmedicine[20408.0]
+Ignoring node in graph: naturalmedicine
+
+Number of edges: 67 for node: paraphilias[21890.0]
+
+Number of edges: 18 for node: pw[23745.0]
+
+Number of edges: 5753 for node: scicu[25251.0]
+Ignoring node in graph: scicu
+
+Number of edges: 943 for node: to_look_at[28284.0]
+Ignoring node in graph: to_look_at
+
+Number of edges: 19894 for node: wikipedi[30134.0]
+Ignoring node in graph: wikipedi
+
+Number of edges: 518 for node: wtc[30496.0]
+Ignoring node in graph: wtc
+
+Number of edges: 648 for node: animalrights[2582.0]
+Ignoring node in graph: animalrights
+
+Number of edges: 2963 for node: cooking[7676.0]
+Ignoring node in graph: cooking
+
+Number of edges: 4652 for node: culturatecnologia[8262.0]
+Ignoring node in graph: culturatecnologia
+
+Number of edges: 397 for node: education2.0[10344.0]
+Ignoring node in graph: education2.0
+
+Number of edges: 61 for node: entity_reference[10856.0]
+
+Number of edges: 1695 for node: funniest[12750.0]
+Ignoring node in graph: funniest
+
+Number of edges: 1498 for node: hume[14932.0]
+Ignoring node in graph: hume
+
+Number of edges: 759 for node: humors[14936.0]
+Ignoring node in graph: humors
+
+Number of edges: 2202 for node: ideaorganization[15155.0]
+Ignoring node in graph: ideaorganization
+
+Number of edges: 439 for node: indesign[15449.0]
+Ignoring node in graph: indesign
+
+Number of edges: 2896 for node: informatika[15584.0]
+Ignoring node in graph: informatika
+
+Number of edges: 5563 for node: interestin[15871.0]
+Ignoring node in graph: interestin
+
+Number of edges: 1004 for node: listing[17872.0]
+Ignoring node in graph: listing
+
+Number of edges: 1122 for node: medicina[18943.0]
+Ignoring node in graph: medicina
+
+Number of edges: 146 for node: pai[21785.0]
+
+Number of edges: 10734 for node: referat[24290.0]
+Ignoring node in graph: referat
+
+Number of edges: 198 for node: scala[25169.0]
+
+Number of edges: 1182 for node: weil[29955.0]
+Ignoring node in graph: weil
+
+Number of edges: 2559 for node: writers[30459.0]
+Ignoring node in graph: writers

@@ -1,0 +1,39 @@
+
+Number of edges: 13 for node: bookawards[4844.0]
+
+Number of edges: 299 for node: csrf[8206.0]
+Ignoring node in graph: csrf
+
+Number of edges: 3672 for node: desiderata[9026.0]
+Ignoring node in graph: desiderata
+
+Number of edges: 2202 for node: ideaorganization[15155.0]
+Ignoring node in graph: ideaorganization
+
+Number of edges: 495 for node: javaone[16443.0]
+Ignoring node in graph: javaone
+
+Number of edges: 2561 for node: literatur[17901.0]
+Ignoring node in graph: literatur
+
+Number of edges: 335 for node: publish[23688.0]
+Ignoring node in graph: publish
+
+Number of edges: 265 for node: temporal-theory[27831.0]
+Ignoring node in graph: temporal-theory
+
+Number of edges: 330 for node: txt[28816.0]
+Ignoring node in graph: txt
+
+Number of edges: 47 for node: valgevene[29247.0]
+
+Number of edges: 920 for node: webculture[29882.0]
+Ignoring node in graph: webculture
+
+Number of edges: 814 for node: webdav[29883.0]
+Ignoring node in graph: webdav
+
+Number of edges: 19894 for node: wikipedi[30134.0]
+Ignoring node in graph: wikipedi
+
+Number of edges: 194 for node: xforms[30565.0]

@@ -1,0 +1,74 @@
+
+Number of edges: 29 for node: turkey[28742.0]
+
+Number of edges: 9 for node: blogit[4656.0]
+
+Number of edges: 90 for node: coffe[6844.0]
+
+Number of edges: 336 for node: cookies[7675.0]
+Ignoring node in graph: cookies
+
+Number of edges: 1205 for node: foocamp[12265.0]
+Ignoring node in graph: foocamp
+
+Number of edges: 1331 for node: howitworks[14804.0]
+Ignoring node in graph: howitworks
+
+Number of edges: 254 for node: recipe[24216.0]
+Ignoring node in graph: recipe
+
+Number of edges: 92 for node: tweecious[28791.0]
+
+Number of edges: 13574 for node: wik[30071.0]
+Ignoring node in graph: wik
+
+Number of edges: 19894 for node: wikipedi[30134.0]
+Ignoring node in graph: wikipedi
+
+Number of edges: 135 for node: 360_character_study[862.0]
+
+Number of edges: 2428 for node: architecturaltheory[2965.0]
+Ignoring node in graph: architecturaltheory
+
+Number of edges: 64 for node: bytes[5404.0]
+
+Number of edges: 577 for node: christendom[6328.0]
+Ignoring node in graph: christendom
+
+Number of edges: 38 for node: cool%2fplaces%2faustralia%2foceania[7680.0]
+
+Number of edges: 1255 for node: engineer[10783.0]
+Ignoring node in graph: engineer
+
+Number of edges: 1148 for node: geographical[13139.0]
+Ignoring node in graph: geographical
+
+Number of edges: 7628 for node: historiography[14548.0]
+Ignoring node in graph: historiography
+
+Number of edges: 206 for node: holiday_ref[14653.0]
+Ignoring node in graph: holiday_ref
+
+Number of edges: 22 for node: ist110[16247.0]
+
+Number of edges: 42 for node: lasik[17321.0]
+
+Number of edges: 43 for node: perfecthuman[22176.0]
+
+Number of edges: 2719 for node: religiao[24384.0]
+Ignoring node in graph: religiao
+
+Number of edges: 43 for node: sets[25697.0]
+
+Number of edges: 42 for node: sig[25925.0]
+
+Number of edges: 1688 for node: trash[28585.0]
+Ignoring node in graph: trash
+
+Number of edges: 54 for node: turism[28738.0]
+
+Number of edges: 110 for node: turk[28740.0]
+
+Number of edges: 22 for node: turkestan[28741.0]
+
+Number of edges: 27 for node: turkish[28744.0]
