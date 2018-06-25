@@ -1,0 +1,4863 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="long" for="edge" id="d0"/>
+<graph edgedefault="undirected"><node id="fools"/>
+<node id="foonetic/#boats"/>
+<node id="spec"/>
+<node id="trustmojo"/>
+<node id="economiccrisis"/>
+<node id="japa"/>
+<node id="reuse"/>
+<node id="revalidation"/>
+<node id="japanculture"/>
+<node id="economies"/>
+<node id="!egypt"/>
+<node id="picturenews"/>
+<node id="economoists"/>
+<node id="behaveconomics"/>
+<node id="manage"/>
+<node id="speculativerealism"/>
+<node id="managers"/>
+<node id="revocation"/>
+<node id="jareddiamond"/>
+<node id="herde"/>
+<node id="forenglishhomework"/>
+<node id="jav"/>
+<node id="cults"/>
+<node id="forensic_pathology"/>
+<node id="forensic_science"/>
+<node id="belgrade"/>
+<node id="rhaps"/>
+<node id="&quot;nag"/>
+<node id="forg"/>
+<node id="spiel"/>
+<node id="culturatecnologia"/>
+<node id="editing"/>
+<node id="&quot;the"/>
+<node id="ribosome"/>
+<node id="manufacturing"/>
+<node id="algorithims"/>
+<node id="spirit"/>
+<node id="spiritual"/>
+<node id="culturephenom"/>
+<node id="netwalking"/>
+<node id="#achrist"/>
+<node id="algorithmique"/>
+<node id="mapplethorpe"/>
+<node id="jeff"/>
+<node id="mapserver"/>
+<node id="forms"/>
+<node id="chief"/>
+<node id="educaciÃ³n"/>
+<node id="education"/>
+<node id="networkedlearning"/>
+<node id="education2.0"/>
+<node id="alias"/>
+<node id="#guild"/>
+<node id="fortran:90"/>
+<node id="tweet"/>
+<node id="maritime"/>
+<node id="chimie"/>
+<node id="#python.tw"/>
+<node id="jesuits"/>
+<node id="forwarding"/>
+<node id="jeux"/>
+<node id="#wikipedia"/>
+<node id="marketect"/>
+<node id="jewelry"/>
+<node id="planes"/>
+<node id="jewishstudies"/>
+<node id="bet"/>
+<node id="planetary-law"/>
+<node id="eff"/>
+<node id="customizing"/>
+<node id="marks"/>
+<node id="neutron"/>
+<node id="cybercrime"/>
+<node id="eggers"/>
+<node id="chrismccandless"/>
+<node id="christendom"/>
+<node id="egs"/>
+<node id="egypten"/>
+<node id="bib_assignment"/>
+<node id="ssl"/>
+<node id="hist2008ls"/>
+<node id="bible-study"/>
+<node id="christianism"/>
+<node id="rod"/>
+<node id="biblestudy"/>
+<node id="histoire"/>
+<node id="frames"/>
+<node id="framework"/>
+<node id="neworleans"/>
+<node id="histograms"/>
+<node id="francais"/>
+<node id="historical"/>
+<node id="stacking"/>
+<node id="francie"/>
+<node id="historicalfigure"/>
+<node id="historiography"/>
+<node id="masons"/>
+<node id="newtags"/>
+<node id="*****"/>
+<node id="plutarch"/>
+<node id="standardit"/>
+<node id="chupacabra"/>
+<node id="d80"/>
+<node id="*can_wait"/>
+<node id="da-vinci"/>
+<node id="uid"/>
+<node id="da_impl_patterns"/>
+<node id="frederick"/>
+<node id="*misc"/>
+<node id="ci6402"/>
+<node id="room"/>
+<node id="startpage"/>
+<node id="historyvisigoth"/>
+<node id="rootsi"/>
+<node id="bilgi"/>
+<node id="hitchhiker"/>
+<node id="amber"/>
+<node id="uml"/>
+<node id="materials"/>
+<node id="roteiro"/>
+<node id="+wÃ¶rter"/>
+<node id="joydivision"/>
+<node id="amercianhistory"/>
+<node id="america"/>
+<node id="hoare"/>
+<node id="underground"/>
+<node id="stax"/>
+<node id="jrock"/>
+<node id="freestylelanguage"/>
+<node id="stc"/>
+<node id="mathematician"/>
+<node id="steam"/>
+<node id="policestate"/>
+<node id="juanatkins"/>
+<node id="judaic"/>
+<node id="judaica"/>
+<node id="freizeit"/>
+<node id="judas"/>
+<node id="americanrevolution"/>
+<node id="holga"/>
+<node id="holiday_ref"/>
+<node id="holidays"/>
+<node id="matrix"/>
+<node id="biographies"/>
+<node id=".togetto"/>
+<node id="juliusresearch"/>
+<node id="ru"/>
+<node id="rubber"/>
+<node id="biography/field"/>
+<node id="dasende"/>
+<node id="junction"/>
+<node id="/sys"/>
+<node id="rubrbfills"/>
+<node id="homage"/>
+<node id="ruby"/>
+<node id="politician"/>
+<node id="maxwell's"/>
+<node id="universalism"/>
+<node id="emancipation"/>
+<node id="ruby_on_rails"/>
+<node id="rubric"/>
+<node id="universe"/>
+<node id="unmasked"/>
+<node id="dataarchitecture"/>
+<node id="homo"/>
+<node id="homosexual"/>
+<node id="databases"/>
+<node id="stopmotion"/>
+<node id="080929"/>
+<node id="noname^"/>
+<node id="storm"/>
+<node id="analyses"/>
+<node id="emotionalintelligence"/>
+<node id="anamorphic"/>
+<node id="birth"/>
+<node id="horney"/>
+<node id="mdt"/>
+<node id="bit-array"/>
+<node id="dataì­ì /ë³µêµ¬"/>
+<node id="hortus"/>
+<node id="norse"/>
+<node id="datenschutz"/>
+<node id="fumetti"/>
+<node id="dates"/>
+<node id="popularity"/>
+<node id="strategies"/>
+<node id="northkorea"/>
+<node id="urology"/>
+<node id="classic-games"/>
+<node id="biyoloji"/>
+<node id="davegibbons"/>
+<node id="fundamental-mathematics"/>
+<node id="us_politics"/>
+<node id="bizcovery"/>
+<node id="medea"/>
+<node id="davinci"/>
+<node id="sage"/>
+<node id="ancients"/>
+<node id="funniest"/>
+<node id="encryption%2fsecurity"/>
+<node id="katrina"/>
+<node id="sail"/>
+<node id="andante"/>
+<node id="furl"/>
+<node id="encyclopaedic"/>
+<node id="howto"/>
+<node id="day2"/>
+<node id="sailing"/>
+<node id="andres"/>
+<node id="futurama"/>
+<node id="studio_technics"/>
+<node id="mediascience"/>
+<node id="dbs"/>
+<node id="salvia"/>
+<node id="ends"/>
+<node id="keen"/>
+<node id="user_mode_linux"/>
+<node id="samuelbeckett"/>
+<node id="stupidity"/>
+<node id="htcpcp"/>
+<node id="nsa"/>
+<node id="18.09"/>
+<node id="httm"/>
+<node id="usrp"/>
+<node id="1857"/>
+<node id="ddwrt"/>
+<node id="subjective"/>
+<node id="gadget"/>
+<node id="gaia-hypothesis"/>
+<node id="engineer"/>
+<node id="dearborn"/>
+<node id="hum475"/>
+<node id="engl758c"/>
+<node id="englisch"/>
+<node id="deb"/>
+<node id="bloggers"/>
+<node id="english-language"/>
+<node id="clust_cablelength"/>
+<node id="v3"/>
+<node id="debord"/>
+<node id="gambling"/>
+<node id="ppea"/>
+<node id="debussy"/>
+<node id="sui"/>
+<node id="enki"/>
+<node id="humanitarians"/>
+<node id="cmpt398"/>
+<node id="scadian"/>
+<node id="hume"/>
+<node id="humors"/>
+<node id="scaling"/>
+<node id="pratchett"/>
+<node id="scams"/>
+<node id="19thc"/>
+<node id="meow"/>
+<node id="entrepreneurs"/>
+<node id="1phd"/>
+<node id="2-20"/>
+<node id="knight"/>
+<node id="scholastic"/>
+<node id="20's"/>
+<node id="codd"/>
+<node id="2002"/>
+<node id="knowlage"/>
+<node id="definitie"/>
+<node id="messengers"/>
+<node id="definitioner"/>
+<node id="knowledge_representation"/>
+<node id="surf"/>
+<node id="obt&amp;e_science"/>
+<node id="body_language"/>
+<node id="scicu"/>
+<node id="prices"/>
+<node id="2007september"/>
+<node id="gaussiancopula"/>
+<node id="deimos"/>
+<node id="ocl"/>
+<node id="antpocas"/>
+<node id="vertical"/>
+<node id="deliberative"/>
+<node id="kost"/>
+<node id="onderwijs"/>
+<node id="metaphysics"/>
+<node id="scientology"/>
+<node id="gecko"/>
+<node id="gedney"/>
+<node id="oer"/>
+<node id="boo"/>
+<node id="er"/>
+<node id="era"/>
+<node id="methodologie"/>
+<node id="offset"/>
+<node id="demographics"/>
+<node id="demolition"/>
+<node id="problemsolving"/>
+<node id="vicsek"/>
+<node id="mexican"/>
+<node id="geneology"/>
+<node id="victor"/>
+<node id="victoria"/>
+<node id="apocalipse"/>
+<node id="apocolypse"/>
+<node id="bookmarkmenu"/>
+<node id="bookmarksbar"/>
+<node id="apologetic-study"/>
+<node id="bookriff"/>
+<node id="scriptable"/>
+<node id="collaborating"/>
+<node id="scripting"/>
+<node id="michaelmoore"/>
+<node id="syncratication-of"/>
+<node id="kvm"/>
+<node id="collecting"/>
+<node id="escapemg"/>
+<node id="escher"/>
+<node id="appliance"/>
+<node id="ide"/>
+<node id="sys.admin"/>
+<node id="desalination"/>
+<node id="ideaorganization"/>
+<node id="omg"/>
+<node id="apr"/>
+<node id="identifiers"/>
+<node id="vinyl"/>
+<node id="identity.management"/>
+<node id="identity2.0"/>
+<node id="desiderata"/>
+<node id="microships"/>
+<node id="programmieren"/>
+<node id="aprendizaje%26recursos"/>
+<node id="programmable"/>
+<node id="onion_router"/>
+<node id="mid-1900s"/>
+<node id="espresso"/>
+<node id="virt"/>
+<node id="lake"/>
+<node id="ess"/>
+<node id="online_spreadsheet"/>
+<node id="geographical"/>
+<node id="design_games"/>
+<node id="onlinecommunities"/>
+<node id="34"/>
+<node id="progress"/>
+<node id="geological"/>
+<node id="progressive"/>
+<node id="virtualization"/>
+<node id="progressivechristianity"/>
+<node id="sec+"/>
+<node id="idtheft"/>
+<node id="3756x"/>
+<node id="geometrie"/>
+<node id="proj.wildgeese"/>
+<node id="seconds"/>
+<node id="t9"/>
+<node id="militaria"/>
+<node id="langer"/>
+<node id="secure"/>
+<node id="project_fingers"/>
+<node id="estÃ©tica"/>
+<node id="estÃ¡gio"/>
+<node id="opcode"/>
+<node id="tactic"/>
+<node id="militia"/>
+<node id="projection"/>
+<node id="visualizacion"/>
+<node id="ihc"/>
+<node id="iim"/>
+<node id="mimesis"/>
+<node id="deutschland"/>
+<node id="architecturaltheory"/>
+<node id="largeformat"/>
+<node id="architecture-standards"/>
+<node id="ethnicity_culture"/>
+<node id="vlogger"/>
+<node id="comment"/>
+<node id="archival"/>
+<node id="developing"/>
+<node id="ethos"/>
+<node id="taliban"/>
+<node id="opensolaris"/>
+<node id="ilya"/>
+<node id="property"/>
+<node id="vocab_lesson"/>
+<node id="488"/>
+<node id="etym"/>
+<node id="latex"/>
+<node id="458time"/>
+<node id="branchesofchemistry"/>
+<node id="brand"/>
+<node id="devolution"/>
+<node id="brandon"/>
+<node id="eua"/>
+<node id="proposed-countries"/>
+<node id="communicatie"/>
+<node id="dfd"/>
+<node id="operating-systems"/>
+<node id="args"/>
+<node id="arguing"/>
+<node id="giallo"/>
+<node id="4mmb"/>
+<node id="europa"/>
+<node id="argumentation-theory"/>
+<node id="operation"/>
+<node id="4shrines"/>
+<node id="vorbis"/>
+<node id="communities_of_practice"/>
+<node id="dia"/>
+<node id="protests"/>
+<node id="misc.bizarro"/>
+<node id="protocolli"/>
+<node id="diagonal_method"/>
+<node id="companion"/>
+<node id="brilliant"/>
+<node id="giro"/>
+<node id="comparision"/>
+<node id="mithology"/>
+<node id="mitochondria"/>
+<node id="dickens"/>
+<node id="leadership%2bfailure"/>
+<node id="oregon"/>
+<node id="dictionaries"/>
+<node id="arst"/>
+<node id="glob"/>
+<node id="learners"/>
+<node id="organism"/>
+<node id="dietex"/>
+<node id="wants"/>
+<node id="wap"/>
+<node id="teatro"/>
+<node id="glocal"/>
+<node id="origami"/>
+<node id="incarnate"/>
+<node id="art_essay"/>
+<node id="sertraline"/>
+<node id="server&quot;"/>
+<node id="mobi"/>
+<node id="digital-libraries"/>
+<node id="psychosis"/>
+<node id="service"/>
+<node id="technik"/>
+<node id="artdeco"/>
+<node id="independant"/>
+<node id="arth120"/>
+<node id="802.16"/>
+<node id="arthist"/>
+<node id="left"/>
+<node id="mobileterms"/>
+<node id="gnosis"/>
+<node id="gnostic"/>
+<node id="techtutorials"/>
+<node id="buddha"/>
+<node id="artichoke"/>
+<node id="experientialeducation"/>
+<node id="computational_linguistics"/>
+<node id="articlelis"/>
+<node id="compute"/>
+<node id="indierock"/>
+<node id="publicgood"/>
+<node id="gobelins"/>
+<node id="we_give_life_to_brands"/>
+<node id="articulation"/>
+<node id="weapon"/>
+<node id="wearedoomed"/>
+<node id="weather_project"/>
+<node id="godparticle"/>
+<node id="outdoors"/>
+<node id="computer_networking"/>
+<node id="computer_security"/>
+<node id="web1.0"/>
+<node id="expressing"/>
+<node id="gold"/>
+<node id="leor"/>
+<node id="=wikipage"/>
+<node id="din"/>
+<node id="artistresearch"/>
+<node id="computermusic"/>
+<node id="overload"/>
+<node id="temperature"/>
+<node id="template_engine"/>
+<node id="diplom"/>
+<node id="artresearch"/>
+<node id="diploma_game"/>
+<node id="arts"/>
+<node id="influenza"/>
+<node id="computerÂ history"/>
+<node id="webculture"/>
+<node id="webdav"/>
+<node id="webdev"/>
+<node id="leverarms"/>
+<node id="@home"/>
+<node id="busines"/>
+<node id="dir"/>
+<node id="director"/>
+<node id="artÃ­culo"/>
+<node id="directors"/>
+<node id="concentration_camp"/>
+<node id="gop"/>
+<node id="pythagoras"/>
+<node id="arvuti"/>
+<node id="informallearning"/>
+<node id="termodinamica"/>
+<node id="gospel"/>
+<node id="gos"/>
+<node id="business_with_yan-yan"/>
+<node id="informatika"/>
+<node id="businessanalysis"/>
+<node id="businessandeconomy"/>
+<node id="@wiki"/>
+<node id="asi"/>
+<node id="governing-systems"/>
+<node id="librarianship"/>
+<node id="test"/>
+<node id="qrcode"/>
+<node id="moo"/>
+<node id="discrimination"/>
+<node id="moomin"/>
+<node id="gprs"/>
+<node id="paediatrics"/>
+<node id="factoryrecords"/>
+<node id="diskimaging%2fbackup"/>
+<node id="lie"/>
+<node id="byte_stuff"/>
+<node id="showusman"/>
+<node id="mormon"/>
+<node id="disser"/>
+<node id="quaternion"/>
+<node id="assignment3"/>
+<node id="c0de"/>
+<node id="thatcher"/>
+<node id="grail"/>
+<node id="ligature"/>
+<node id="fairytales"/>
+<node id="faith_journey"/>
+<node id="lightbulb"/>
+<node id="gramm"/>
+<node id="distribute"/>
+<node id="faks"/>
+<node id="fakultet"/>
+<node id="mosquitoes"/>
+<node id="_rpg_otherwise"/>
+<node id="distributed_systems"/>
+<node id="_selfdiscovery"/>
+<node id="fall_04"/>
+<node id="fallacies"/>
+<node id="_studio"/>
+<node id="astral-projection"/>
+<node id="graphdrawing"/>
+<node id="quixote"/>
+<node id="falsification"/>
+<node id="theologicalmisquotes"/>
+<node id="conspiracion"/>
+<node id="graphicdesign"/>
+<node id="astronomie"/>
+<node id="graphicorganizers"/>
+<node id="conspirations"/>
+<node id="inquiry"/>
+<node id="move-martial"/>
+<node id="a-spool"/>
+<node id="graphismo"/>
+<node id="dixon"/>
+<node id="moveon"/>
+<node id="calculating"/>
+<node id="linguistica"/>
+<node id="moviemaking"/>
+<node id="djakarta"/>
+<node id="inspiratie"/>
+<node id="wiimote"/>
+<node id="caleb"/>
+<node id="wik"/>
+<node id="inspirations"/>
+<node id="thesea"/>
+<node id="calendaring"/>
+<node id="ateÃ­smo"/>
+<node id="inspirational"/>
+<node id="calidadsoftware"/>
+<node id="moviestowatch"/>
+<node id="consultation"/>
+<node id="fap0181"/>
+<node id="aa"/>
+<node id="institute"/>
+<node id="radios"/>
+<node id="linklog"/>
+<node id="greece"/>
+<node id="atlases"/>
+<node id="simulators"/>
+<node id="greedyalgorithms"/>
+<node id="docomo"/>
+<node id="railgun"/>
+<node id="abbr"/>
+<node id="abbreviation"/>
+<node id="mrtg"/>
+<node id="contextfree"/>
+<node id="this=reference"/>
+<node id="wikipedi"/>
+<node id="documentaries"/>
+<node id="rand"/>
+<node id="can"/>
+<node id="abomination"/>
+<node id="canada"/>
+<node id="lisi"/>
+<node id="gregor"/>
+<node id="intellecture"/>
+<node id="msmba-summer"/>
+<node id="contradictions"/>
+<node id="wikipedia.links"/>
+<node id="contribution"/>
+<node id="listening"/>
+<node id="listing"/>
+<node id="rapidshare"/>
+<node id="skeleton"/>
+<node id="interactions"/>
+<node id="featured_articles"/>
+<node id="patrice"/>
+<node id="fed"/>
+<node id="aufklÃ¤rung"/>
+<node id="patternmatching"/>
+<node id="interesant"/>
+<node id="dominionist"/>
+<node id="tim_berners-lee"/>
+<node id="cooking"/>
+<node id="raw"/>
+<node id="interestin"/>
+<node id="timecapsule"/>
+<node id="multicultural_communications"/>
+<node id="australian"/>
+<node id="timothy"/>
+<node id="austrian-school"/>
+<node id="auteurs"/>
+<node id="auth-encrypt"/>
+<node id="doom"/>
+<node id="accountancy"/>
+<node id="reaction"/>
+<node id="authority"/>
+<node id="care-managingbravenet"/>
+<node id="windowmanager"/>
+<node id="pdr"/>
+<node id="lobotomy"/>
+<node id="tma01"/>
+<node id="internesity"/>
+<node id="readers"/>
+<node id="tnjt"/>
+<node id="acquisitions"/>
+<node id="muse"/>
+<node id="smarty"/>
+<node id="wired160408"/>
+<node id="readingideas"/>
+<node id="fiction"/>
+<node id="autor"/>
+<node id="corpora"/>
+<node id="logarithmic"/>
+<node id="interpretations"/>
+<node id="activisim"/>
+<node id="logic-and-model-theory"/>
+<node id="logistic"/>
+<node id="avas"/>
+<node id="realismo"/>
+<node id="interventtech"/>
+<node id="penis"/>
+<node id="penmanship"/>
+<node id="corrosion"/>
+<node id="guru"/>
+<node id="acustic"/>
+<node id="casbarian"/>
+<node id="cosmopolitanism"/>
+<node id="pentest"/>
+<node id="files"/>
+<node id="lomography"/>
+<node id="filesync"/>
+<node id="adagio"/>
+<node id="costume"/>
+<node id="woot"/>
+<node id="awele"/>
+<node id="filipino"/>
+<node id="wordlist"/>
+<node id="counter-economics"/>
+<node id="wordplay"/>
+<node id="casting"/>
+<node id="words%3ai_don%27t_know"/>
+<node id="perfectartist"/>
+<node id="words_and_phrases"/>
+<node id="drowning"/>
+<node id="azf2k"/>
+<node id="filmmakers"/>
+<node id="filmography"/>
+<node id="workstation"/>
+<node id="covariance"/>
+<node id="filosofia"/>
+<node id="categorytheory"/>
+<node id="cathedral"/>
+<node id="filosofÃ­a"/>
+<node id="adm"/>
+<node id="catholicerrors"/>
+<node id="administracion"/>
+<node id="lounge"/>
+<node id="socialnetwork"/>
+<node id="socialnetworking"/>
+<node id="muzika"/>
+<node id="persistent.data.structures"/>
+<node id="personaggi"/>
+<node id="toolkit"/>
+<node id="finalyearproject"/>
+<node id="backgammon"/>
+<node id="socialsciences"/>
+<node id="background_knowledge"/>
+<node id="reenactment"/>
+<node id="referat"/>
+<node id="ipt"/>
+<node id="sociedad"/>
+<node id="reference_management"/>
+<node id="adrian"/>
+<node id="sociologija"/>
+<node id="craft"/>
+<node id="personallinks"/>
+<node id="iraqwar"/>
+<node id="iread"/>
+<node id="reflexivity"/>
+<node id="personel"/>
+<node id="writers"/>
+<node id="softphone"/>
+<node id="crazies"/>
+<node id="dvb-t"/>
+<node id="mystery%7cparanormal%7castrology"/>
+<node id="mystic"/>
+<node id="firebird"/>
+<node id="advertisers"/>
+<node id="mysticism"/>
+<node id="mystika"/>
+<node id="luna"/>
+<node id="celebration"/>
+<node id="mythologicalcreatures"/>
+<node id="toussaint"/>
+<node id="relacoesinternacionais"/>
+<node id="related+info"/>
+<node id="aeneas"/>
+<node id="creatures"/>
+<node id="hardw"/>
+<node id="credibility"/>
+<node id="mytoloogia"/>
+<node id="ww3"/>
+<node id="ph115"/>
+<node id="solar_energy"/>
+<node id="relief"/>
+<node id="religiao"/>
+<node id="bangsian"/>
+<node id="pharmacology"/>
+<node id="bankers"/>
+<node id="lÃ­nguas"/>
+<node id="x-files%2fsecret%2fweapons"/>
+<node id="banned"/>
+<node id="nadando"/>
+<node id="phd.tools.codecs"/>
+<node id="religion_spirituality"/>
+<node id="religions"/>
+<node id="religionandphilosophy"/>
+<node id="phenology"/>
+<node id="e-business"/>
+<node id="nalgene"/>
+<node id="religiousplurality"/>
+<node id="name]"/>
+<node id="religiÃ³n"/>
+<node id="namespace"/>
+<node id="hat"/>
+<node id="isotope"/>
+<node id="xforms"/>
+<node id="machiavelli"/>
+<node id="isr"/>
+<node id="nanotube"/>
+<node id="israellobby"/>
+<node id="xmen"/>
+<node id="philosophie"/>
+<node id="isv"/>
+<node id="agencies"/>
+<node id="cfclass"/>
+<node id="early_hominids"/>
+<node id="cfud"/>
+<node id="mada"/>
+<node id="ears"/>
+<node id="earthquakes"/>
+<node id="italo"/>
+<node id="republican"/>
+<node id="ease"/>
+<node id="nationalparks"/>
+<node id="nations"/>
+<node id="eastafrica"/>
+<node id="soup"/>
+<node id="nativeamerica"/>
+<node id="crucible"/>
+<node id="reseach"/>
+<node id="phonosemantics"/>
+<node id="trash"/>
+<node id="crusader"/>
+<node id="magi"/>
+<node id="naturalmedicine"/>
+<node id="cryptographic"/>
+<node id="photographie"/>
+<node id="bbs"/>
+<node id="trek"/>
+<node id="crystals"/>
+<node id="navy"/>
+<node id="trial"/>
+<node id="triangle"/>
+<node id="sp3"/>
+<node id="folklore"/>
+<node id="young"/>
+<node id="photostitching"/>
+<node id="bd-j"/>
+<node id="folksonomy"/>
+<node id="ecmsecurity"/>
+<node id="reservas"/>
+<node id="izborni"/>
+<node id="spaceflight"/>
+<node id="bea"/>
+<node id="ajakirjandusteooria"/>
+<node id="hebreo%2cyiddish%26ladino"/>
+<node id="ajalugu"/>
+<node id="spadaccini"/>
+<node id="resonant"/>
+<node id="resource-hist3389"/>
+<node id="ecommunication"/>
+<node id="making"/>
+<node id="alari"/>
+<node id="jamming"/>
+<edge source="fools" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="fools" target="chrismccandless">
+  <data key="d0">1</data>
+</edge>
+<edge source="foonetic/#boats" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="foonetic/#boats" target="chrismccandless">
+  <data key="d0">1</data>
+</edge>
+<edge source="spec" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="trustmojo" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="economiccrisis" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="economiccrisis" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="japa" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="japa" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="reuse" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="reuse" target="chrismccandless">
+  <data key="d0">1</data>
+</edge>
+<edge source="revalidation" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="revalidation" target="chrismccandless">
+  <data key="d0">1</data>
+</edge>
+<edge source="japanculture" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="economies" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="!egypt" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="picturenews" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="economoists" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="behaveconomics" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="manage" target="bbs">
+  <data key="d0">2</data>
+</edge>
+<edge source="speculativerealism" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="managers" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="revocation" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="jareddiamond" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="herde" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="forenglishhomework" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="jav" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="cults" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="forensic_pathology" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="forensic_science" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="belgrade" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="belgrade" target="chrismccandless">
+  <data key="d0">1</data>
+</edge>
+<edge source="rhaps" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="rhaps" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="&quot;nag" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="forg" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="spiel" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="culturatecnologia" target="jesuits">
+  <data key="d0">2</data>
+</edge>
+<edge source="culturatecnologia" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="culturatecnologia" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="culturatecnologia" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="culturatecnologia" target="bbs">
+  <data key="d0">2</data>
+</edge>
+<edge source="culturatecnologia" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="editing" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="&quot;the" target="chrismccandless">
+  <data key="d0">1</data>
+</edge>
+<edge source="ribosome" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="manufacturing" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="algorithims" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="spirit" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="spirit" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="spiritual" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="spiritual" target="chrismccandless">
+  <data key="d0">1</data>
+</edge>
+<edge source="spiritual" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="spiritual" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="culturephenom" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="netwalking" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="#achrist" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="algorithmique" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="mapplethorpe" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="jeff" target="chrismccandless">
+  <data key="d0">1</data>
+</edge>
+<edge source="mapserver" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="forms" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="chief" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="educaciÃ³n" target="er">
+  <data key="d0">2</data>
+</edge>
+<edge source="educaciÃ³n" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="education" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="education" target="chrismccandless">
+  <data key="d0">1</data>
+</edge>
+<edge source="networkedlearning" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="education2.0" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="alias" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="#guild" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="fortran:90" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="tweet" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="maritime" target="jesuits">
+  <data key="d0">1</data>
+</edge>
+<edge source="chimie" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="#python.tw" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="jeux">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="jewelry">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="jewishstudies">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="customizing">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="neutron">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="eggers">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="chrismccandless">
+  <data key="d0">4</data>
+</edge>
+<edge source="jesuits" target="christendom">
+  <data key="d0">5</data>
+</edge>
+<edge source="jesuits" target="egs">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="egypten">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="bib_assignment">
+  <data key="d0">5</data>
+</edge>
+<edge source="jesuits" target="bible-study">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="christianism">
+  <data key="d0">10</data>
+</edge>
+<edge source="jesuits" target="rod">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="biblestudy">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="historical">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="historicalfigure">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="historiography">
+  <data key="d0">10</data>
+</edge>
+<edge source="jesuits" target="masons">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="newtags">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="chupacabra">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="uid">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="historyvisigoth">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="uml">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="+wÃ¶rter">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="hoare">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="underground">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="juanatkins">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="judaic">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="judaica">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="judas">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="holga">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="holiday_ref">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="holidays">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="dasende">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="junction">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="rubrbfills">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="homosexual">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="storm">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="emotionalintelligence">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="mdt">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="hortus">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="davegibbons">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="andante">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="encyclopaedic">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="studio_technics">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="ddwrt">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="engl758c">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="englisch">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="bloggers">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="english-language">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="debord">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="sui">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="20's">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="messengers">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="definitioner">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="body_language">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="scicu">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="2007september">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="gaussiancopula">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="scientology">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="oer">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="apocalipse">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="apocolypse">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="apologetic-study">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="bookriff">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="escapemg">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="escher">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="apr">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="identifiers">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="ess">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="progressive">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="seconds">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="langer">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="largeformat">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="property">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="vocab_lesson">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="latex">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="devolution">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="eua">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="misc.bizarro">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="mithology">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="mitochondria">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="dictionaries">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="learners">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="dietex">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="origami">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="psychosis">
+  <data key="d0">3</data>
+</edge>
+<edge source="jesuits" target="left">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="gnostic">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="experientialeducation">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="articlelis">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="gobelins">
+  <data key="d0">3</data>
+</edge>
+<edge source="jesuits" target="godparticle">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="leor">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="dir">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="artÃ­culo">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="gos">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="informatika">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="@wiki">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="test">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="qrcode">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="diskimaging%2fbackup">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="lie">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="disser">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="fairytales">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="faith_journey">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="gramm">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="_rpg_otherwise">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="theologicalmisquotes">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="a-spool">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="moveon">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="calculating">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="moviemaking">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="wiimote">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="caleb">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="wik">
+  <data key="d0">5</data>
+</edge>
+<edge source="jesuits" target="ateÃ­smo">
+  <data key="d0">5</data>
+</edge>
+<edge source="jesuits" target="greedyalgorithms">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="wikipedi">
+  <data key="d0">13</data>
+</edge>
+<edge source="jesuits" target="documentaries">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="rand">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="rapidshare">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="skeleton">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="raw">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="multicultural_communications">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="doom">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="reaction">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="readers">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="fiction">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="realismo">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="penis">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="penmanship">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="costume">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="woot">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="wordplay">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="words%3ai_don%27t_know">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="filmography">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="covariance">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="cathedral">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="filosofÃ­a">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="catholicerrors">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="lounge">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="personaggi">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="referat">
+  <data key="d0">3</data>
+</edge>
+<edge source="jesuits" target="personallinks">
+  <data key="d0">3</data>
+</edge>
+<edge source="jesuits" target="mystery%7cparanormal%7castrology">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="mystic">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="mysticism">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="mystika">
+  <data key="d0">4</data>
+</edge>
+<edge source="jesuits" target="celebration">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="mythologicalcreatures">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="toussaint">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="aeneas">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="relief">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="religiao">
+  <data key="d0">11</data>
+</edge>
+<edge source="jesuits" target="lÃ­nguas">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="x-files%2fsecret%2fweapons">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="religion_spirituality">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="religionandphilosophy">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="phenology">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="religiousplurality">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="religiÃ³n">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="philosophie">
+  <data key="d0">2</data>
+</edge>
+<edge source="jesuits" target="isv">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="eastafrica">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="reseach">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="magi">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="crystals">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="folklore">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="spaceflight">
+  <data key="d0">1</data>
+</edge>
+<edge source="jesuits" target="hebreo%2cyiddish%26ladino">
+  <data key="d0">1</data>
+</edge>
+<edge source="forwarding" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="jeux" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="#wikipedia" target="chrismccandless">
+  <data key="d0">1</data>
+</edge>
+<edge source="marketect" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="planes" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="jewishstudies" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="bet" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="planetary-law" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="eff" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="marks" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="neutron" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="cybercrime" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="christendom">
+  <data key="d0">6</data>
+</edge>
+<edge source="chrismccandless" target="bib_assignment">
+  <data key="d0">4</data>
+</edge>
+<edge source="chrismccandless" target="christianism">
+  <data key="d0">7</data>
+</edge>
+<edge source="chrismccandless" target="rod">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="biblestudy">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="historical">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="historicalfigure">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="historiography">
+  <data key="d0">6</data>
+</edge>
+<edge source="chrismccandless" target="da-vinci">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="da_impl_patterns">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="historyvisigoth">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="underground">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="freestylelanguage">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="judaic">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="judaica">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="biographies">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target=".togetto">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="/sys">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="rubrbfills">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="politician">
+  <data key="d0">2</data>
+</edge>
+<edge source="chrismccandless" target="homo">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="fundamental-mathematics">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="us_politics">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="davinci">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="ancients">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="funniest">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="andante">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="encyclopaedic">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="18.09">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="enki">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="hume">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="knight">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="messengers">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="scicu">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="gaussiancopula">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="deimos">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="boo">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="apocalipse">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="apologetic-study">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="bookriff">
+  <data key="d0">2</data>
+</edge>
+<edge source="chrismccandless" target="escapemg">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="vinyl">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="ess">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="progressive">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="militaria">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="langer">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="ihc">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="property">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="latex">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="europa">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="brilliant">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="dictionaries">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="learners">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="origami">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="psychosis">
+  <data key="d0">3</data>
+</edge>
+<edge source="chrismccandless" target="left">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="gnostic">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="gobelins">
+  <data key="d0">2</data>
+</edge>
+<edge source="chrismccandless" target="gospel">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="conspiracion">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="conspirations">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="wik">
+  <data key="d0">3</data>
+</edge>
+<edge source="chrismccandless" target="ateÃ­smo">
+  <data key="d0">3</data>
+</edge>
+<edge source="chrismccandless" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="wikipedi">
+  <data key="d0">6</data>
+</edge>
+<edge source="chrismccandless" target="rapidshare">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="skeleton">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="interestin">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="doom">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="reaction">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="pentest">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="wordplay">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="covariance">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="personaggi">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="personallinks">
+  <data key="d0">2</data>
+</edge>
+<edge source="chrismccandless" target="iraqwar">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="crazies">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="dvb-t">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="mystika">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="mythologicalcreatures">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="toussaint">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="credibility">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="relief">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="religiao">
+  <data key="d0">5</data>
+</edge>
+<edge source="chrismccandless" target="bangsian">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="bankers">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="phd.tools.codecs">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="religions">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="religiousplurality">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="hat">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="philosophie">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="reseach">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="crusader">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="ecmsecurity">
+  <data key="d0">1</data>
+</edge>
+<edge source="chrismccandless" target="ajakirjandusteooria">
+  <data key="d0">1</data>
+</edge>
+<edge source="christendom" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="christendom" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="christendom" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="christendom" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="christendom" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="christendom" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="christendom" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="christendom" target="gnosis">
+  <data key="d0">2</data>
+</edge>
+<edge source="christendom" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="christendom" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="christendom" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="egs" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="bib_assignment" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="bib_assignment" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="bib_assignment" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="bib_assignment" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="bib_assignment" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="bib_assignment" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="bib_assignment" target="gnosis">
+  <data key="d0">2</data>
+</edge>
+<edge source="bib_assignment" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="bib_assignment" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="bib_assignment" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="bib_assignment" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="ssl" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="hist2008ls" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="neworleans">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="sail">
+  <data key="d0">3</data>
+</edge>
+<edge source="christianism" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="glocal">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="incarnate">
+  <data key="d0">2</data>
+</edge>
+<edge source="christianism" target="gnosis">
+  <data key="d0">3</data>
+</edge>
+<edge source="christianism" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="christianism" target="izborni">
+  <data key="d0">2</data>
+</edge>
+<edge source="histoire" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="frames" target="ruby">
+  <data key="d0">3</data>
+</edge>
+<edge source="framework" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="historiography">
+  <data key="d0">2</data>
+</edge>
+<edge source="neworleans" target="*misc">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="rubrbfills">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="homage">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="universalism">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="horney">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="dataì­ì /ë³µêµ¬">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="dates">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="encyclopaedic">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="knowlage">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="scicu">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="offset">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="lake">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="geological">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="proj.wildgeese">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="militia">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="488">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="latex">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="dictionaries">
+  <data key="d0">2</data>
+</edge>
+<edge source="neworleans" target="glob">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="learners">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="gobelins">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="outdoors">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="computer_networking">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="informatika">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="factoryrecords">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="lie">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="astronomie">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="calculating">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="caleb">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="wik">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="calendaring">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="contextfree">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="wikipedi">
+  <data key="d0">3</data>
+</edge>
+<edge source="neworleans" target="gregor">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="tim_berners-lee">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="cosmopolitanism">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="awele">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="wordplay">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="personaggi">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="referat">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="firebird">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="solar_energy">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="ears">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="italo">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="reseach">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="naturalmedicine">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="neworleans" target="sp3">
+  <data key="d0">1</data>
+</edge>
+<edge source="histograms" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="francais" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="francais" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="stacking" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="francie" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="historiography" target="ruby">
+  <data key="d0">2</data>
+</edge>
+<edge source="historiography" target="datenschutz">
+  <data key="d0">2</data>
+</edge>
+<edge source="historiography" target="sail">
+  <data key="d0">2</data>
+</edge>
+<edge source="historiography" target="er">
+  <data key="d0">6</data>
+</edge>
+<edge source="historiography" target="era">
+  <data key="d0">2</data>
+</edge>
+<edge source="historiography" target="glocal">
+  <data key="d0">1</data>
+</edge>
+<edge source="historiography" target="incarnate">
+  <data key="d0">2</data>
+</edge>
+<edge source="historiography" target="gnosis">
+  <data key="d0">3</data>
+</edge>
+<edge source="historiography" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="historiography" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="historiography" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="historiography" target="bbs">
+  <data key="d0">2</data>
+</edge>
+<edge source="historiography" target="izborni">
+  <data key="d0">4</data>
+</edge>
+<edge source="newtags" target="gnosis">
+  <data key="d0">2</data>
+</edge>
+<edge source="*****" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="plutarch" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="standardit" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="chupacabra" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="d80" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="*can_wait" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="frederick" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="frederick" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="frederick" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="frederick" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="ci6402" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="room" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="startpage" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="rootsi" target="ruby">
+  <data key="d0">2</data>
+</edge>
+<edge source="bilgi" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="hitchhiker" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="amber" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="materials" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="roteiro" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="+wÃ¶rter" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="+wÃ¶rter" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="joydivision" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="amercianhistory" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="america" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="underground" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="stax" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="jrock" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="stc" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="mathematician" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="steam" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="policestate" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="judaica" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="freizeit" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="americanrevolution" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="holiday_ref" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="matrix" target="ruby">
+  <data key="d0">1</data>
+</edge>
+<edge source="juliusresearch" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="ru" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubber" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="biography/field" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="junction" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubrbfills" target="ruby">
+  <data key="d0">8</data>
+</edge>
+<edge source="rubrbfills" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubrbfills" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubrbfills" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubrbfills" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubrbfills" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubrbfills" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubrbfills" target="bbs">
+  <data key="d0">2</data>
+</edge>
+<edge source="homage" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="ruby_on_rails">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="rubric">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="dataarchitecture">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="bizcovery">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="encyclopaedic">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="user_mode_linux">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="htcpcp">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="engineer">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="ppea">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="cmpt398">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="scadian">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="meow">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="entrepreneurs">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="1phd">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="codd">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="definitie">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="metaphysics">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="methodologie">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="bookmarkmenu">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="collaborating">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="appliance">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="omg">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="desiderata">
+  <data key="d0">4</data>
+</edge>
+<edge source="ruby" target="programmieren">
+  <data key="d0">7</data>
+</edge>
+<edge source="ruby" target="programmable">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="onion_router">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="virtualization">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="idtheft">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="3756x">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="langer">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="deutschland">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="architecturaltheory">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="vlogger">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="developing">
+  <data key="d0">5</data>
+</edge>
+<edge source="ruby" target="opensolaris">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="ilya">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="latex">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="4shrines">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="companion">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="comparision">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="dictionaries">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="learners">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="organism">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="teatro">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="artichoke">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="gobelins">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="weather_project">
+  <data key="d0">4</data>
+</edge>
+<edge source="ruby" target="web1.0">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="=wikipage">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="computermusic">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="temperature">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="template_engine">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="computerÂ history">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="webculture">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="webdav">
+  <data key="d0">3</data>
+</edge>
+<edge source="ruby" target="webdev">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="pythagoras">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="informallearning">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="informatika">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="librarianship">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="byte_stuff">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="mormon">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="c0de">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="grail">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="djakarta">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="inspiratie">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="wik">
+  <data key="d0">3</data>
+</edge>
+<edge source="ruby" target="inspirations">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="consultation">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="railgun">
+  <data key="d0">5</data>
+</edge>
+<edge source="ruby" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="wikipedi">
+  <data key="d0">7</data>
+</edge>
+<edge source="ruby" target="lisi">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="patternmatching">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="cooking">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="internesity">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="acquisitions">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="muse">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="interpretations">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="guru">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="pentest">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="wordplay">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="perfectartist">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="words_and_phrases">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="muzika">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="personaggi">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="toolkit">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="referat">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="reference_management">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="softphone">
+  <data key="d0">4</data>
+</edge>
+<edge source="ruby" target="nalgene">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="xmen">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="crucible">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="reseach">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="bbs">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="photostitching">
+  <data key="d0">3</data>
+</edge>
+<edge source="ruby" target="bd-j">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="ajalugu">
+  <data key="d0">2</data>
+</edge>
+<edge source="ruby" target="resource-hist3389">
+  <data key="d0">1</data>
+</edge>
+<edge source="politician" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="politician" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="politician" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="politician" target="izborni">
+  <data key="d0">3</data>
+</edge>
+<edge source="maxwell's" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="emancipation" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="universe" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="unmasked" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="databases" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="stopmotion" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="080929" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="noname^" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="analyses" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="anamorphic" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="birth" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="mdt" target="sail">
+  <data key="d0">1</data>
+</edge>
+<edge source="mdt" target="glocal">
+  <data key="d0">1</data>
+</edge>
+<edge source="mdt" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="mdt" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="mdt" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="mdt" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="bit-array" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="dataì­ì /ë³µêµ¬" target="datenschutz">
+  <data key="d0">1</data>
+</edge>
+<edge source="norse" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="encyclopaedic">
+  <data key="d0">2</data>
+</edge>
+<edge source="datenschutz" target="futurama">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="englisch">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="debussy">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="2-20">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="codd">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="definitioner">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="scicu">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="2007september">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="ocl">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="deliberative">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="gedney">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="collecting">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="desalination">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="ideaorganization">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="aprendizaje%26recursos">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="espresso">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="langer">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="etym">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="latex">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="oregon">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="dictionaries">
+  <data key="d0">2</data>
+</edge>
+<edge source="datenschutz" target="learners">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="compute">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="gobelins">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="wearedoomed">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="weather_project">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="computer_security">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="influenza">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="computerÂ history">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="termodinamica">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="informatika">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="moomin">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="assignment3">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="astral-projection">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="quixote">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="astronomie">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="calculating">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="caleb">
+  <data key="d0">2</data>
+</edge>
+<edge source="datenschutz" target="wik">
+  <data key="d0">2</data>
+</edge>
+<edge source="datenschutz" target="calendaring">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="this=reference">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="wikipedi">
+  <data key="d0">3</data>
+</edge>
+<edge source="datenschutz" target="lisi">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="listening">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="listing">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="aufklÃ¤rung">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="interesant">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="tim_berners-lee">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="cooking">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="wordplay">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="personaggi">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="reenactment">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="referat">
+  <data key="d0">2</data>
+</edge>
+<edge source="datenschutz" target="luna">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="hardw">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="ph115">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="pharmacology">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="nadando">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="name]">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="earthquakes">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="sp3">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="bea">
+  <data key="d0">1</data>
+</edge>
+<edge source="datenschutz" target="jamming">
+  <data key="d0">1</data>
+</edge>
+<edge source="fumetti" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="popularity" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="strategies" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="strategies" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="northkorea" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="urology" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="classic-games" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="biyoloji" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="davegibbons" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="fundamental-mathematics" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="us_politics" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="us_politics" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="us_politics" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="bizcovery" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="medea" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="sage" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="ancients" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="funniest" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="encryption%2fsecurity" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="katrina" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="day2">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="sailing">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="keen">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="dearborn">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="englisch">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="scaling">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="pratchett">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="scams">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="antpocas">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="kost">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="gecko">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="mexican">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="michaelmoore">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="syncratication-of">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="ideaorganization">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="geographical">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="iim">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="mimesis">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="communicatie">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="dia">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="arst">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="learners">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="glocal">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="gobelins">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="paediatrics">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="showusman">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="inspiratie">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="wik">
+  <data key="d0">3</data>
+</edge>
+<edge source="sail" target="wikipedi">
+  <data key="d0">4</data>
+</edge>
+<edge source="sail" target="patrice">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="australian">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="pentest">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="filipino">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="casting">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="azf2k">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="workstation">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="cathedral">
+  <data key="d0">2</data>
+</edge>
+<edge source="sail" target="lounge">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="background_knowledge">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="referat">
+  <data key="d0">4</data>
+</edge>
+<edge source="sail" target="iread">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="personel">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="mythologicalcreatures">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="related+info">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="religiao">
+  <data key="d0">4</data>
+</edge>
+<edge source="sail" target="religionandphilosophy">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="philosophie">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="reseach">
+  <data key="d0">2</data>
+</edge>
+<edge source="sail" target="trash">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="folksonomy">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="ajakirjandusteooria">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="spadaccini">
+  <data key="d0">1</data>
+</edge>
+<edge source="sail" target="resonant">
+  <data key="d0">1</data>
+</edge>
+<edge source="furl" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="encyclopaedic" target="er">
+  <data key="d0">2</data>
+</edge>
+<edge source="encyclopaedic" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="encyclopaedic" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="encyclopaedic" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="encyclopaedic" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="encyclopaedic" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="encyclopaedic" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="howto" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="andres" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="mediascience" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="dbs" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="salvia" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="ends" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="user_mode_linux" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="samuelbeckett" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="stupidity" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="nsa" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="httm" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="usrp" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="1857" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="subjective" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="gadget" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="gaia-hypothesis" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="engineer" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="hum475" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="engl758c" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="englisch" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="deb" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="english-language" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="clust_cablelength" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="v3" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="gambling" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="humanitarians" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="humanitarians" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="hume" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="hume" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="humors" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="19thc" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="entrepreneurs" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="scholastic" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="2002" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="knowlage" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="definitie" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="knowledge_representation" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="surf" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="obt&amp;e_science" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="prices" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="2007september" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="vertical" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="onderwijs" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="oer" target="er">
+  <data key="d0">1</data>
+</edge>
+<edge source="oer" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="era">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="vicsek">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="geneology">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="victor">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="victoria">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="desiderata">
+  <data key="d0">2</data>
+</edge>
+<edge source="er" target="design_games">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="progress">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="progressivechristianity">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="t9">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="estÃ¡gio">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="opcode">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="architecturaltheory">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="architecture-standards">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="developing">
+  <data key="d0">2</data>
+</edge>
+<edge source="er" target="ethos">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="taliban">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="latex">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="communicatie">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="giallo">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="dickens">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="dictionaries">
+  <data key="d0">2</data>
+</edge>
+<edge source="er" target="arst">
+  <data key="d0">2</data>
+</edge>
+<edge source="er" target="learners">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="art_essay">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="technik">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="artdeco">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="arth120">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="arthist">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="artichoke">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="gobelins">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="artistresearch">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="artresearch">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="arts">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="leverarms">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="@home">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="gop">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="informatika">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="@wiki">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="asi">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="quaternion">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="ligature">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="lightbulb">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="move-martial">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="dixon">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="wik">
+  <data key="d0">2</data>
+</edge>
+<edge source="er" target="institute">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="linklog">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="wikipedi">
+  <data key="d0">7</data>
+</edge>
+<edge source="er" target="contradictions">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="wikipedia.links">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="listing">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="interestin">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="timecapsule">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="care-managingbravenet">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="tnjt">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="autor">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="pentest">
+  <data key="d0">2</data>
+</edge>
+<edge source="er" target="lomography">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="wordplay">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="filmmakers">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="adm">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="persistent.data.structures">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="personaggi">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="finalyearproject">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="backgammon">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="referat">
+  <data key="d0">3</data>
+</edge>
+<edge source="er" target="ipt">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="reference_management">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="craft">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="reflexivity">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="writers">
+  <data key="d0">2</data>
+</edge>
+<edge source="er" target="mytoloogia">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="ww3">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="namespace">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="nanotube">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="ease">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="reseach">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="phonosemantics">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="photographie">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="er" target="ecommunication">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="militaria">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="tactic">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="latex">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="dictionaries">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="learners">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="organism">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="wants">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="wap">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="gobelins">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="weapon">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="wikipedi">
+  <data key="d0">2</data>
+</edge>
+<edge source="era" target="listing">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="logistic">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="wordplay">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="personaggi">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="sociedad">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="sociologija">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="era" target="making">
+  <data key="d0">1</data>
+</edge>
+<edge source="methodologie" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="demographics" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="demolition" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="problemsolving" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="geneology" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="geneology" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="apocolypse" target="gnosis">
+  <data key="d0">2</data>
+</edge>
+<edge source="bookmarksbar" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="scriptable" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="collaborating" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="scripting" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="kvm" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="ide" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="ide" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="sys.admin" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="ideaorganization" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="ideaorganization" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="identifiers" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="identifiers" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="vinyl" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="identity.management" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="identity2.0" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="desiderata" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="desiderata" target="bbs">
+  <data key="d0">2</data>
+</edge>
+<edge source="microships" target="acustic">
+  <data key="d0">3</data>
+</edge>
+<edge source="programmieren" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="onion_router" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="onion_router" target="bbs">
+  <data key="d0">2</data>
+</edge>
+<edge source="mid-1900s" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="virt" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="ess" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="online_spreadsheet" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="geographical" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="geographical" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="onlinecommunities" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="34" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="sec+" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="3756x" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="geometrie" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="proj.wildgeese" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="militaria" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="langer" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="langer" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="secure" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="project_fingers" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="estÃ©tica" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="projection" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="visualizacion" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="deutschland" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="architecturaltheory" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="largeformat" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="ethnicity_culture" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="comment" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="archival" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="developing" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="developing" target="bbs">
+  <data key="d0">2</data>
+</edge>
+<edge source="opensolaris" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="ilya" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="vocab_lesson" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="etym" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="latex" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="latex" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="latex" target="acustic">
+  <data key="d0">3</data>
+</edge>
+<edge source="latex" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="458time" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="branchesofchemistry" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="brand" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="brandon" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="proposed-countries" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="communicatie" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="dfd" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="operating-systems" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="args" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="arguing" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="4mmb" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="argumentation-theory" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="operation" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="vorbis" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="communities_of_practice" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="protests" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="protocolli" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="diagonal_method" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="companion" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="giro" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="comparision" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="leadership%2bfailure" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="dictionaries" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="dictionaries" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="dictionaries" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="dictionaries" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="arst" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="arst" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="learners" target="glocal">
+  <data key="d0">1</data>
+</edge>
+<edge source="learners" target="incarnate">
+  <data key="d0">2</data>
+</edge>
+<edge source="learners" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="learners" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="learners" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="learners" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="learners" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="learners" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="organism" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="wants" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="teatro" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="incarnate">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="gobelins">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="wik">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="wikipedi">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="pentest">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="referat">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="religiao">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="reseach">
+  <data key="d0">1</data>
+</edge>
+<edge source="glocal" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="origami" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="gobelins">
+  <data key="d0">2</data>
+</edge>
+<edge source="incarnate" target="wik">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="wikipedi">
+  <data key="d0">2</data>
+</edge>
+<edge source="incarnate" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="pentest">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="wordplay">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="personaggi">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="referat">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="religiao">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="reseach">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="incarnate" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="sertraline" target="acustic">
+  <data key="d0">3</data>
+</edge>
+<edge source="server&quot;" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="mobi" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="digital-libraries" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="psychosis" target="gnosis">
+  <data key="d0">1</data>
+</edge>
+<edge source="service" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="independant" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="802.16" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="mobileterms" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="gnostic">
+  <data key="d0">2</data>
+</edge>
+<edge source="gnosis" target="buddha">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="gobelins">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="gospel">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="gos">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="test">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="theologicalmisquotes">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="inquiry">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="wik">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="thesea">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="ateÃ­smo">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="this=reference">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="wikipedi">
+  <data key="d0">4</data>
+</edge>
+<edge source="gnosis" target="reaction">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="readers">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="pentest">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="categorytheory">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="referat">
+  <data key="d0">3</data>
+</edge>
+<edge source="gnosis" target="mystic">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="religiao">
+  <data key="d0">4</data>
+</edge>
+<edge source="gnosis" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="reseach">
+  <data key="d0">1</data>
+</edge>
+<edge source="gnosis" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="techtutorials" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="artichoke" target="acustic">
+  <data key="d0">6</data>
+</edge>
+<edge source="artichoke" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="computational_linguistics" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="articlelis" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="articlelis" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="compute" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="indierock" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="publicgood" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="gobelins" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="gobelins" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="gobelins" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="gobelins" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="gobelins" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="we_give_life_to_brands" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="articulation" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="weather_project" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="web1.0" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="expressing" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="gold" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="din" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="overload" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="diplom" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="diploma_game" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="influenza" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="busines" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="busines" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="director" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="directors" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="concentration_camp" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="arvuti" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="termodinamica" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="business_with_yan-yan" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="informatika" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="businessanalysis" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="businessandeconomy" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="governing-systems" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="governing-systems" target="izborni">
+  <data key="d0">3</data>
+</edge>
+<edge source="moo" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="discrimination" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="gprs" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="c0de" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="thatcher" target="izborni">
+  <data key="d0">2</data>
+</edge>
+<edge source="faith_journey" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="gramm" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="distribute" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="faks" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="fakultet" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="mosquitoes" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="distributed_systems" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="_selfdiscovery" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="fall_04" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="fallacies" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="_studio" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="graphdrawing" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="graphdrawing" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="quixote" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="quixote" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="falsification" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="conspiracion" target="izborni">
+  <data key="d0">2</data>
+</edge>
+<edge source="graphicdesign" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="graphicorganizers" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="graphismo" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="linguistica" target="abbr">
+  <data key="d0">1</data>
+</edge>
+<edge source="inspiratie" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="inspiratie" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="inspiratie" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="wik" target="acustic">
+  <data key="d0">8</data>
+</edge>
+<edge source="wik" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="wik" target="izborni">
+  <data key="d0">3</data>
+</edge>
+<edge source="inspirations" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="inspirational" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="calidadsoftware" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="moviestowatch" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="consultation" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="fap0181" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="aa" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="radios" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="linklog" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="greece" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="atlases" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="simulators" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="docomo" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="abbr" target="abbreviation">
+  <data key="d0">1</data>
+</edge>
+<edge source="abbr" target="wikipedi">
+  <data key="d0">2</data>
+</edge>
+<edge source="abbr" target="fed">
+  <data key="d0">1</data>
+</edge>
+<edge source="abbr" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="abbr" target="woot">
+  <data key="d0">1</data>
+</edge>
+<edge source="abbr" target="wordlist">
+  <data key="d0">1</data>
+</edge>
+<edge source="abbr" target="wordplay">
+  <data key="d0">1</data>
+</edge>
+<edge source="abbr" target="personaggi">
+  <data key="d0">1</data>
+</edge>
+<edge source="abbr" target="reseach">
+  <data key="d0">1</data>
+</edge>
+<edge source="abbr" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="mrtg" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="wikipedi" target="acustic">
+  <data key="d0">10</data>
+</edge>
+<edge source="wikipedi" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="wikipedi" target="bbs">
+  <data key="d0">5</data>
+</edge>
+<edge source="wikipedi" target="izborni">
+  <data key="d0">6</data>
+</edge>
+<edge source="can" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="can" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="abomination" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="canada" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="lisi" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="intellecture" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="msmba-summer" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="contribution" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="interactions" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="featured_articles" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="dominionist" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="cooking" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="cooking" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="interestin" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="interestin" target="izborni">
+  <data key="d0">2</data>
+</edge>
+<edge source="timothy" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="austrian-school" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="auteurs" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="auth-encrypt" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="accountancy" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="authority" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="windowmanager" target="acustic">
+  <data key="d0">3</data>
+</edge>
+<edge source="pdr" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="lobotomy" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="tma01" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="internesity" target="acustic">
+  <data key="d0">3</data>
+</edge>
+<edge source="internesity" target="bbs">
+  <data key="d0">2</data>
+</edge>
+<edge source="readers" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="acquisitions" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="smarty" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="wired160408" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="readingideas" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="corpora" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="logarithmic" target="acustic">
+  <data key="d0">2</data>
+</edge>
+<edge source="activisim" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="activisim" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="logic-and-model-theory" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="avas" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="interventtech" target="acustic">
+  <data key="d0">1</data>
+</edge>
+<edge source="corrosion" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="files">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="filesync">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="adagio">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="wordplay">
+  <data key="d0">2</data>
+</edge>
+<edge source="acustic" target="words_and_phrases">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="filosofia">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="administracion">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="personaggi">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="referat">
+  <data key="d0">6</data>
+</edge>
+<edge source="acustic" target="adrian">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="writers">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="advertisers">
+  <data key="d0">3</data>
+</edge>
+<edge source="acustic" target="creatures">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="hardw">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="banned">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="isotope">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="machiavelli">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="philosophie">
+  <data key="d0">2</data>
+</edge>
+<edge source="acustic" target="agencies">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="reseach">
+  <data key="d0">2</data>
+</edge>
+<edge source="acustic" target="cryptographic">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="trek">
+  <data key="d0">1</data>
+</edge>
+<edge source="acustic" target="navy">
+  <data key="d0">1</data>
+</edge>
+<edge source="casbarian" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="pentest" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="pentest" target="izborni">
+  <data key="d0">2</data>
+</edge>
+<edge source="woot" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="counter-economics" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="wordplay" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="wordplay" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="words_and_phrases" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="drowning" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="filosofÃ­a" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="socialnetwork" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="socialnetworking" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="personaggi" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="toolkit" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="socialsciences" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="referat" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="referat" target="izborni">
+  <data key="d0">4</data>
+</edge>
+<edge source="softphone" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="mystika" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="mythologicalcreatures" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="relacoesinternacionais" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="religiao" target="early_hominids">
+  <data key="d0">1</data>
+</edge>
+<edge source="religiao" target="izborni">
+  <data key="d0">2</data>
+</edge>
+<edge source="bankers" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="e-business" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="nalgene" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="isr" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="israellobby" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="cfclass" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="early_hominids" target="reseach">
+  <data key="d0">1</data>
+</edge>
+<edge source="early_hominids" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="cfud" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="mada" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="republican" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="nationalparks" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="nations" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="soup" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="nativeamerica" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="reseach" target="bbs">
+  <data key="d0">1</data>
+</edge>
+<edge source="reseach" target="izborni">
+  <data key="d0">2</data>
+</edge>
+<edge source="bbs" target="trial">
+  <data key="d0">1</data>
+</edge>
+<edge source="bbs" target="triangle">
+  <data key="d0">1</data>
+</edge>
+<edge source="bbs" target="alari">
+  <data key="d0">1</data>
+</edge>
+<edge source="young" target="izborni">
+  <data key="d0">1</data>
+</edge>
+<edge source="reservas" target="izborni">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>

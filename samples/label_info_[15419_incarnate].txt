@@ -1,0 +1,89 @@
+
+Number of edges: 34 for node: incarnate[15419.0]
+
+Number of edges: 34 for node: abbr[1446.0]
+
+Number of edges: 188 for node: acustic[1660.0]
+
+Number of edges: 128 for node: bbs[4032.0]
+
+Number of edges: 344 for node: bib_assignment[4284.0]
+Ignoring node in graph: bib_assignment
+
+Number of edges: 114 for node: chrismccandless[6326.0]
+
+Number of edges: 577 for node: christendom[6328.0]
+Ignoring node in graph: christendom
+
+Number of edges: 913 for node: christianism[6337.0]
+Ignoring node in graph: christianism
+
+Number of edges: 89 for node: datenschutz[8621.0]
+
+Number of edges: 830 for node: dictionaries[9233.0]
+Ignoring node in graph: dictionaries
+
+Number of edges: 2691 for node: encyclopaedic[10708.0]
+Ignoring node in graph: encyclopaedic
+
+Number of edges: 140 for node: er[10972.0]
+
+Number of edges: 38 for node: era[10973.0]
+
+Number of edges: 388 for node: gobelins[13438.0]
+Ignoring node in graph: gobelins
+
+Number of edges: 7628 for node: historiography[14548.0]
+Ignoring node in graph: historiography
+
+Number of edges: 200 for node: jesuits[16508.0]
+
+Number of edges: 432 for node: latex[17334.0]
+Ignoring node in graph: latex
+
+Number of edges: 2045 for node: learners[17439.0]
+Ignoring node in graph: learners
+
+Number of edges: 67 for node: neworleans[20679.0]
+
+Number of edges: 845 for node: personaggi[22229.0]
+Ignoring node in graph: personaggi
+
+Number of edges: 316 for node: rubrbfills[24924.0]
+Ignoring node in graph: rubrbfills
+
+Number of edges: 123 for node: ruby[24926.0]
+
+Number of edges: 19894 for node: wikipedi[30134.0]
+Ignoring node in graph: wikipedi
+
+Number of edges: 1724 for node: wordplay[30362.0]
+Ignoring node in graph: wordplay
+
+Number of edges: 16 for node: early_hominids[10119.0]
+
+Number of edges: 16 for node: glocal[13368.0]
+
+Number of edges: 49 for node: gnosis[13410.0]
+
+Number of edges: 109 for node: izborni[16340.0]
+
+Number of edges: 280 for node: mdt[18849.0]
+Ignoring node in graph: mdt
+
+Number of edges: 4508 for node: pentest[22146.0]
+Ignoring node in graph: pentest
+
+Number of edges: 10734 for node: referat[24290.0]
+Ignoring node in graph: referat
+
+Number of edges: 2719 for node: religiao[24384.0]
+Ignoring node in graph: religiao
+
+Number of edges: 6786 for node: reseach[24485.0]
+Ignoring node in graph: reseach
+
+Number of edges: 72 for node: sail[25041.0]
+
+Number of edges: 13574 for node: wik[30071.0]
+Ignoring node in graph: wik
