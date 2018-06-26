@@ -47,7 +47,7 @@ def get_x_y_v_e(filepath):
 
     return total_points, feature_dm, number_of_labels, X, Y, V, E
 
-def get_subgraph(filepath, label_filepath, level=1, max_edges_per_node=None, root_node=None):
+def get_subgraph(filepath,label_filepath,level=1,subgraph_count=5,ignore_deg=None,root_node=None):
     # total_points: total number of data points
     # feature_dm: number of features per datapoint
     # number_of_labels: total number of labels
@@ -59,6 +59,8 @@ def get_subgraph(filepath, label_filepath, level=1, max_edges_per_node=None, roo
 
     # get a dict of label -> textual_label
     label_dict = get_label_dict(label_filepath)
+
+    from networkx.readwrite import json_graph
 
     # an utility function to relabel nodes of upcoming graph with textual label names
     def mapping(v):
@@ -74,56 +76,69 @@ def get_subgraph(filepath, label_filepath, level=1, max_edges_per_node=None, roo
 
     # Below section will try to build a smaller subgraph from the actual graph for visualization
 
-    if root_node is None:
-    # select a random vertex to be the root
-        np.random.shuffle(V)
-        v = V[0]
-    else:
-        v = root_node
-
-    # two files to write the graph and label information
-    label_info_filepath = 'samples/label_info_[{}].txt'.format(str(int(v)) + '-' + mapping(v)).replace(' ', '_')
-    label_graph_filepath = 'samples/label_graph_[{}].graphml'.format(str(int(v)) + '-' + mapping(v)).replace(' ', '_')
-    label_info_file = open(label_info_filepath, 'w')
-
-    # build the subgraph using bfs
-    bfs_q = Queue()
-    bfs_q.put(v)
-    bfs_q.put(0)
-    node_check = {}
-
-    sub_g = nx.Graph()
-    l = 0
-    while not bfs_q.empty() and l <= level:
-        v = bfs_q.get()
-        if v == 0:
-            l += 1
-            bfs_q.put(0)
-            continue
-        elif node_check.get(v, True):
-            node_check[v] = False
-            edges = list(g.edges(v))
-            label_info_file.write('\nNumber of edges: ' + str(len(edges)) + ' for node: ' + mapping(v) + '[' + str(v) + ']' + '\n')
-            if max_edges_per_node is not None and len(edges) > max_edges_per_node:
-                label_info_file.write('Ignoring node in graph: ' + mapping(v) + '\n')
-                continue
-            for uv_tuple in edges:
-                edge = tuple(sorted(uv_tuple))
-                sub_g.add_edge(edge[0], edge[1], weight=E[edge])
-                bfs_q.put(uv_tuple[1])
+    subgraph_lists = []
+    for node in range(subgraph_count):
+        if root_node is None:
+        # select a random vertex to be the root
+            np.random.shuffle(V)
+            v = V[0]
         else:
-            continue
+            v = root_node
 
-    # relabel the nodes to reflect textual label
-    nx.relabel_nodes(sub_g, mapping, copy=False)
+        # two files to write the graph and label information
+        label_info_filepath = 'samples/Info[{}].txt'.format(str(int(v)) + '-' + mapping(v)).replace(' ', '_')
+        label_graph_filepath = 'samples/G[{}].graphml'.format(str(int(v)) + '-' + mapping(v)).replace(' ', '_')
+        label_graph_el = 'samples/E[{}].el'.format(str(int(v)) + '-' + mapping(v)).replace(' ', '_')
 
-    label_info_file.close()
-    nx.write_graphml(sub_g, label_graph_filepath)
+        print('Label:['+mapping(v)+']')
+        label_info_file = open(label_info_filepath, 'w')
 
-    print('Label info generated at ' + label_info_filepath)
-    print('Label graph generated at ' + label_graph_filepath)
+        # build the subgraph using bfs
+        bfs_q = Queue()
+        bfs_q.put(v)
+        bfs_q.put(0)
+        node_check = {}
 
-    return sub_g
+        sub_g = nx.Graph()
+        l = 0
+        while not bfs_q.empty() and l <= level:
+            v = bfs_q.get()
+            if v == 0:
+                l += 1
+                bfs_q.put(0)
+                continue
+            elif node_check.get(v, True):
+                node_check[v] = False
+                edges = list(g.edges(v))
+                # label_info_file.write('\nNumber of edges: ' + str(len(edges)) + ' for node: ' + mapping(v) + '[' + str(v) + ']' + '\n')
+                if ignore_deg is not None and len(edges) > ignore_deg:
+                    label_info_file.write('Ignoring: [' + mapping(v) + '] \t\t\t degree: [' +str(len(edges))+']\n')
+                    continue
+                for uv_tuple in edges:
+                    edge = tuple(sorted(uv_tuple))
+                    sub_g.add_edge(edge[0], edge[1], weight=E[edge])
+                    bfs_q.put(uv_tuple[1])
+            else:
+                continue
+
+        # relabel the nodes to reflect textual label
+        nx.relabel_nodes(sub_g, mapping, copy=False)
+
+        label_info_file.write(str('\n'))
+        # Writing some statistics about the subgraph
+        label_info_file.write(str(nx.info(sub_g)) + '\n')
+        label_info_file.write('density: ' + str(nx.density(sub_g)) + '\n')
+        label_info_file.write('list of the frequency of each degree value [degree_histogram]: ' + str(nx.degree_histogram(sub_g)) + '\n')
+        # TODO: Add other statistics for better understanding of the subgraph.
+        subg_edgelist = nx.generate_edgelist(sub_g, label_graph_el)
+        label_info_file.close()
+        nx.write_graphml(sub_g, label_graph_filepath)
+
+        subgraph_lists.append(sub_g)
+
+        print('Graph generated at: ' + label_graph_filepath)
+
+    return subgraph_lists
 
 def get_label_dict(label_filepath):
     if label_filepath is None:
@@ -159,7 +174,8 @@ def get_dataset_path():
 def main(args):
     test_file = os.path.join(args.dataset_path,args.dataset_name,args.test_file)
     label_map_file = os.path.join(args.dataset_path,args.dataset_name,args.label_map_file)
-    label_graph = get_subgraph(test_file, label_map_file, level=1, max_edges_per_node=200, root_node=args.node_id)
+    print("Parameters:",args)
+    label_graph = get_subgraph(test_file,label_map_file,level=args.level,subgraph_count=args.subgraph_count,ignore_deg=args.ignore_deg,root_node=args.node_id)
 
 if __name__ == '__main__':
     # sample call: python utils/util.py /Users/monojitdey/Downloads/Wiki10-31K/Wiki10/wiki10_test.txt /Users/monojitdey/Downloads/Wiki10-31K/Wiki10-31K_mappings/wiki10-31K_label_map.txt
@@ -190,9 +206,18 @@ if __name__ == '__main__':
     parser.add_argument('--label_map_file',
                         help="Label file path inside dataset. (If label file is not provided, graph will show numeric labels only)", type=str,
                         default='Wiki10-31K_mappings/wiki10-31K_label_map.txt')
+    parser.add_argument('--level',
+                        help='Number of hops to generate graph', type=int,
+                        default=1)
+    parser.add_argument('--ignore_deg',
+                        help='Ignores nodes with degree >= [ignore_degree]', type=int,
+                        default=500)
     parser.add_argument('--node_id',
-                        help='ID of the root node to generate graph', type=str,
+                        help='ID [Row number on  file] of the root node to generate graph', type=int,
                         default=None)
+    parser.add_argument('--subgraph_count',
+                        help='How many subgraphs should be generated in single run', type=int,
+                        default=5)
     args = parser.parse_args()
 
     main(args)
