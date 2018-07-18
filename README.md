@@ -16,3 +16,10 @@ W. W. Zachary, An information flow model for conflict and fission in small group
 M. Ripeanu and I. Foster and A. Iamnitchi. Mapping the Gnutella Network: Properties of Large-Scale Peer-to-Peer Systems and Implications for System Design. IEEE Internet Computing Journal, 2002.
 3. [BlogCatalog](http://leitang.net/social_dimension.html)
 Lei Tang and Huan Liu. Relational Learning via Latent Social Dimensions. In Proceedings of The 15th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'09), pages 817-826, 2009.
+
+# To generate deepwalk output from any train or test file:
+
+```
+from exact_dxml import ExactDXML
+ExactDXML.fit(<train_file_path>, <deepwalk_output_file_path>)
+```
