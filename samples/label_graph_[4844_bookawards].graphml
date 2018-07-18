@@ -1,0 +1,977 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="long" for="edge" id="d0"/>
+<graph edgedefault="undirected"><node id="comparision"/>
+<node id="compatibilism"/>
+<node id="httm"/>
+<node id="w."/>
+<node id="multilevel"/>
+<node id="foox"/>
+<node id="sentience"/>
+<node id="csrf"/>
+<node id="utf"/>
+<node id="pce"/>
+<node id="carcinogen"/>
+<node id="cheating"/>
+<node id="accesscontrol"/>
+<node id="blocklists"/>
+<node id="engg1000"/>
+<node id="numana"/>
+<node id="zipcodes"/>
+<node id="ims"/>
+<node id="engineight"/>
+<node id="browning"/>
+<node id="care-managingbravenet"/>
+<node id="checkpootle"/>
+<node id="browsergame"/>
+<node id="bloggers"/>
+<node id="aces"/>
+<node id="jav"/>
+<node id="wantlist-slsk"/>
+<node id="teatro"/>
+<node id="achilles"/>
+<node id="rfk"/>
+<node id="internesity"/>
+<node id="glory"/>
+<node id="javaone"/>
+<node id="valgevene"/>
+<node id="enhanced"/>
+<node id="moai"/>
+<node id="mob"/>
+<node id="muse"/>
+<node id="mobi"/>
+<node id="rhythms"/>
+<node id="bench"/>
+<node id="algorithims"/>
+<node id="guggenheim"/>
+<node id="turvalisus"/>
+<node id="hewitt"/>
+<node id="netwalking"/>
+<node id="technologies"/>
+<node id="hex"/>
+<node id="mobile_web"/>
+<node id="algorithmique"/>
+<node id="prayers"/>
+<node id="mobileterms"/>
+<node id="enthusiasm"/>
+<node id="entity"/>
+<node id="networkedlearning"/>
+<node id="artichoke"/>
+<node id="meow"/>
+<node id="interventtech"/>
+<node id="articlelis"/>
+<node id="digitalhistory"/>
+<node id="modality"/>
+<node id="buffyverse"/>
+<node id="modeller"/>
+<node id="2-20"/>
+<node id="#websites_foreign"/>
+<node id="publish"/>
+<node id="weather_project"/>
+<node id="codd"/>
+<node id="soca"/>
+<node id="txt"/>
+<node id="social-media"/>
+<node id="web1.0"/>
+<node id="marks"/>
+<node id="definitie"/>
+<node id="2006september"/>
+<node id="web_design"/>
+<node id="words_and_phrases"/>
+<node id="coders"/>
+<node id="adderall"/>
+<node id="verhaal"/>
+<node id="temperature"/>
+<node id="template_engine"/>
+<node id="courbet"/>
+<node id="temporal-theory"/>
+<node id="influenza"/>
+<node id="webculture"/>
+<node id="webdav"/>
+<node id="webdev"/>
+<node id="frames"/>
+<node id="framework"/>
+<node id="webhosting"/>
+<node id="webgame"/>
+<node id="socialmediaresearch"/>
+<node id="googleinterview"/>
+<node id="socialnetwork"/>
+<node id="tony"/>
+<node id="concentration_camp"/>
+<node id="historiography"/>
+<node id="dt"/>
+<node id="ado.net"/>
+<node id="toolkit"/>
+<node id="finalyearproject"/>
+<node id="webservice"/>
+<node id="informatika"/>
+<node id="plutarch"/>
+<node id="referat"/>
+<node id="standardit"/>
+<node id="methodologie"/>
+<node id="websites"/>
+<node id="alternatyva"/>
+<node id="referencemaps"/>
+<node id="p2p-tools"/>
+<node id="bookawards"/>
+<node id="tessellations"/>
+<node id="handel"/>
+<node id="testes"/>
+<node id="softphone"/>
+<node id="asp"/>
+<node id="hl2"/>
+<node id="firefly"/>
+<node id="applause"/>
+<node id="cincy"/>
+<node id="dvr"/>
+<node id="informÃ tica"/>
+<node id="softwaredesign"/>
+<node id="softwaredevelopment"/>
+<node id="jrock"/>
+<node id="cinema_technique"/>
+<node id="c"/>
+<node id="jsg_interest"/>
+<node id="credibility"/>
+<node id="cinematography"/>
+<node id="microfinance"/>
+<node id="credit_crisis"/>
+<node id="creditcard"/>
+<node id="microfluidics"/>
+<node id="ideaorganization"/>
+<node id="desalination"/>
+<node id="programaciÃ³n"/>
+<node id="approximation"/>
+<node id="bootleg"/>
+<node id="appservers"/>
+<node id="identifiers"/>
+<node id="desiderata"/>
+<node id="programmieren"/>
+<node id="colony"/>
+<node id="colormanagement"/>
+<node id="quimistorias"/>
+<node id="colossus"/>
+<node id="colourful"/>
+<node id="progress"/>
+<node id="barber"/>
+<node id="rubrbfills"/>
+<node id="progressive_rock"/>
+<node id="ruby"/>
+<node id="ruby_on_rails"/>
+<node id="idtheft"/>
+<node id="ie4"/>
+<node id="graphicorganizers"/>
+<node id="xforms"/>
+<node id="asymmetry"/>
+<node id="renal"/>
+<node id="xmen"/>
+<node id="0602"/>
+<node id="at_home"/>
+<node id="xml2e"/>
+<node id="wik"/>
+<node id="jw"/>
+<node id="secure"/>
+<node id="isv"/>
+<node id="wiki-people"/>
+<node id="projection"/>
+<node id="tagged_at_work"/>
+<node id="xss"/>
+<node id="deutschland"/>
+<node id="architecturaltheory"/>
+<node id="ch6"/>
+<node id="doberman"/>
+<node id="devdocuments"/>
+<node id="docomo"/>
+<node id="railgun"/>
+<node id="contemporaryart"/>
+<node id="developing"/>
+<node id="datavisualisation"/>
+<node id="doctrinestuff"/>
+<node id="opensolaris"/>
+<node id="wikipedi"/>
+<node id="foac"/>
+<node id="documentatie"/>
+<node id="sitcom"/>
+<node id="photographie"/>
+<node id="lisi"/>
+<node id="enclypedia"/>
+<node id="encoder"/>
+<node id="usabilidad"/>
+<node id="crytography"/>
+<node id="encrypting"/>
+<node id="photostitching"/>
+<node id="nc"/>
+<node id="dht"/>
+<node id="semantica"/>
+<node id="controlling"/>
+<node id="dia14"/>
+<node id="dolphins"/>
+<node id="4Âºeso"/>
+<node id="ajalugu"/>
+<node id="char"/>
+<node id="layer"/>
+<node id="fontes"/>
+<node id="character-set"/>
+<node id="characterbuilders"/>
+<node id="resource-hist3389"/>
+<node id="ecomm"/>
+<node id="literatur"/>
+<node id="characterization"/>
+<node id="responsibility"/>
+<node id="userinterface"/>
+<node id="htcpcp"/>
+<node id="dd-wrt"/>
+<node id="html-code"/>
+<node id="interestin"/>
+<edge source="comparision" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="compatibilism" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="httm" target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="w." target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="multilevel" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="foox" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="sentience" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="csrf" target="valgevene">
+  <data key="d0">1</data>
+</edge>
+<edge source="csrf" target="bookawards">
+  <data key="d0">1</data>
+</edge>
+<edge source="csrf" target="xforms">
+  <data key="d0">10</data>
+</edge>
+<edge source="utf" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="pce" target="valgevene">
+  <data key="d0">1</data>
+</edge>
+<edge source="carcinogen" target="valgevene">
+  <data key="d0">1</data>
+</edge>
+<edge source="cheating" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="accesscontrol" target="xforms">
+  <data key="d0">3</data>
+</edge>
+<edge source="blocklists" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="engg1000" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="numana" target="valgevene">
+  <data key="d0">1</data>
+</edge>
+<edge source="zipcodes" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="ims" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="engineight" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="browning" target="xforms">
+  <data key="d0">5</data>
+</edge>
+<edge source="care-managingbravenet" target="valgevene">
+  <data key="d0">1</data>
+</edge>
+<edge source="checkpootle" target="valgevene">
+  <data key="d0">1</data>
+</edge>
+<edge source="browsergame" target="xforms">
+  <data key="d0">5</data>
+</edge>
+<edge source="bloggers" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="aces" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="jav" target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="wantlist-slsk" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="teatro" target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="achilles" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="rfk" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="internesity" target="xforms">
+  <data key="d0">3</data>
+</edge>
+<edge source="glory" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="javaone" target="valgevene">
+  <data key="d0">1</data>
+</edge>
+<edge source="javaone" target="bookawards">
+  <data key="d0">1</data>
+</edge>
+<edge source="javaone" target="xforms">
+  <data key="d0">7</data>
+</edge>
+<edge source="valgevene" target="algorithims">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="turvalisus">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="algorithmique">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="modeller">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="#websites_foreign">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="publish">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="codd">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="soca">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="txt">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="words_and_phrases">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="verhaal">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="temporal-theory">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="webculture">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="webdav">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="finalyearproject">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="plutarch">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="referat">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="methodologie">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="bookawards">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="testes">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="softwaredesign">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="softwaredevelopment">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="c">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="credibility">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="credit_crisis">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="creditcard">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="ideaorganization">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="desiderata">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="programmieren">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="secure">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="isv">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="projection">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="developing">
+  <data key="d0">2</data>
+</edge>
+<edge source="valgevene" target="wikipedi">
+  <data key="d0">3</data>
+</edge>
+<edge source="valgevene" target="encrypting">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="ecomm">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="literatur">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="userinterface">
+  <data key="d0">1</data>
+</edge>
+<edge source="valgevene" target="interestin">
+  <data key="d0">1</data>
+</edge>
+<edge source="enhanced" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="moai" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="mob" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="muse" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="mobi" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="rhythms" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="bench" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="guggenheim" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="turvalisus" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="hewitt" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="netwalking" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="technologies" target="xforms">
+  <data key="d0">5</data>
+</edge>
+<edge source="hex" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="mobile_web" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="prayers" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="mobileterms" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="enthusiasm" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="entity" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="networkedlearning" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="artichoke" target="xforms">
+  <data key="d0">4</data>
+</edge>
+<edge source="meow" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="interventtech" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="articlelis" target="xforms">
+  <data key="d0">3</data>
+</edge>
+<edge source="digitalhistory" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="modality" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="buffyverse" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="2-20" target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="publish" target="bookawards">
+  <data key="d0">1</data>
+</edge>
+<edge source="publish" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="weather_project" target="xforms">
+  <data key="d0">14</data>
+</edge>
+<edge source="codd" target="xforms">
+  <data key="d0">4</data>
+</edge>
+<edge source="soca" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="txt" target="bookawards">
+  <data key="d0">1</data>
+</edge>
+<edge source="txt" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="social-media" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="web1.0" target="xforms">
+  <data key="d0">5</data>
+</edge>
+<edge source="marks" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="definitie" target="xforms">
+  <data key="d0">3</data>
+</edge>
+<edge source="2006september" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="web_design" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="coders" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="adderall" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="temperature" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="template_engine" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="courbet" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="temporal-theory" target="bookawards">
+  <data key="d0">1</data>
+</edge>
+<edge source="temporal-theory" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="influenza" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="webculture" target="bookawards">
+  <data key="d0">1</data>
+</edge>
+<edge source="webculture" target="xforms">
+  <data key="d0">11</data>
+</edge>
+<edge source="webdav" target="bookawards">
+  <data key="d0">1</data>
+</edge>
+<edge source="webdav" target="xforms">
+  <data key="d0">12</data>
+</edge>
+<edge source="webdev" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="frames" target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="framework" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="webhosting" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="webgame" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="socialmediaresearch" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="googleinterview" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="socialnetwork" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="tony" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="concentration_camp" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="historiography" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="dt" target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="ado.net" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="toolkit" target="xforms">
+  <data key="d0">3</data>
+</edge>
+<edge source="webservice" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="informatika" target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="referat" target="xforms">
+  <data key="d0">8</data>
+</edge>
+<edge source="standardit" target="xforms">
+  <data key="d0">6</data>
+</edge>
+<edge source="websites" target="xforms">
+  <data key="d0">3</data>
+</edge>
+<edge source="alternatyva" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="referencemaps" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="p2p-tools" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="bookawards" target="ideaorganization">
+  <data key="d0">1</data>
+</edge>
+<edge source="bookawards" target="desiderata">
+  <data key="d0">1</data>
+</edge>
+<edge source="bookawards" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="bookawards" target="wikipedi">
+  <data key="d0">1</data>
+</edge>
+<edge source="bookawards" target="literatur">
+  <data key="d0">1</data>
+</edge>
+<edge source="tessellations" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="handel" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="testes" target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="softphone" target="xforms">
+  <data key="d0">3</data>
+</edge>
+<edge source="asp" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="hl2" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="firefly" target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="applause" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="cincy" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="dvr" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="informÃ tica" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="jrock" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="cinema_technique" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="jsg_interest" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="cinematography" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="microfinance" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="microfluidics" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="ideaorganization" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="desalination" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="programaciÃ³n" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="approximation" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="bootleg" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="appservers" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="identifiers" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="desiderata" target="xforms">
+  <data key="d0">8</data>
+</edge>
+<edge source="programmieren" target="xforms">
+  <data key="d0">8</data>
+</edge>
+<edge source="colony" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="colormanagement" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="quimistorias" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="colossus" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="colourful" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="progress" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="barber" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="rubrbfills" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="progressive_rock" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="ruby_on_rails" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="idtheft" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="ie4" target="xforms">
+  <data key="d0">1</data>
+</edge>
+<edge source="graphicorganizers" target="xforms">
+  <data key="d0">2</data>
+</edge>
+<edge source="xforms" target="asymmetry">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="renal">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="xmen">
+  <data key="d0">7</data>
+</edge>
+<edge source="xforms" target="0602">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="at_home">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="xml2e">
+  <data key="d0">2</data>
+</edge>
+<edge source="xforms" target="wik">
+  <data key="d0">9</data>
+</edge>
+<edge source="xforms" target="jw">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="secure">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="wiki-people">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="tagged_at_work">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="xss">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="deutschland">
+  <data key="d0">2</data>
+</edge>
+<edge source="xforms" target="architecturaltheory">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="ch6">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="doberman">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="devdocuments">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="docomo">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="railgun">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="contemporaryart">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="developing">
+  <data key="d0">11</data>
+</edge>
+<edge source="xforms" target="datavisualisation">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="doctrinestuff">
+  <data key="d0">2</data>
+</edge>
+<edge source="xforms" target="opensolaris">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="wikipedi">
+  <data key="d0">11</data>
+</edge>
+<edge source="xforms" target="foac">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="documentatie">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="sitcom">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="photographie">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="lisi">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="enclypedia">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="encoder">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="usabilidad">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="crytography">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="photostitching">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="nc">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="dht">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="semantica">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="controlling">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="dia14">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="dolphins">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="4Âºeso">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="ajalugu">
+  <data key="d0">4</data>
+</edge>
+<edge source="xforms" target="char">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="layer">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="fontes">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="character-set">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="characterbuilders">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="resource-hist3389">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="literatur">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="characterization">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="responsibility">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="htcpcp">
+  <data key="d0">13</data>
+</edge>
+<edge source="xforms" target="dd-wrt">
+  <data key="d0">1</data>
+</edge>
+<edge source="xforms" target="html-code">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>
