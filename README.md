@@ -21,5 +21,5 @@ Lei Tang and Huan Liu. Relational Learning via Latent Social Dimensions. In Proc
 
 ```
 from exact_dxml import ExactDXML
-ExactDXML.fit(<train_file_path>, <deepwalk_output_file_path>)
+ExactDXML().fit(<train_file_path>, <deepwalk_output_file_path>)
 ```
