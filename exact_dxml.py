@@ -1,43 +1,68 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+__synopsis__    : Code for DXML paper
+__description__ :
+__project__     : Extreme Classification
+__author__      : Monojit Dey, Samujjwal Ghosh
+__version__     :
+__date__        : June 2018
+__copyright__   : "Copyright (c) 2018"
+__license__     : "Python"; (Licensed under the GNU LGPL v2.1 - http://www.gnu.org/licenses/lgpl.html)
+
+__classes__     :
+
+__variables__   :
+
+__methods__     :
+
+TODO            : 1. Handle missing label from label co-occurrence graph
+                    a. Count number of single labels for each dataset
+                    b. Generate random vecs
+                    c. remove those items from datasets.
+TODO            : 2. Calculate edge weights as combination of co-occurrence an symantec similarity.
+                    a. ConceptNet
+                    b. Word2Vec
+TODO            : 3. Run DXML with edge weights.
+"""
+
 import os,sys,logging
 import numpy as np
-
+import pickle as pk
 from numpy.random import seed
-
 seed(1)
-
-from utils.util import get_x_y_v_e
-from utils.util import get_dataset_path
-from deepwalk import DeepWalk
-
+from keras.models import Model,load_model
+from keras.layers import Dense,Dropout,Input,Merge
+from keras import regularizers
+from keras import optimizers
+import keras.backend as K
+from tensorflow import set_random_seed
+set_random_seed(2)
 # from sklearn.preprocessing import MultiLabelBinarizer
+
+from deepwalk import DeepWalk
+from utils.util import get_x_y_v_e, get_dataset_path
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
                     level=logging.INFO)
 
-import keras
-
-print('Keras version:',print(keras.__version__))
-
-from keras.models import Sequential
-from keras.layers import Dense,Dropout,Input,Merge
-from keras import regularizers
-from keras import optimizers
-from tensorflow import set_random_seed
-
-set_random_seed(2)
-import keras.backend as K
-
 
 def cal_loss(f_x,f_y):
+    """
+    Calculates loss function according to DXML.
+    :param f_x: Feature vector of float or int
+    :param f_y: Mean label vector of float or int
+    :return:
+    """
     return K.sum(K.tf.where(K.tf.less_equal(K.abs(f_x - f_y),1.),(K.pow((f_x - f_y),2.) / 2.,K.abs(f_x - f_y) - 0.5)))
 
 
-from keras.models import Model,load_model
-
-
 class DXML(object):
-    def __init__(self,model_save_path,embedding):
-        self.embedding = embedding
+    """
+    Class for DXML neural netrowk architecture.
+    """
+    def __init__(self,model_save_path):
+        # self.embedding = embedding
         self.model_save_path = model_save_path
         self.dxml = None
 
@@ -57,9 +82,18 @@ class DXML(object):
               dropout=0.2,
               weight_decay=0.0005
               ):
-
-        X = Input(shape=(vec_len,),dtype='int32')
-        F_y = Input(shape=(vec_len,),dtype='int32')
+        """
+        Builds the neural network given in DXML paper.
+        :param vec_len: Length of input vectors
+        :param small: True if dataset is small
+        :param momentum:
+        :param lr:
+        :param neuron: Number of neurons to use
+        :param dropout:
+        :param weight_decay:
+        """
+        X = Input(shape=(vec_len,),dtype='float64')
+        F_y = Input(shape=(vec_len,),dtype='float64')
 
         if small:
             neuron = 256
@@ -69,9 +103,9 @@ class DXML(object):
         reg_coef = weight_decay / 2.0  # l2 = weight_decay / 2.0 by https://bbabenko.github.io/weight-decay/
 
         # DXML architecture with 2 fully-connected (Dense) layer with dropout at end.
-        dxml_layer_1 = Dense(neuron,input_dim=X,kernel_regularizer=regularizers.l2(reg_coef))
-        dxml_layer_2 = Dense(neuron,activation='relu',kernel_regularizer=regularizers.l2(reg_coef))(
-            dxml_layer_1)  ## TODO: Should [neuron] value be equal to [vec_len] here?
+        dxml_layer_1 = Dense(neuron,input_dim=X.shape,kernel_regularizer=regularizers.l2(reg_coef))
+        dxml_layer_2 = Dense(vec_len,activation='relu',kernel_regularizer=regularizers.l2(reg_coef))(
+            dxml_layer_1)  ## [neuron] value be equal to [vec_len] as |F_x| and |F_y| should be same dimension
         dxml_layer_do = Dropout(dropout)(dxml_layer_2)
 
         ## Taking feature output [F_x] after two layers as input with F_y
@@ -89,9 +123,7 @@ class DXML(object):
         self.dxml.compile(loss='mean_absolute_error',optimizer=optimizer,metrics=['accuracy'])
 
     def train(self,F_x_tr,F_y_tr,val_split=0.4,batch_size=64,num_epochs=5,save=True):
-        self.dxml.fit([F_x_tr],F_y_tr,batch_size=batch_size,epochs=num_epochs,validation_split=val_split
-                      # ,class_weight={0: 0.02,1: 1} # TODO: usage of this param?
-                      )
+        self.dxml.fit([F_x_tr],F_y_tr,batch_size=batch_size,epochs=num_epochs,validation_split=val_split)
 
         if save:
             self.dxml.save(self.model_save_path)
@@ -171,9 +203,13 @@ def gen_dw_vecs(E,dw_output_file='dw_output_file'):
 
 
 from scipy import sparse
-
-
 def load_npz(filename,file_path=''):
+    """
+    Loads numpy objects from npz files.
+    :param filename:
+    :param file_path:
+    :return:
+    """
     print("Reading NPZ file: ",os.path.join(file_path,filename + ".npz"))
     if os.path.isfile(os.path.join(file_path,filename + ".npz")):
         npz = sparse.load_npz(os.path.join(file_path,filename + ".npz"))
@@ -184,6 +220,14 @@ def load_npz(filename,file_path=''):
 
 
 def save_npz(data,filename,file_path='',overwrite=True):
+    """
+    Saves numpy objects to file.
+    :param data:
+    :param filename:
+    :param file_path:
+    :param overwrite:
+    :return:
+    """
     print("Saving NPZ file: ",os.path.join(file_path,filename + ".npz"))
     if not overwrite and os.path.exists(os.path.join(file_path,filename + ".npz")):
         print("File already exists and Overwrite == False.")
@@ -197,11 +241,15 @@ def save_npz(data,filename,file_path='',overwrite=True):
         return False
 
 
-import pickle
-
-
 def save_pickle(data,pkl_file_name,pkl_file_path,overwrite=False):
-    """saves python object as pickle file"""
+    """
+    saves python object as pickle file
+    :param data:
+    :param pkl_file_name:
+    :param pkl_file_path:
+    :param overwrite:
+    :return:
+    """
     # print("Method: save_pickle(data, pkl_file, tag=False)")
     print("Writing to pickle file: ",os.path.join(pkl_file_path,pkl_file_name + ".pkl"))
     if not overwrite and os.path.exists(os.path.join(pkl_file_path,pkl_file_name + ".pkl")):
@@ -211,7 +259,7 @@ def save_pickle(data,pkl_file_name,pkl_file_path,overwrite=False):
         if os.path.isfile(os.path.join(pkl_file_path,pkl_file_name + ".pkl")):
             print("Overwriting on pickle file:",os.path.join(pkl_file_path,pkl_file_name + ".pkl"))
         with open(os.path.join(pkl_file_path,pkl_file_name + ".pkl"),'wb') as pkl_file:
-            pickle.dump(data,pkl_file)
+            pk.dump(data,pkl_file)
         pkl_file.close()
         return True
     except Exception as e:
@@ -221,12 +269,17 @@ def save_pickle(data,pkl_file_name,pkl_file_path,overwrite=False):
 
 
 def load_pickle(pkl_file_name,pkl_file_path):
-    """Loads pickle file to python"""
+    """
+    Loads pickle file from files.
+    :param pkl_file_name:
+    :param pkl_file_path:
+    :return:
+    """
     print("Method: load_pickle(pkl_file)")
     if os.path.exists(os.path.join(pkl_file_path,pkl_file_name + ".pkl")):
         print("Reading pickle file: ",os.path.join(pkl_file_path,pkl_file_name + ".pkl"))
         with open(os.path.join(pkl_file_path,pkl_file_name + ".pkl"),'rb') as pkl_file:
-            loaded = pickle.load(pkl_file)
+            loaded = pk.load(pkl_file)
         return loaded
     else:
         print("Warning: Could not open file:",os.path.join(pkl_file_path,pkl_file_name + ".pkl"))
@@ -244,17 +297,12 @@ def fetch_avg_label_vecs(Y,dw_vecs,vec_len=64):
     print('fetch_avg_label_vecs')
     mean_lbl_vecs = {}
     for i,y in enumerate(Y):
-        # print(y)
         emb_lbl_vecs = np.zeros(shape=(1,vec_len),dtype=float)
-        # print(emb_lbl_vecs)
         if len(y) <= 1:  # if length 1, no need to compute avg
             continue
         for y_i in y:
-            # print((emb_lbl_vecs,dw_vecs[int(y_i)]))
             emb_lbl_vecs = np.add(emb_lbl_vecs,dw_vecs[int(y_i)])
-            # print('add:',emb_lbl_vecs)
         mean_lbl_vecs[i] = np.divide(emb_lbl_vecs,len(y))
-        # print(i,'final:',mean_lbl_vecs[i])
     return mean_lbl_vecs
 
 
@@ -262,42 +310,42 @@ def _test_fetch_avg_label_vecs():
     """
     Test function for [fetch_avg_label_vecs]
     """
-    Y_tr = [(1,2,3)]
+    Y = [(1,2,3)]
     v1 = np.array([[1,2,3,4,5,6]],np.int32)
     v2 = np.array([[1,2,3,4,5,6]],np.int32)
     v3 = np.array([[1,2,3,4,5,6]],np.int32)
-    dw_vecs_tr = {1:v1,2:v2,3:v3}
+    dw_vecs = {1:v1,2:v2,3:v3}
     output = [1,2,3,4,5,6,]
 
-    print('calculated value:',fetch_avg_label_vecs(Y_tr,dw_vecs_tr))
+    print('calculated value:',fetch_avg_label_vecs(Y,dw_vecs))
     print('actual value:',output)
 
 
 if __name__ == "__main__":
-    data_path = get_dataset_path()
+    dataset_path = get_dataset_path()
     dataset = 'RCV1-2K'
     train_file = 'RCV1-2K_train.txt'
     test_file = 'RCV1-2K_test.txt'
 
     print('Loading pregenerated data.')
-    X_tr = load_npz("X_tr",file_path=os.path.join(data_path,dataset))
-    Y_tr = load_pickle(pkl_file_name="Y_tr",pkl_file_path=os.path.join(data_path,dataset))
-    V_tr = load_pickle(pkl_file_name="V_tr",pkl_file_path=os.path.join(data_path,dataset))
-    E_tr = load_pickle(pkl_file_name="E_tr",pkl_file_path=os.path.join(data_path,dataset))
+    X_tr = load_npz("X_tr",file_path=os.path.join(dataset_path,dataset))
+    Y_tr = load_pickle(pkl_file_name="Y_tr",pkl_file_path=os.path.join(dataset_path,dataset))
+    V_tr = load_pickle(pkl_file_name="V_tr",pkl_file_path=os.path.join(dataset_path,dataset))
+    E_tr = load_pickle(pkl_file_name="E_tr",pkl_file_path=os.path.join(dataset_path,dataset))
     if not E_tr:
         print('Generating data from train and test files.')
-        _,_,_,X_tr,Y_tr,V_tr,E_tr = get_x_y_v_e(os.path.join(data_path,dataset,train_file))
-        # _,_,_,X_ts,Y_ts,V_ts,E_ts = get_x_y_v_e(os.path.join(data_path,dataset,test_file))
+        _,_,_,X_tr,Y_tr,V_tr,E_tr = get_x_y_v_e(os.path.join(dataset_path,dataset,train_file))
+        # _,_,_,X_ts,Y_ts,V_ts,E_ts = get_x_y_v_e(os.path.join(dataset_path,dataset,test_file))
 
-        save_npz(X_tr,"X_tr",file_path=os.path.join(data_path,dataset),overwrite=False)
-        save_pickle(Y_tr,pkl_file_name="Y_tr",pkl_file_path=os.path.join(data_path,dataset))
-        save_pickle(V_tr,pkl_file_name="V_tr",pkl_file_path=os.path.join(data_path,dataset))
+        save_npz(X_tr,"X_tr",file_path=os.path.join(dataset_path,dataset),overwrite=False)
+        save_pickle(Y_tr,pkl_file_name="Y_tr",pkl_file_path=os.path.join(dataset_path,dataset))
+        save_pickle(V_tr,pkl_file_name="V_tr",pkl_file_path=os.path.join(dataset_path,dataset))
 
         ## Converting [E_tr] to default dict as returned [E_tr] is not pickle serializable
         E_tr_2 = {}  ## TODO: Make returned [E_tr] pickle serializable
         for i,j in E_tr.items():
             E_tr_2[i] = j
-        save_pickle(E_tr_2,pkl_file_name="E_tr",pkl_file_path=os.path.join(data_path,dataset))
+        save_pickle(E_tr_2,pkl_file_name="E_tr",pkl_file_path=os.path.join(dataset_path,dataset))
 
     ## Creating One-Hot vectors from list of label indexes
     # from sklearn.preprocessing import MultiLabelBinarizer
@@ -306,10 +354,10 @@ if __name__ == "__main__":
     # Y_ts_mlb = mlb.fit_transform(Y_ts)
 
     ## Generating DeepWalk vectors
-    dw_vecs_tr = gen_dw_vecs(E_tr,dw_output_file=os.path.join(data_path,dataset,'dw_vecs_tr.txt'))
-    # dw_vecs_ts = gen_dw_vecs(E_ts,dw_output_file=os.path.join(data_path,dataset,'dw_vecs_ts.txt'))
+    dw_vecs_tr = gen_dw_vecs(E_tr,dw_output_file=os.path.join(dataset_path,dataset,'dw_vecs_tr.txt'))
+    # dw_vecs_ts = gen_dw_vecs(E_ts,dw_output_file=os.path.join(dataset_path,dataset,'dw_vecs_ts.txt'))
 
-    print(dw_vecs_tr.vectors[2])
+    # print(dw_vecs_tr.vectors[2])
 
     # print(dw_vecs_tr.vectors.values())
     # y_vecs = []
@@ -321,9 +369,6 @@ if __name__ == "__main__":
 
     ## Calculating mean of label vectors belonging to a single datapoint
     Y_tr_mean_emb = fetch_avg_label_vecs(Y_tr,dw_vecs_tr.vectors)
-    print("Y_tr_mean_emb",Y_tr_mean_emb)
+    # print("Y_tr_mean_emb",Y_tr_mean_emb)
 
     exit(0)
-
-    ## Test function for [fetch_avg_label_vecs]
-    _test_fetch_avg_label_vecs()
