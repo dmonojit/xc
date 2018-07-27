@@ -35,11 +35,14 @@ class Node2Vec(object):
 		'''
 		Pipeline for representational learning for all nodes in a graph.
 		'''
+		print('Preparing graph...')
 		nx_G = self.read_graph(input_data, input_format)
 		G = graph.Graph(nx_G, self.directed, self.p, self.q)
 		G.preprocess_transition_probs()
+		print('Walking...')
 		walks = G.simulate_walks(self.num_walks, self.walk_length)
 		
+		print('Training...')
 		return self.learn_embeddings(walks)
 
 	def read_graph(self, input_data, input_format):
