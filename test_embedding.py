@@ -26,13 +26,14 @@ def main():
                         	formatter_class=ArgumentDefaultsHelpFormatter,
                           	conflict_handler='resolve')
 
-	parser.add_argument('--rule', default='deepwalk', help='deepwalk | node2vec')
+	parser.add_argument('--rule', default='deepwalk', help='deepwalk | node2vec', required=True)
 
-	parser.add_argument('--input', default=None, help='Input train file')
-
-	parser.add_argument('--label_file', default=None, help='Label in words')
+	parser.add_argument('--input', default=None, help='Input train file', required=True)
 
 	parser.add_argument('--output', default=None, help='output file for embeddings')
+
+	# not being used currently
+	parser.add_argument('--label_file', default=None, help='Label in words')
 
 	args = parser.parse_args()
 	embed(args)
