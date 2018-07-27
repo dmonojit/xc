@@ -12,7 +12,8 @@ Knowledge Discovery and Data Mining (KDD), 2016
 import argparse
 import numpy as np
 import networkx as nx
-import graph
+
+from . import graph
 from gensim.models import Word2Vec
 
 
@@ -30,27 +31,33 @@ class Node2Vec(object):
 		self.directed = kwargs.get('directed', False)
 		self.output = kwargs.get('output', None)
 
-	def transform(self, input_data):
+	def transform(self, input_data, input_format):
 		'''
 		Pipeline for representational learning for all nodes in a graph.
 		'''
-		nx_G = self.read_graph(input_data)
+		nx_G = self.read_graph(input_data, input_format)
 		G = graph.Graph(nx_G, self.directed, self.p, self.q)
 		G.preprocess_transition_probs()
 		walks = G.simulate_walks(self.num_walks, self.walk_length)
 		
 		return self.learn_embeddings(walks)
 
-	def read_graph(self, input_data):
+	def read_graph(self, input_data, input_format):
 		'''
 		Reads the input network in networkx.
 		'''
-		if self.weighted:
-			G = nx.read_edgelist(input_data, nodetype=int, data=(('weight',float),), create_using=nx.DiGraph())
+		if input_format == 'edgedict':
+			self.weighted = True
+			edgelist = [edge + ({'weight': weight},) for edge, weight in input_data.items()]
+			G = nx.Graph()
+			G.add_edges_from(edgelist)
 		else:
-			G = nx.read_edgelist(input_data, nodetype=int, create_using=nx.DiGraph())
-			for edge in G.edges():
-				G[edge[0]][edge[1]]['weight'] = 1
+			if self.weighted:
+				G = nx.read_edgelist(input_data, nodetype=int, data=(('weight',float),), create_using=nx.DiGraph())
+			else:
+				G = nx.read_edgelist(input_data, nodetype=int, create_using=nx.DiGraph())
+				for edge in G.edges():
+					G[edge[0]][edge[1]]['weight'] = 1
 
 		if not self.directed:
 			G = G.to_undirected()

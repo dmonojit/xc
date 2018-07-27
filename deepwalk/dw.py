@@ -56,6 +56,8 @@ class DeepWalk(object):
             # G = graph.load_adjacencylist(input_data, undirected=undirected)
         elif input_format == "edgelist":
             G = graph.load_edgelist(input_data, undirected=undirected)
+        elif input_format == "edgedict":
+            G = graph.load_edgelist(input_data.keys(), undirected=undirected)
         else:
             raise Exception("Unknown file format: '%s'.  Valid formats: 'adjlist', 'edgelist'" % input_format)
 
@@ -99,5 +101,5 @@ class DeepWalk(object):
 
         if self.output:
             model.wv.save_word2vec_format(self.output)
-            
+
         return model
