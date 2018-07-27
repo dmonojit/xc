@@ -7,7 +7,9 @@ seed(1)
 
 from utils.util import get_x_y_v_e
 from utils.util import get_dataset_path
+
 from deepwalk import DeepWalk
+from node2vec import Node2Vec
 
 # from sklearn.preprocessing import MultiLabelBinarizer
 
