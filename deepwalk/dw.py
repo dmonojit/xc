@@ -51,6 +51,7 @@ class DeepWalk(object):
         self.vertex_freq_degree = False
 
     def transform(self, input_data, input_format, undirected=True):
+        print('Preparing graph...')
         if input_format == "adjlist":
             raise NotImplementedError('adjlist is not suppoted yet')
             # G = graph.load_adjacencylist(input_data, undirected=undirected)

@@ -19,12 +19,12 @@ from gensim.models import Word2Vec
 
 class Node2Vec(object):
 	def __init__(self, **kwargs):
-		self.dimensions = kwargs.get('dimensions', 128)
-		self.walk_length = kwargs.get('walk_length', 80)
+		self.dimensions = kwargs.get('dimensions', 64)
+		self.walk_length = kwargs.get('walk_length', 40)
 		self.num_walks = kwargs.get('num_walks', 10)
-		self.window_size = kwargs.get('window_size', 10)
+		self.window_size = kwargs.get('window_size', 5)
 		self.iter = kwargs.get('iter', 1)
-		self.workers = kwargs.get('workers', 8)
+		self.workers = kwargs.get('workers', 1)
 		self.p = kwargs.get('p', 1)
 		self.q = kwargs.get('q', 1)
 		self.weighted = kwargs.get('weighted', False)
@@ -38,7 +38,10 @@ class Node2Vec(object):
 		print('Preparing graph...')
 		nx_G = self.read_graph(input_data, input_format)
 		G = graph.Graph(nx_G, self.directed, self.p, self.q)
+
+		print('Preprocessing transition probabilities...')
 		G.preprocess_transition_probs()
+		
 		print('Walking...')
 		walks = G.simulate_walks(self.num_walks, self.walk_length)
 		
