@@ -46,6 +46,7 @@ class DeepWalk(object):
         self.window_size = kwargs.get('window_size', 5)
         self.workers = kwargs.get('workers', 1)
         self.max_memory_data_size = kwargs.get('max_memory_data_size', 1000000000)
+        self.output = kwargs.get('output', None)
 
         self.vertex_freq_degree = False
 
@@ -96,5 +97,7 @@ class DeepWalk(object):
                              size=self.representation_size,
                              window=self.window_size, min_count=0, trim_rule=None, workers=self.workers)
 
-        # model.wv.save_word2vec_format(self.output)
+        if self.output:
+            model.wv.save_word2vec_format(self.output)
+            
         return model
