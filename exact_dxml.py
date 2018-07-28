@@ -17,38 +17,26 @@ __variables__   :
 __methods__     :
 
 TODO            : 1. Handle missing label from label co-occurrence graph
-                    a. Count number of single labels for each dataset
-                    b. Generate random vecs
-                    c. remove those items from datasets.
+                    a. Avg of top k symantically similar labels, if texual information available.
+                    b. Generate random vecs for missing labels.
+                    c. Remove those datapoints from dataset.
 TODO            : 2. Calculate edge weights as combination of co-occurrence an symantec similarity.
                     a. ConceptNet
                     b. Word2Vec
-TODO            : 3. Run DXML with edge weights.
+TODO            : 3. Run DXML with edge weights
+                    a. node2vec
+                    b. HARP
 """
 
 import os,sys,logging
+from typing import Dict
+
 import numpy as np
 import pickle as pk
 from numpy.random import seed
 seed(1)
-
-from utils.util import get_x_y_v_e
-from utils.util import get_dataset_path
-
-from deepwalk import DeepWalk
-from node2vec import Node2Vec
-
-# from sklearn.preprocessing import MultiLabelBinarizer
-
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
-                    level=logging.INFO)
-
-import keras
-
-print('Keras version:',print(keras.__version__))
-
-from keras.models import Sequential,Model,load_model
-from keras.layers import Dense,Dropout,Input,Merge
+from keras.models import Model,load_model
+from keras.layers import Dense,Dropout,Input,Merge,concatenate,subtract,Subtract
 from keras import regularizers
 from keras import optimizers
 import keras.backend as K
@@ -57,102 +45,14 @@ set_random_seed(2)
 # from sklearn.preprocessing import MultiLabelBinarizer
 
 from deepwalk import DeepWalk
+from node2vec import Node2Vec
 from utils.util import get_x_y_v_e, get_dataset_path
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
                     level=logging.INFO)
 
-
-def cal_loss(f_x,f_y):
-    """
-    Calculates loss function according to DXML.
-    :param f_x: Feature vector of float or int
-    :param f_y: Mean label vector of float or int
-    :return:
-    """
-    return K.sum(K.tf.where(K.tf.less_equal(K.abs(f_x - f_y),1.),(K.pow((f_x - f_y),2.) / 2.,K.abs(f_x - f_y) - 0.5)))
-
-
-class DXML(object):
-    """
-    Class for DXML neural netrowk architecture.
-    """
-    def __init__(self,model_save_path):
-        # self.embedding = embedding
-        self.model_save_path = model_save_path
-        self.dxml = None
-
-    def load_model(self,model_load_path=None):
-        if not model_load_path:
-            model_load_path = self.model_save_path
-
-        self.dxml = load_model(model_load_path)
-        print("Model succesfully loaded and compiled")
-
-    def build(self,
-              vec_len=300,
-              small=False,
-              momentum=0.9,
-              lr=0.015,
-              neuron=512,
-              dropout=0.2,
-              weight_decay=0.0005
-              ):
-        """
-        Builds the neural network given in DXML paper.
-        :param vec_len: Length of input vectors
-        :param small: True if dataset is small
-        :param momentum:
-        :param lr:
-        :param neuron: Number of neurons to use
-        :param dropout:
-        :param weight_decay:
-        """
-        X = Input(shape=(vec_len,),dtype='float64')
-        F_y = Input(shape=(vec_len,),dtype='float64')
-
-        if small:
-            neuron = 256
-            vec_len = 100
-
-        print('Building model...')
-        reg_coef = weight_decay / 2.0  # l2 = weight_decay / 2.0 by https://bbabenko.github.io/weight-decay/
-
-        # DXML architecture with 2 fully-connected (Dense) layer with dropout at end.
-        dxml_layer_1 = Dense(neuron,input_dim=X.shape,kernel_regularizer=regularizers.l2(reg_coef))
-        dxml_layer_2 = Dense(vec_len,activation='relu',kernel_regularizer=regularizers.l2(reg_coef))(
-            dxml_layer_1)  ## [neuron] value be equal to [vec_len] as |F_x| and |F_y| should be same dimension
-        dxml_layer_do = Dropout(dropout)(dxml_layer_2)
-
-        ## Taking feature output [F_x] after two layers as input with F_y
-        F_x = dxml_layer_do(X)
-
-        # Adding custom loss function as Merge layer
-        dxml_distance = Merge(mode=cal_loss,output_shape=lambda x:(x[0][0],1))([F_x])
-        self.dxml = Model([F_x,F_y],[dxml_distance])
-
-        # SGD optimizer, with momentum
-        optimizer = optimizers.SGD(lr,momentum)
-
-        print(self.dxml.summary)
-        # plot_model(self.dxml,to_file='DXML_Keras.png')
-        self.dxml.compile(loss='mean_absolute_error',optimizer=optimizer,metrics=['accuracy'])
-
-    def train(self,F_x_tr,F_y_tr,val_split=0.4,batch_size=64,num_epochs=5,save=True):
-        self.dxml.fit([F_x_tr],F_y_tr,batch_size=batch_size,epochs=num_epochs,validation_split=val_split)
-
-        if save:
-            self.dxml.save(self.model_save_path)
-            print("Model succesfully saved on disk at: %s" % self.model_save_path)
-
-    def predict(self,X_ts,Y_ts):
-        """
-        Score the Y_ts w.r.t to a X_ts
-        :param X_ts : single X_ts (string)
-        :param Y_ts : list of candidate queries each a string
-        :return : ranked list of Y_ts (candidate, similarity)
-        """
-        return self.dxml.predict([X_ts,Y_ts])
+VECTOR_LENGTH = 300  ## Length of vectors
+CLIPNORM = 0.5
 
 
 '''
@@ -194,28 +94,6 @@ def build_dxml(x_train,
     predictions = dxml.predict(x_test)
     return predictions
 '''
-
-
-def gen_dw_vecs(E,dw_output_file='dw_output_file'):
-    """
-    Generates DeepWalk vectors
-    :param E: list of edges for DeepWalk
-    :param dw_output_file: file path to store generated vectors
-    :return: vectors generated by DeepWalk
-    """
-    if os.path.exists(dw_output_file):  # checks if vectors were generated previously
-        print('DeepWalk vectors file already exists at:',dw_output_file)
-        from gensim.models import KeyedVectors
-
-        dw_vecs = KeyedVectors.load_word2vec_format(dw_output_file)
-        return dw_vecs
-
-    dw_vecs = DeepWalk().transform(E.keys(),'edgelist')
-
-    dw_vecs.wv.save_word2vec_format(dw_output_file)
-    # dw_vecs.save(dw_output_file) # saves in non-human readable format
-    print('Saved DeepWalk vectors at:',dw_output_file)
-    return dw_vecs.wv
 
 
 from scipy import sparse
@@ -302,7 +180,153 @@ def load_pickle(pkl_file_name,pkl_file_path):
         return False
 
 
-def fetch_avg_label_vecs(Y,dw_vecs,vec_len=64):
+def cal_loss(f_x,f_y):
+    """
+    Calculates loss according to DXML.
+    :param f_x: Feature vector of float or int
+    :param f_y: Mean label vector of float or int
+    :return:
+    """
+    return K.sum(K.tf.where(K.tf.less_equal(K.abs(f_x - f_y),1.),(K.pow((f_x - f_y),2.) / 2.,K.abs(f_x - f_y) - 0.5)))
+
+
+def custom_loss(l):
+    def loss(f_x, f_y):
+        return K.sum(K.tf.where(K.tf.less_equal(K.abs(f_x - f_y),1.),(K.pow((f_x - f_y),2.) / 2.,K.abs(f_x - f_y) - 0.5)))
+    return loss
+
+class DXML(object):
+    """
+    Class for DXML neural netrowk architecture.
+    """
+    def __init__(self,model_save_path):
+        self.model_save_path = model_save_path
+        self.dxml = None
+
+    def load_model(self,model_load_path=None):
+        if not model_load_path:
+            model_load_path = self.model_save_path
+
+        self.dxml = load_model(model_load_path)
+        print("Model succesfully loaded and compiled")
+
+    def build(self,
+              vec_len=VECTOR_LENGTH,
+              small=False,
+              momentum=0.9,
+              lr=0.015,
+              neuron=512,
+              dropout=0.2,
+              weight_decay=0.0005
+              ):
+        """
+        Builds the neural network given in DXML paper.
+        :param vec_len: Length of input vectors
+        :param small: True if dataset is small
+        :param momentum:
+        :param lr:
+        :param neuron: Number of neurons to use
+        :param dropout:
+        :param weight_decay:
+        """
+        X   = Input(shape=(vec_len,),dtype='float32',name='X')
+        F_y = Input(shape=(vec_len,),dtype='float32',name='F_y')
+
+        if small:
+            neuron = 256
+            vec_len = 100
+
+        print('Building model...')
+        reg_coef = weight_decay / 2.0  ## l2 = weight_decay / 2.0; by https://bbabenko.github.io/weight-decay/
+
+        ## DXML architecture with 2 fully-connected (Dense) layer with dropout at end.
+        dxml_layer_1 = Dense(neuron,input_dim=X.shape,kernel_regularizer=regularizers.l2(reg_coef))(X)
+        dxml_layer_2 = Dense(vec_len,activation='relu',kernel_regularizer=regularizers.l2(reg_coef))(
+            dxml_layer_1)  ## [neuron] value be equal to [vec_len] as |F_x| and |F_y| should be same dimension
+        F_x = Dropout(dropout)(dxml_layer_2)
+
+        ## Taking feature output [F_x] after two layers as input with F_y
+        # F_x = dxml_layer_do(X)
+
+        ## Adding custom loss function as Merge layer
+        # dxml_distance = Merge(mode=cal_loss,output_shape=lambda x:(x[0][0],1))([F_x,F_y])
+        dxml_distance = Subtract(mode=custom_loss)([F_x,F_y])
+        self.dxml = Model(inputs=[X,F_y],outputs=[dxml_distance])
+
+        print(self.dxml.summary)
+
+        ## SGD optimizer, with momentum; [clipnorm] set the value for maximum possible gradient value
+        optimizer = optimizers.SGD(lr=lr,momentum=momentum,clipnorm=CLIPNORM)
+
+        # plot_model(self.dxml,to_file='DXML_Keras.png')
+        self.dxml.compile(loss=custom_loss,optimizer=optimizer,metrics=['accuracy'])
+
+    def train(self,F_x_tr,F_y_tr,val_split=0.4,batch_size=64,num_epochs=5,save=True):
+        self.dxml.fit([F_x_tr],F_y_tr,batch_size=batch_size,epochs=num_epochs,validation_split=val_split)
+
+        if save:
+            self.dxml.save(self.model_save_path)
+            print("Model succesfully saved on disk at: %s" % self.model_save_path)
+
+    def predict(self,X_ts,Y_ts):
+        """
+        Score the Y_ts w.r.t to a X_ts
+        :param X_ts : single X_ts (string)
+        :param Y_ts : list of candidate queries each a string
+        :return : ranked list of Y_ts (candidate, similarity)
+        """
+        return self.dxml.predict([X_ts,Y_ts])
+
+
+def gen_embs(E,emb_file_name='label_emb',emb_file_path='',nrl='deepwalk',format='edgedict',walks=20,
+             vec_len=VECTOR_LENGTH,seed=0,walk_len=20,window=7,work=8,p=1,q=1,weight=False,directed=False,iter=1):
+    """
+    Generates DeepWalk vectors
+    :param format: Input format of the graph; default: 'edgedict'
+    :param nrl: Which NRL to use ['deepwalk', 'node2vec']
+    :param directed: Flag to denote if graph is directed.
+    :param weight: Flag to denote if graph is weighted.
+    :param emb_file_path: Path to save generated embeddings
+    :param work: Number of workers to use
+    :param window: window size for skip-gram model
+    :param walk_len: length of each random walk
+    :param seed:
+    :param vec_len: Length of generated vectors
+    :param walks: Number of walks per node
+    :param E: list of edges for DeepWalk in [edgelist] format.
+    :param emb_file_name: file path to store generated vectors in w2v format.
+    :return: Generated Embeddings in Gensim KeyedVector format.
+    """
+    ## renaming output file with DeepWalk param values
+    emb_file_name = emb_file_name+'_'+str(nrl)+'_'+str(walks)+'_'+str(vec_len)+'_'+str(walk_len)+'_'+str(window)\
+                    +'_'+str(work)+'_'+str(weight)+'_'+str(directed)
+    emb_file_name = os.path.join(emb_file_path,emb_file_name)
+    if os.path.exists(emb_file_name):  ## checks if embeddings were generated previously
+        print('Embeddings already exist at:',emb_file_name)
+        from gensim.models import KeyedVectors
+
+        label_emb = KeyedVectors.load_word2vec_format(emb_file_name)
+        return label_emb
+
+    if nrl == 'deepwalk':
+        ## DeepWalk default values: number_walks=10,representation_size=64,seed=0,walk_length=40,window_size=5,workers=1
+        label_emb = DeepWalk(number_walks=walks,representation_size=vec_len,seed=seed,walk_length=walk_len,
+                             window_size=window,workers=work).transform(E,format)
+    elif nrl == 'node2vec':
+        ## Node2Vec default values: num_walks=10,dimensions=64,walk_length=40,window_size=5,workers=1,p=1,q=1,
+        ## weighted=False,directed=False,iter=1
+        label_emb = Node2Vec(num_walks=walks,dimensions=vec_len,walk_length=walk_len,window_size=window,workers=work,
+                             p=p,q=q,weighted=weight,directed=directed,iter=iter).transform(E,format)
+    else:
+        raise NotImplemented
+
+    label_emb.wv.save_word2vec_format(emb_file_name)
+    # label_emb.save(emb_file_name) # saves in non-human readable format
+    print('Saved generated vectors at:',emb_file_name)
+    return label_emb
+
+
+def fetch_avg_label_vecs(Y,dw_vecs,vec_len=VECTOR_LENGTH):
     """
     Takes mean of all the label vectors as per DXML.
     :param vec_len: Length of each label vectors
@@ -331,19 +355,47 @@ def _test_fetch_avg_label_vecs():
     v2 = np.array([[1,2,3,4,5,6]],np.int32)
     v3 = np.array([[1,2,3,4,5,6]],np.int32)
     dw_vecs = {1:v1,2:v2,3:v3}
-    output = [1,2,3,4,5,6,]
 
-    print('calculated value:',fetch_avg_label_vecs(Y,dw_vecs))
-    print('actual value:',output)
+    print('actual values:',[[1,2,3,4,5,6]])
+    print('calculated values:',fetch_avg_label_vecs(Y,dw_vecs))
+    return True
+
+
+def find_missing_labels(V,E):
+    """
+    Finds the missing label ids by taking set difference.
+    :param V:
+    :param E:
+    :return: List of label indexes missing from edge list.
+    """
+    edge_list = set()
+    for (u,v) in E.keys():
+        edge_list.update(u,v)
+    return list(set(V) - edge_list)
+
+
+def gen_miss_vecs(labels,vecs,dim=VECTOR_LENGTH,low=-1.0,high=1.0):
+    """
+    Generates random vector uniform values for labels missing in DeepWalk vectors.
+    :param high:
+    :param low:
+    :param dim: Dimension of the generated vector
+    :param labels: list of missing labels
+    :param vecs: dict of vectors
+    """
+    for m_label in labels:
+        vecs[m_label] = np.random.uniform(low=low,high=high,size=(dim,))
 
 
 if __name__ == "__main__":
     dataset_path = get_dataset_path()
     dataset = 'RCV1-2K'
-    train_file = 'RCV1-2K_train.txt'
-    test_file = 'RCV1-2K_test.txt'
 
-    print('Loading pregenerated data.')
+    train_file = dataset+'_train.txt'
+    test_file  = dataset+'_test.txt'
+    train_file = os.path.join(dataset_path,dataset,train_file)
+
+    print('Loading pre-generated data.')
     X_tr = load_npz("X_tr",file_path=os.path.join(dataset_path,dataset))
     Y_tr = load_pickle(pkl_file_name="Y_tr",pkl_file_path=os.path.join(dataset_path,dataset))
     V_tr = load_pickle(pkl_file_name="V_tr",pkl_file_path=os.path.join(dataset_path,dataset))
@@ -369,13 +421,18 @@ if __name__ == "__main__":
     # Y_tr_mlb = mlb.fit_transform(Y_tr)
     # Y_ts_mlb = mlb.fit_transform(Y_ts)
 
-    ## Generating DeepWalk vectors
-    dw_vecs_tr = gen_dw_vecs(E_tr,dw_output_file=os.path.join(dataset_path,dataset,'dw_vecs_tr.txt'))
-    # dw_vecs_ts = gen_dw_vecs(E_ts,dw_output_file=os.path.join(dataset_path,dataset,'dw_vecs_ts.txt'))
+    ## Generating label embeddings using NRL
+    dw_vecs_tr = gen_embs(E_tr,emb_file_path=os.path.join(dataset_path,dataset),emb_file_name='V_tr_emb',nrl='node2vec')
+    # dw_vecs_ts = gen_embs(E_ts,dw_file_path=os.path.join(dataset_path,dataset),dw_output_file='Y_ts_dw_vecs')
+    # print(dir(dw_vecs_tr))
 
-    # print(dw_vecs_tr.vectors[2])
+    print("Count of missing labels:",len(V_tr) - len(dw_vecs_tr.vectors))
+    missing_labels = []
+    if len(V_tr) - len(dw_vecs_tr.vectors) > 0:
+        missing_labels = find_missing_labels(V_tr,E_tr)
+        assert(len(missing_labels) == len(V_tr) - len(dw_vecs_tr.vectors))
+        gen_miss_vecs(V_tr,missing_labels,dw_vecs_tr.vectors)
 
-    # print(dw_vecs_tr.vectors.values())
     # y_vecs = []
     # for l in range(len(V_tr)):
     #     y_vecs.append(dw_vecs_tr.vectors[l])
@@ -384,7 +441,6 @@ if __name__ == "__main__":
     # print(y_tr_mat.shape)
 
     ## Calculating mean of label vectors belonging to a single datapoint
-    Y_tr_mean_emb = fetch_avg_label_vecs(Y_tr,dw_vecs_tr.vectors)
-    # print("Y_tr_mean_emb",Y_tr_mean_emb)
-
-    exit(0)
+    Y_tr_mean_emb: Dict[int, None] = fetch_avg_label_vecs(Y_tr,dw_vecs_tr.vectors)
+    dxml_obj = DXML(os.path.join(dataset_path,dataset))
+    dxml_obj.build()
