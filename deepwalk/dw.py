@@ -46,15 +46,19 @@ class DeepWalk(object):
         self.window_size = kwargs.get('window_size', 5)
         self.workers = kwargs.get('workers', 1)
         self.max_memory_data_size = kwargs.get('max_memory_data_size', 1000000000)
+        self.output = kwargs.get('output', None)
 
         self.vertex_freq_degree = False
 
     def transform(self, input_data, input_format, undirected=True):
+        print('Preparing graph...')
         if input_format == "adjlist":
             raise NotImplementedError('adjlist is not suppoted yet')
             # G = graph.load_adjacencylist(input_data, undirected=undirected)
         elif input_format == "edgelist":
             G = graph.load_edgelist(input_data, undirected=undirected)
+        elif input_format == "edgedict":
+            G = graph.load_edgelist(input_data.keys(), undirected=undirected)
         else:
             raise Exception("Unknown file format: '%s'.  Valid formats: 'adjlist', 'edgelist'" % input_format)
 
@@ -96,5 +100,7 @@ class DeepWalk(object):
                              size=self.representation_size,
                              window=self.window_size, min_count=0, trim_rule=None, workers=self.workers)
 
-        # model.wv.save_word2vec_format(self.output)
+        if self.output:
+            model.wv.save_word2vec_format(self.output)
+
         return model

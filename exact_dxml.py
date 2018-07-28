@@ -31,7 +31,23 @@ import numpy as np
 import pickle as pk
 from numpy.random import seed
 seed(1)
-from keras.models import Model,load_model
+
+from utils.util import get_x_y_v_e
+from utils.util import get_dataset_path
+
+from deepwalk import DeepWalk
+from node2vec import Node2Vec
+
+# from sklearn.preprocessing import MultiLabelBinarizer
+
+logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
+                    level=logging.INFO)
+
+import keras
+
+print('Keras version:',print(keras.__version__))
+
+from keras.models import Sequential,Model,load_model
 from keras.layers import Dense,Dropout,Input,Merge
 from keras import regularizers
 from keras import optimizers
