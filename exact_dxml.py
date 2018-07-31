@@ -36,7 +36,7 @@ import pickle as pk
 from numpy.random import seed
 seed(1)
 from keras.models import Model,load_model
-from keras.layers import Dense,Dropout,Input,Merge,concatenate,subtract,Subtract
+from keras.layers import Dense,Dropout,Input,Merge,merge,Embedding
 from keras import regularizers
 from keras import optimizers
 import keras.backend as K
@@ -180,13 +180,24 @@ def load_pickle(pkl_file_name,pkl_file_path):
         return False
 
 
-def cal_loss(f_x,f_y):
+def cal_loss(ip):
     """
     Calculates loss according to DXML.
+    :param ip:
     :param f_x: Feature vector of float or int
-    :param f_y: Mean label vector of float or int
+    :param f_y: Average of label vectors of float or int
     :return:
     """
+    f_x = ip[0]
+    f_y = ip[1]
+    # print(args)
+    print(f_x.shape)
+    print(f_x)
+    K.print_tensor(f_x, message='f_x = ')
+    print(f_y.shape)
+    print(f_y)
+    K.print_tensor(f_y, message='f_y = ')
+    assert(f_x.shape[1] == f_y.shape[1])
     return K.sum(K.tf.where(K.tf.less_equal(K.abs(f_x - f_y),1.),(K.pow((f_x - f_y),2.) / 2.,K.abs(f_x - f_y) - 0.5)))
 
 
@@ -194,6 +205,7 @@ def custom_loss(l):
     def loss(f_x, f_y):
         return K.sum(K.tf.where(K.tf.less_equal(K.abs(f_x - f_y),1.),(K.pow((f_x - f_y),2.) / 2.,K.abs(f_x - f_y) - 0.5)))
     return loss
+
 
 class DXML(object):
     """
@@ -208,10 +220,12 @@ class DXML(object):
             model_load_path = self.model_save_path
 
         self.dxml = load_model(model_load_path)
-        print("Model succesfully loaded and compiled")
+        print("Model succesfully loaded.")
 
     def build(self,
+              emb_vec_mat, ## Label embedding vector
               vec_len=VECTOR_LENGTH,
+              max_features=00, ## Number of labels
               small=False,
               momentum=0.9,
               lr=0.015,
@@ -232,6 +246,9 @@ class DXML(object):
         X   = Input(shape=(vec_len,),dtype='float32',name='X')
         F_y = Input(shape=(vec_len,),dtype='float32',name='F_y')
 
+        # X_E = Embedding(max_features,vec_len,weights=[],input_length=1,trainable=True)(X)
+        F_y_E = Embedding(max_features,vec_len,weights=[emb_vec_mat],input_length=1,trainable=False)(F_y)
+
         if small:
             neuron = 256
             vec_len = 100
@@ -250,7 +267,7 @@ class DXML(object):
 
         ## Adding custom loss function as Merge layer
         # dxml_distance = Merge(mode=cal_loss,output_shape=lambda x:(x[0][0],1))([F_x,F_y])
-        dxml_distance = Subtract(mode=custom_loss)([F_x,F_y])
+        dxml_distance = merge([F_x,F_y_E], mode=cal_loss, dot_axes=1, name="F_x_F_y_loss",output_shape=(vec_len,))
         self.dxml = Model(inputs=[X,F_y],outputs=[dxml_distance])
 
         print(self.dxml.summary)
@@ -259,7 +276,7 @@ class DXML(object):
         optimizer = optimizers.SGD(lr=lr,momentum=momentum,clipnorm=CLIPNORM)
 
         # plot_model(self.dxml,to_file='DXML_Keras.png')
-        self.dxml.compile(loss=custom_loss,optimizer=optimizer,metrics=['accuracy'])
+        self.dxml.compile(loss='mean_absolute_error',optimizer=optimizer,metrics=['accuracy'])
 
     def train(self,F_x_tr,F_y_tr,val_split=0.4,batch_size=64,num_epochs=5,save=True):
         self.dxml.fit([F_x_tr],F_y_tr,batch_size=batch_size,epochs=num_epochs,validation_split=val_split)
@@ -326,29 +343,9 @@ def gen_embs(E,emb_file_name='label_emb',emb_file_path='',nrl='deepwalk',format=
     return label_emb
 
 
-def fetch_avg_label_vecs(Y,dw_vecs,vec_len=VECTOR_LENGTH):
-    """
-    Takes mean of all the label vectors as per DXML.
-    :param vec_len: Length of each label vectors
-    :param Y: list of labels
-    :param dw_vecs:
-    :return:
-    """
-    print('fetch_avg_label_vecs')
-    mean_lbl_vecs = {}
-    for i,y in enumerate(Y):
-        emb_lbl_vecs = np.zeros(shape=(1,vec_len),dtype=float)
-        if len(y) <= 1:  # if length 1, no need to compute avg
-            continue
-        for y_i in y:
-            emb_lbl_vecs = np.add(emb_lbl_vecs,dw_vecs[int(y_i)])
-        mean_lbl_vecs[i] = np.divide(emb_lbl_vecs,len(y))
-    return mean_lbl_vecs
-
-
 def _test_fetch_avg_label_vecs():
     """
-    Test function for [fetch_avg_label_vecs]
+    Test function for [avg_label_embs]
     """
     Y = [(1,2,3)]
     v1 = np.array([[1,2,3,4,5,6]],np.int32)
@@ -357,7 +354,7 @@ def _test_fetch_avg_label_vecs():
     dw_vecs = {1:v1,2:v2,3:v3}
 
     print('actual values:',[[1,2,3,4,5,6]])
-    print('calculated values:',fetch_avg_label_vecs(Y,dw_vecs))
+    print('calculated values:',avg_label_embs(Y,dw_vecs))
     return True
 
 
@@ -385,6 +382,39 @@ def gen_miss_vecs(labels,vecs,dim=VECTOR_LENGTH,low=-1.0,high=1.0):
     """
     for m_label in labels:
         vecs[m_label] = np.random.uniform(low=low,high=high,size=(dim,))
+
+
+def avg_label_embs(Y,lbl_vecs,vec_len=VECTOR_LENGTH):
+    """
+    Takes mean of all the label vectors as per DXML.
+    :param vec_len: Length of each label vectors
+    :param Y: list of label indexes
+    :param lbl_vecs:
+    :return:
+    """
+    print('avg_label_embs',len(Y))
+    # label_emb_mat = np.empty((0,vec_len))
+    avg_lbl_embs = {}
+    single_lbl   = 0  ## to count number of data points with single label
+    multi_lbl    = 0  ## to count number of data points with more than 1 label
+    for i,y in enumerate(Y):
+        emb_lbl_vecs = np.zeros(shape=(1,vec_len),dtype=float)
+        if len(y) <= 1:  # if length 1, no need to compute avg
+            single_lbl += 1
+            avg_lbl_embs[i] = np.reshape(lbl_vecs[int(y[0])], (-1, vec_len))
+            # label_emb_mat = np.vstack((label_emb_mat,lbl_vecs[int(y[0])]))
+            # if i <= 1:
+                # print(avg_lbl_embs[i].shape)
+            continue
+        multi_lbl += 1
+        for y_i in y:
+            emb_lbl_vecs = np.add(emb_lbl_vecs,lbl_vecs[int(y_i)])
+        avg_lbl_embs[i] = np.divide(emb_lbl_vecs,len(y))
+        # label_emb_mat = np.append(label_emb_mat,np.divide(emb_lbl_vecs,len(y)),axis=0)
+    print('# data points with single label:',single_lbl)
+    print('# data points with more than 1 label:',multi_lbl)
+    print('Total # data points:',single_lbl + multi_lbl)
+    return avg_lbl_embs#,label_emb_mat
 
 
 if __name__ == "__main__":
@@ -427,6 +457,7 @@ if __name__ == "__main__":
     # print(dir(dw_vecs_tr))
 
     print("Count of missing labels:",len(V_tr) - len(dw_vecs_tr.vectors))
+    print(dw_vecs_tr.vectors.shape)
     missing_labels = []
     if len(V_tr) - len(dw_vecs_tr.vectors) > 0:
         missing_labels = find_missing_labels(V_tr,E_tr)
@@ -440,7 +471,21 @@ if __name__ == "__main__":
     # print(len(y_vecs))
     # print(y_tr_mat.shape)
 
+    print(len(Y_tr))
+    print(len(Y_tr[0]))
+    print(Y_tr[0])
+
     ## Calculating mean of label vectors belonging to a single datapoint
-    Y_tr_mean_emb: Dict[int, None] = fetch_avg_label_vecs(Y_tr,dw_vecs_tr.vectors)
+    # Y_tr_mean_emb,label_emb_mat = avg_label_embs(Y_tr,dw_vecs_tr.vectors)
+    Y_tr_mean_emb = avg_label_embs(Y_tr,dw_vecs_tr.vectors)
+
+    ## Generating average label embedding matrix.
+    print(len(Y_tr_mean_emb))
+    label_emb_mat = np.empty((len(Y_tr_mean_emb.keys()),VECTOR_LENGTH))
+    for k,v in Y_tr_mean_emb.items():
+        label_emb_mat = np.vstack([label_emb_mat,v])
+
+    print(label_emb_mat.shape)
     dxml_obj = DXML(os.path.join(dataset_path,dataset))
-    dxml_obj.build()
+    dxml_obj.build(label_emb_mat,max_features=len(V_tr))
+    dxml_obj.train()
