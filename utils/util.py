@@ -67,7 +67,7 @@ def get_dataset_path():
         dataset_path = '/home/cs16resch01001/datasets/Extreme Classification'
         sys.path.append('/home/cs16resch01001/codes')
     else:  # OS X returns name 'Darwin'
-        dataset_path = '/Users/monojitdey/Downloads'
+        dataset_path = '/Users/monojitdey/ml/datasets'
     print(platform.system(),"os detected.")
 
     return dataset_path
