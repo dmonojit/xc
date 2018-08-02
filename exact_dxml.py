@@ -4,7 +4,7 @@
 __synopsis__    : Code for DXML paper
 __description__ :
 __project__     : Extreme Classification
-__author__      : Monojit Dey, Samujjwal Ghosh
+__author__      : Samujjwal Ghosh, Monojit Dey
 __version__     :
 __date__        : June 2018
 __copyright__   : "Copyright (c) 2018"
@@ -31,6 +31,7 @@ TODO            : 3. Run DXML with edge weights
 import os,sys,logging
 from typing import Dict
 
+import random
 import numpy as np
 import pickle as pk
 from numpy.random import seed
@@ -314,33 +315,50 @@ def gen_embs(E,emb_file_name='label_emb',emb_file_path='',nrl='deepwalk',format=
     :param emb_file_name: file path to store generated vectors in w2v format.
     :return: Generated Embeddings in Gensim KeyedVector format.
     """
+
+    label_emb_wv = None
+
     ## renaming output file with DeepWalk param values
     emb_file_name = emb_file_name+'_'+str(nrl)+'_'+str(walks)+'_'+str(vec_len)+'_'+str(walk_len)+'_'+str(window)\
                     +'_'+str(work)+'_'+str(weight)+'_'+str(directed)
     emb_file_name = os.path.join(emb_file_path,emb_file_name)
+    
     if os.path.exists(emb_file_name):  ## checks if embeddings were generated previously
+        
         print('Embeddings already exist at:',emb_file_name)
         from gensim.models import KeyedVectors
 
-        label_emb = KeyedVectors.load_word2vec_format(emb_file_name)
-        return label_emb
+        label_emb_wv  = KeyedVectors.load_word2vec_format(emb_file_name)
 
-    if nrl == 'deepwalk':
-        ## DeepWalk default values: number_walks=10,representation_size=64,seed=0,walk_length=40,window_size=5,workers=1
-        label_emb = DeepWalk(number_walks=walks,representation_size=vec_len,seed=seed,walk_length=walk_len,
-                             window_size=window,workers=work).transform(E,format)
-    elif nrl == 'node2vec':
-        ## Node2Vec default values: num_walks=10,dimensions=64,walk_length=40,window_size=5,workers=1,p=1,q=1,
-        ## weighted=False,directed=False,iter=1
-        label_emb = Node2Vec(num_walks=walks,dimensions=vec_len,walk_length=walk_len,window_size=window,workers=work,
-                             p=p,q=q,weighted=weight,directed=directed,iter=iter).transform(E,format)
     else:
-        raise NotImplemented
 
-    label_emb.wv.save_word2vec_format(emb_file_name)
-    # label_emb.save(emb_file_name) # saves in non-human readable format
-    print('Saved generated vectors at:',emb_file_name)
-    return label_emb
+        if nrl == 'deepwalk':
+            ## DeepWalk default values: number_walks=10,representation_size=64,seed=0,walk_length=40,window_size=5,workers=1
+            label_emb = DeepWalk(number_walks=walks,representation_size=vec_len,seed=seed,walk_length=walk_len,
+                                 window_size=window,workers=work).transform(E,format)
+        elif nrl == 'node2vec':
+            ## Node2Vec default values: num_walks=10,dimensions=64,walk_length=40,window_size=5,workers=1,p=1,q=1,
+            ## weighted=False,directed=False,iter=1
+            label_emb = Node2Vec(num_walks=walks,dimensions=vec_len,walk_length=walk_len,window_size=window,workers=work,
+                                 p=p,q=q,weighted=weight,directed=directed,iter=iter).transform(E,format)
+        else:
+            raise NotImplemented
+
+        label_emb_wv = label_emb.wv
+
+        directory = os.path.dirname(emb_file_name)
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
+        label_emb_wv.save_word2vec_format(emb_file_name)
+        # label_emb.save(emb_file_name) # saves in non-human readable format
+        print('Saved generated vectors at:',emb_file_name)
+
+    # FYI
+    # (pdb) label_emb_wv.__dict__.keys()
+    # => dict_keys(['vectors', 'vocab', 'vector_size', 'index2word', 'vectors_norm'])
+    
+    return label_emb_wv
 
 
 def _test_fetch_avg_label_vecs():
@@ -367,50 +385,62 @@ def find_missing_labels(V,E):
     """
     edge_list = set()
     for (u,v) in E.keys():
-        edge_list.update(u,v)
+        edge_list.update((u,v))
     return list(set(V) - edge_list)
 
 
-def gen_miss_vecs(labels,vecs,dim=VECTOR_LENGTH,low=-1.0,high=1.0):
+def gen_miss_vecs(labels,label_emb_wv,dim=VECTOR_LENGTH,low=-1.0,high=1.0):
     """
     Generates random vector uniform values for labels missing in DeepWalk vectors.
     :param high:
     :param low:
     :param dim: Dimension of the generated vector
     :param labels: list of missing labels
-    :param vecs: dict of vectors
+    :param label_emb_wv: word vector model of label embeddings
     """
+    label_entities = []
+    label_embs = []
     for m_label in labels:
-        vecs[m_label] = np.random.uniform(low=low,high=high,size=(dim,))
+        label_entities.append(str(int(m_label)))
+        label_embs.append(np.random.uniform(low=low,high=high,size=(dim,)))
+    
+    label_emb_wv.add(label_entities, label_embs)
 
 
-def avg_label_embs(Y,lbl_vecs,vec_len=VECTOR_LENGTH):
+def avg_label_embs(Y,label_emb_wv,vec_len=VECTOR_LENGTH):
     """
     Takes mean of all the label vectors as per DXML.
     :param vec_len: Length of each label vectors
     :param Y: list of label indexes
-    :param lbl_vecs:
+    :param label_emb_wv: word vector model of label embeddings
     :return:
     """
     print('avg_label_embs',len(Y))
     # label_emb_mat = np.empty((0,vec_len))
     avg_lbl_embs = {}
+    no_lbl       = 0  ## to count number of data points with no label
     single_lbl   = 0  ## to count number of data points with single label
     multi_lbl    = 0  ## to count number of data points with more than 1 label
     for i,y in enumerate(Y):
         emb_lbl_vecs = np.zeros(shape=(1,vec_len),dtype=float)
         if len(y) <= 1:  # if length 1, no need to compute avg
-            single_lbl += 1
-            avg_lbl_embs[i] = np.reshape(lbl_vecs[int(y[0])], (-1, vec_len))
+            if len(y) == 0:
+                y_temp = random.choice([*label_emb_wv.vocab.keys()])
+                no_lbl += 1
+            else:
+                y_temp = y[0]
+                single_lbl += 1
+            avg_lbl_embs[i] = np.reshape(label_emb_wv.get_vector(str(int(y_temp))), (-1, vec_len))
             # label_emb_mat = np.vstack((label_emb_mat,lbl_vecs[int(y[0])]))
             # if i <= 1:
                 # print(avg_lbl_embs[i].shape)
             continue
         multi_lbl += 1
         for y_i in y:
-            emb_lbl_vecs = np.add(emb_lbl_vecs,lbl_vecs[int(y_i)])
+            emb_lbl_vecs = np.add(emb_lbl_vecs,label_emb_wv.get_vector(str(int(y_i))))
         avg_lbl_embs[i] = np.divide(emb_lbl_vecs,len(y))
         # label_emb_mat = np.append(label_emb_mat,np.divide(emb_lbl_vecs,len(y)),axis=0)
+    print('# data points with no label:',no_lbl)
     print('# data points with single label:',single_lbl)
     print('# data points with more than 1 label:',multi_lbl)
     print('Total # data points:',single_lbl + multi_lbl)
@@ -419,7 +449,7 @@ def avg_label_embs(Y,lbl_vecs,vec_len=VECTOR_LENGTH):
 
 if __name__ == "__main__":
     dataset_path = get_dataset_path()
-    dataset = 'RCV1-2K'
+    dataset = 'eurlex'
 
     train_file = dataset+'_train.txt'
     test_file  = dataset+'_test.txt'
@@ -452,17 +482,21 @@ if __name__ == "__main__":
     # Y_ts_mlb = mlb.fit_transform(Y_ts)
 
     ## Generating label embeddings using NRL
-    dw_vecs_tr = gen_embs(E_tr,emb_file_path=os.path.join(dataset_path,dataset),emb_file_name='V_tr_emb',nrl='node2vec')
+
+    # dw_vecs_tr = gen_embs(E_tr,emb_file_path=os.path.join(dataset_path,dataset),emb_file_name='V_tr_emb',nrl='deepwalk')
+
+    label_emb_wv = gen_embs(E_tr,emb_file_path=os.path.join(dataset_path,dataset),emb_file_name='V_tr_emb',nrl='deepwalk')
+
     # dw_vecs_ts = gen_embs(E_ts,dw_file_path=os.path.join(dataset_path,dataset),dw_output_file='Y_ts_dw_vecs')
     # print(dir(dw_vecs_tr))
 
-    print("Count of missing labels:",len(V_tr) - len(dw_vecs_tr.vectors))
-    print(dw_vecs_tr.vectors.shape)
+    print("Count of missing labels:",len(V_tr) - len(label_emb_wv.vectors))
+    print(label_emb_wv.vectors.shape)
     missing_labels = []
-    if len(V_tr) - len(dw_vecs_tr.vectors) > 0:
+    if len(V_tr) - len(label_emb_wv.vectors) > 0:
         missing_labels = find_missing_labels(V_tr,E_tr)
-        assert(len(missing_labels) == len(V_tr) - len(dw_vecs_tr.vectors))
-        gen_miss_vecs(V_tr,missing_labels,dw_vecs_tr.vectors)
+        assert(len(missing_labels) == len(V_tr) - len(label_emb_wv.vectors))
+        gen_miss_vecs(missing_labels,label_emb_wv,label_emb_wv.vectors.shape[1])
 
     # y_vecs = []
     # for l in range(len(V_tr)):
@@ -477,7 +511,7 @@ if __name__ == "__main__":
 
     ## Calculating mean of label vectors belonging to a single datapoint
     # Y_tr_mean_emb,label_emb_mat = avg_label_embs(Y_tr,dw_vecs_tr.vectors)
-    Y_tr_mean_emb = avg_label_embs(Y_tr,dw_vecs_tr.vectors)
+    Y_tr_mean_emb = avg_label_embs(Y_tr,label_emb_wv)
 
     ## Generating average label embedding matrix.
     print(len(Y_tr_mean_emb))
