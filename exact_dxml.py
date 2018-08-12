@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-__synopsis__    : Code for DXML paper
-__description__ :
+__synopsis__    : Code for DXML paper (https://arxiv.org/abs/1704.03718)
+__description__ : https://arxiv.org/abs/1704.03718
 __project__     : Extreme Classification
 __author__      : Samujjwal Ghosh, Monojit Dey
 __version__     :
@@ -10,34 +10,35 @@ __date__        : June 2018
 __copyright__   : "Copyright (c) 2018"
 __license__     : "Python"; (Licensed under the GNU LGPL v2.1 - http://www.gnu.org/licenses/lgpl.html)
 
-__classes__     :
+__classes__     : DXML,
 
 __variables__   :
 
 __methods__     :
 
-TODO            : 1. Handle missing label from label co-occurrence graph
-                    a. Avg of top k symantically similar labels, if texual information available.
-                    b. Generate random vecs for missing labels.
-                    c. Remove those datapoints from dataset.
-TODO            : 2. Calculate edge weights as combination of co-occurrence an symantec similarity.
+TODO            : 1. Complete DXML code
+                    a. Handle large input by using for loops.
+                    b. Calculate DXML accuracy using k-NN on similar datapoints.
+                    c. Save keras model every n epochs
+TODO            : 2. Handle missing label from label co-occurrence graph
+                    a. Avg of top k semantically similar labels, if texual information available.
+TODO            : 3. Calculate edge weights as combination of co-occurrence an symantec similarity.
                     a. ConceptNet
                     b. Word2Vec
-TODO            : 3. Run DXML with edge weights
-                    a. node2vec
+TODO            : 4. Run NRL with edge weights
+                    a. LINE
                     b. HARP
 """
 
 import os,sys,logging
-from typing import Dict
-
+from collections import OrderedDict
 import random
 import numpy as np
 import pickle as pk
 from numpy.random import seed
 seed(1)
 from keras.models import Model,load_model
-from keras.layers import Dense,Dropout,Input,Merge,merge,Embedding
+from keras.layers import Dense,Dropout,Input,merge,Embedding
 from keras import regularizers
 from keras import optimizers
 import keras.backend as K
@@ -52,8 +53,9 @@ from utils.util import get_x_y_v_e, get_dataset_path
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s',
                     level=logging.INFO)
 
-VECTOR_LENGTH = 300  ## Length of vectors
-CLIPNORM = 0.5
+VECTOR_LENGTH   = 300  ## Length of vectors
+CLIPNORM        = 0.5
+DATA_SLICE      = 20000
 
 
 '''
@@ -181,121 +183,6 @@ def load_pickle(pkl_file_name,pkl_file_path):
         return False
 
 
-def cal_loss(ip):
-    """
-    Calculates loss according to DXML.
-    :param ip:
-    :param f_x: Feature vector of float or int
-    :param f_y: Average of label vectors of float or int
-    :return:
-    """
-    f_x = ip[0]
-    f_y = ip[1]
-    # print(args)
-    print(f_x.shape)
-    print(f_x)
-    K.print_tensor(f_x, message='f_x = ')
-    print(f_y.shape)
-    print(f_y)
-    K.print_tensor(f_y, message='f_y = ')
-    assert(f_x.shape[1] == f_y.shape[1])
-    return K.sum(K.tf.where(K.tf.less_equal(K.abs(f_x - f_y),1.),(K.pow((f_x - f_y),2.) / 2.,K.abs(f_x - f_y) - 0.5)))
-
-
-def custom_loss(l):
-    def loss(f_x, f_y):
-        return K.sum(K.tf.where(K.tf.less_equal(K.abs(f_x - f_y),1.),(K.pow((f_x - f_y),2.) / 2.,K.abs(f_x - f_y) - 0.5)))
-    return loss
-
-
-class DXML(object):
-    """
-    Class for DXML neural netrowk architecture.
-    """
-    def __init__(self,model_save_path):
-        self.model_save_path = model_save_path
-        self.dxml = None
-
-    def load_model(self,model_load_path=None):
-        if not model_load_path:
-            model_load_path = self.model_save_path
-
-        self.dxml = load_model(model_load_path)
-        print("Model succesfully loaded.")
-
-    def build(self,
-              emb_vec_mat, ## Label embedding vector
-              vec_len=VECTOR_LENGTH,
-              max_features=00, ## Number of labels
-              small=False,
-              momentum=0.9,
-              lr=0.015,
-              neuron=512,
-              dropout=0.2,
-              weight_decay=0.0005
-              ):
-        """
-        Builds the neural network given in DXML paper.
-        :param vec_len: Length of input vectors
-        :param small: True if dataset is small
-        :param momentum:
-        :param lr:
-        :param neuron: Number of neurons to use
-        :param dropout:
-        :param weight_decay:
-        """
-        X   = Input(shape=(vec_len,),dtype='float32',name='X')
-        F_y = Input(shape=(vec_len,),dtype='float32',name='F_y')
-
-        # X_E = Embedding(max_features,vec_len,weights=[],input_length=1,trainable=True)(X)
-        F_y_E = Embedding(max_features,vec_len,weights=[emb_vec_mat],input_length=1,trainable=False)(F_y)
-
-        if small:
-            neuron = 256
-            vec_len = 100
-
-        print('Building model...')
-        reg_coef = weight_decay / 2.0  ## l2 = weight_decay / 2.0; by https://bbabenko.github.io/weight-decay/
-
-        ## DXML architecture with 2 fully-connected (Dense) layer with dropout at end.
-        dxml_layer_1 = Dense(neuron,input_dim=X.shape,kernel_regularizer=regularizers.l2(reg_coef))(X)
-        dxml_layer_2 = Dense(vec_len,activation='relu',kernel_regularizer=regularizers.l2(reg_coef))(
-            dxml_layer_1)  ## [neuron] value be equal to [vec_len] as |F_x| and |F_y| should be same dimension
-        F_x = Dropout(dropout)(dxml_layer_2)
-
-        ## Taking feature output [F_x] after two layers as input with F_y
-        # F_x = dxml_layer_do(X)
-
-        ## Adding custom loss function as Merge layer
-        # dxml_distance = Merge(mode=cal_loss,output_shape=lambda x:(x[0][0],1))([F_x,F_y])
-        dxml_distance = merge([F_x,F_y_E], mode=cal_loss, dot_axes=1, name="F_x_F_y_loss",output_shape=(vec_len,))
-        self.dxml = Model(inputs=[X,F_y],outputs=[dxml_distance])
-
-        print(self.dxml.summary)
-
-        ## SGD optimizer, with momentum; [clipnorm] set the value for maximum possible gradient value
-        optimizer = optimizers.SGD(lr=lr,momentum=momentum,clipnorm=CLIPNORM)
-
-        # plot_model(self.dxml,to_file='DXML_Keras.png')
-        self.dxml.compile(loss='mean_absolute_error',optimizer=optimizer,metrics=['accuracy'])
-
-    def train(self,F_x_tr,F_y_tr,val_split=0.4,batch_size=64,num_epochs=5,save=True):
-        self.dxml.fit([F_x_tr],F_y_tr,batch_size=batch_size,epochs=num_epochs,validation_split=val_split)
-
-        if save:
-            self.dxml.save(self.model_save_path)
-            print("Model succesfully saved on disk at: %s" % self.model_save_path)
-
-    def predict(self,X_ts,Y_ts):
-        """
-        Score the Y_ts w.r.t to a X_ts
-        :param X_ts : single X_ts (string)
-        :param Y_ts : list of candidate queries each a string
-        :return : ranked list of Y_ts (candidate, similarity)
-        """
-        return self.dxml.predict([X_ts,Y_ts])
-
-
 def gen_embs(E,emb_file_name='label_emb',emb_file_path='',nrl='deepwalk',format='edgedict',walks=20,
              vec_len=VECTOR_LENGTH,seed=0,walk_len=20,window=7,work=8,p=1,q=1,weight=False,directed=False,iter=1):
     """
@@ -316,8 +203,6 @@ def gen_embs(E,emb_file_name='label_emb',emb_file_path='',nrl='deepwalk',format=
     :return: Generated Embeddings in Gensim KeyedVector format.
     """
 
-    label_emb_wv = None
-
     ## renaming output file with DeepWalk param values
     emb_file_name = emb_file_name+'_'+str(nrl)+'_'+str(walks)+'_'+str(vec_len)+'_'+str(walk_len)+'_'+str(window)\
                     +'_'+str(work)+'_'+str(weight)+'_'+str(directed)
@@ -328,10 +213,9 @@ def gen_embs(E,emb_file_name='label_emb',emb_file_path='',nrl='deepwalk',format=
         print('Embeddings already exist at:',emb_file_name)
         from gensim.models import KeyedVectors
 
-        label_emb_wv  = KeyedVectors.load_word2vec_format(emb_file_name)
+        label_emb_wv = KeyedVectors.load_word2vec_format(emb_file_name)
 
     else:
-
         if nrl == 'deepwalk':
             ## DeepWalk default values: number_walks=10,representation_size=64,seed=0,walk_length=40,window_size=5,workers=1
             label_emb = DeepWalk(number_walks=walks,representation_size=vec_len,seed=seed,walk_length=walk_len,
@@ -416,8 +300,7 @@ def avg_label_embs(Y,label_emb_wv,vec_len=VECTOR_LENGTH):
     :return:
     """
     print('avg_label_embs',len(Y))
-    # label_emb_mat = np.empty((0,vec_len))
-    avg_lbl_embs = {}
+    avg_lbl_embs = OrderedDict()
     no_lbl       = 0  ## to count number of data points with no label
     single_lbl   = 0  ## to count number of data points with single label
     multi_lbl    = 0  ## to count number of data points with more than 1 label
@@ -429,27 +312,143 @@ def avg_label_embs(Y,label_emb_wv,vec_len=VECTOR_LENGTH):
                 no_lbl += 1
             else:
                 y_temp = y[0]
-                single_lbl += 1
+            single_lbl += 1
             avg_lbl_embs[i] = np.reshape(label_emb_wv.get_vector(str(int(y_temp))), (-1, vec_len))
-            # label_emb_mat = np.vstack((label_emb_mat,lbl_vecs[int(y[0])]))
-            # if i <= 1:
-                # print(avg_lbl_embs[i].shape)
             continue
         multi_lbl += 1
         for y_i in y:
             emb_lbl_vecs = np.add(emb_lbl_vecs,label_emb_wv.get_vector(str(int(y_i))))
         avg_lbl_embs[i] = np.divide(emb_lbl_vecs,len(y))
-        # label_emb_mat = np.append(label_emb_mat,np.divide(emb_lbl_vecs,len(y)),axis=0)
     print('# data points with no label:',no_lbl)
     print('# data points with single label:',single_lbl)
     print('# data points with more than 1 label:',multi_lbl)
     print('Total # data points:',single_lbl + multi_lbl)
-    return avg_lbl_embs#,label_emb_mat
+    return avg_lbl_embs
+
+
+def cal_loss(ip):
+    """
+    Calculates loss according to DXML.
+    :param ip:
+    :param f_x: Feature vector of float or int
+    :param f_y: Average of label vectors of float or int
+    :return:
+    """
+    f_x = ip[0]
+    f_y = ip[1]
+    assert(f_x.shape[1] == f_y.shape[1])
+    return K.sum(K.tf.where(K.tf.less_equal(K.abs(f_x - f_y),1.),K.pow((f_x - f_y),2.) / 2.,K.abs(f_x - f_y) - 0.5))
+
+
+def cal_loss_np(ip):
+    f_x = ip[0]
+    f_y = ip[1]
+    val = np.sum(np.where(np.less_equal(np.abs(f_x - f_y),1.),np.power((f_x - f_y),2.) / 2.,np.abs(f_x - f_y) - 0.5))
+    return val
+
+
+def _test_cal_loss_np():
+    a = np.random.rand(30,1)
+    b = np.random.rand(30,1)
+    print(a)
+    print(b)
+    print(cal_loss_np([a,b]))
+
+
+class DXML(object):
+    """
+    Class for DXML neural netrowk architecture.
+    """
+    def __init__(self,model_save_path):
+        self.model_save_path = model_save_path
+        self.dxml = None
+
+    def load_model(self,model_load_path=None):
+        if not model_load_path:
+            model_load_path = self.model_save_path
+
+        self.dxml = load_model(model_load_path)
+        print("Model succesfully loaded.")
+
+    def build(self,
+              # emb_vec_mat,
+              # max_features,
+              x_len,
+              vec_len=VECTOR_LENGTH,
+              small=False,
+              momentum=0.9,
+              lr=0.015,
+              neuron=512,
+              dropout=0.2,
+              weight_decay=0.0005
+              ):
+        """
+        Builds the neural network given in DXML paper.
+        :param x_len: Dimension of feature vectors.
+        # :param emb_vec_mat: Label embedding vector
+        # :param max_features: Number of labels
+        :param vec_len: Length of input vectors
+        :param small: True if dataset is small
+        :param momentum:
+        :param lr: learning rate
+        :param neuron: Number of neurons to use
+        :param dropout:
+        :param weight_decay:
+        """
+        print('Building DXML...')
+        X   = Input(shape=(x_len,),dtype='float32',name='X')
+        F_y = Input(shape=(vec_len,),dtype='float32',name='F_y')
+
+        # print('emb_vec_mat.shape:',emb_vec_mat.shape)
+        # X_E = Embedding(max_features,vec_len,weights=None,input_length=1,trainable=False)(X)
+        # F_y_E = Embedding(max_features,vec_len,weights=[emb_vec_mat],input_length=1,trainable=False)(F_y)
+
+        if small:
+            neuron = 256
+            vec_len = 100
+
+        reg_coef = weight_decay / 2.0  ## l2 = weight_decay / 2.0; by https://bbabenko.github.io/weight-decay/
+
+        ## DXML architecture with 2 fully-connected (Dense) layer with dropout at end.
+        dxml_layer_1 = Dense(neuron,input_dim=X.shape,kernel_regularizer=regularizers.l2(reg_coef))(X)
+        dxml_layer_2 = Dense(vec_len,activation='relu',kernel_regularizer=regularizers.l2(reg_coef))(
+            dxml_layer_1)  ## [neuron] value be equal to [vec_len] as |F_x| and |F_y| should be same dimension
+
+        ## Taking feature output [F_x] after two layers as input with F_y
+        F_x = Dropout(dropout)(dxml_layer_2)
+
+        ## Adding custom loss function as Merge layer
+        dxml_distance = merge([F_x,F_y], mode=cal_loss, dot_axes=1, name="F_x_F_y_loss",output_shape=(1,))
+        self.dxml = Model(inputs=[X,F_y],outputs=dxml_distance)
+
+        self.dxml.summary()
+
+        ## SGD optimizer, with momentum; [clipnorm] set the value for maximum possible gradient value
+        optimizer = optimizers.SGD(lr=lr,momentum=momentum,clipnorm=CLIPNORM)
+
+        ## Minimizing the value between dxml_distance (F_x - F_y) and Y [zero vector] using 'mean_absolute_error'
+        self.dxml.compile(loss='mean_absolute_error',optimizer=optimizer,metrics=['accuracy'])
+
+    def train(self,F_x_tr,F_y_tr,val_split=0.3,batch_size=64,num_epochs=5,save=True):
+        self.dxml.fit([F_x_tr[0],F_x_tr[1]],F_y_tr,batch_size=batch_size,epochs=num_epochs,validation_split=val_split)
+
+        if save:
+            self.dxml.save(self.model_save_path)
+            print("Model succesfully saved on disk at: %s" % self.model_save_path)
+
+    def predict(self,X_ts):
+        """
+        Score the Y_ts w.r.t to a X_ts
+        :param X_ts : single X_ts (string)
+        :param Y_ts : list of candidate queries each a string
+        :return : ranked list of Y_ts (candidate, similarity)
+        """
+        return self.dxml.predict(X_ts)
 
 
 if __name__ == "__main__":
     dataset_path = get_dataset_path()
-    dataset = 'eurlex'
+    dataset = 'RCV1-2K'
 
     train_file = dataset+'_train.txt'
     test_file  = dataset+'_test.txt'
@@ -470,10 +469,15 @@ if __name__ == "__main__":
         save_pickle(V_tr,pkl_file_name="V_tr",pkl_file_path=os.path.join(dataset_path,dataset))
 
         ## Converting [E_tr] to default dict as returned [E_tr] is not pickle serializable
-        E_tr_2 = {}  ## TODO: Make returned [E_tr] pickle serializable
+        E_tr_2 = OrderedDict()  ## TODO: Make returned [E_tr] pickle serializable
         for i,j in E_tr.items():
             E_tr_2[i] = j
         save_pickle(E_tr_2,pkl_file_name="E_tr",pkl_file_path=os.path.join(dataset_path,dataset))
+
+    X_tr_small = X_tr[:DATA_SLICE,:]
+    X_tr_small = X_tr_small.todense()
+
+    Y_tr_small = Y_tr[:DATA_SLICE]
 
     ## Creating One-Hot vectors from list of label indexes
     # from sklearn.preprocessing import MultiLabelBinarizer
@@ -482,44 +486,26 @@ if __name__ == "__main__":
     # Y_ts_mlb = mlb.fit_transform(Y_ts)
 
     ## Generating label embeddings using NRL
-
-    # dw_vecs_tr = gen_embs(E_tr,emb_file_path=os.path.join(dataset_path,dataset),emb_file_name='V_tr_emb',nrl='deepwalk')
-
     label_emb_wv = gen_embs(E_tr,emb_file_path=os.path.join(dataset_path,dataset),emb_file_name='V_tr_emb',nrl='deepwalk')
 
-    # dw_vecs_ts = gen_embs(E_ts,dw_file_path=os.path.join(dataset_path,dataset),dw_output_file='Y_ts_dw_vecs')
-    # print(dir(dw_vecs_tr))
-
+    ## Handle missing labels, if any
     print("Count of missing labels:",len(V_tr) - len(label_emb_wv.vectors))
-    print(label_emb_wv.vectors.shape)
     missing_labels = []
     if len(V_tr) - len(label_emb_wv.vectors) > 0:
         missing_labels = find_missing_labels(V_tr,E_tr)
         assert(len(missing_labels) == len(V_tr) - len(label_emb_wv.vectors))
         gen_miss_vecs(missing_labels,label_emb_wv,label_emb_wv.vectors.shape[1])
 
-    # y_vecs = []
-    # for l in range(len(V_tr)):
-    #     y_vecs.append(dw_vecs_tr.vectors[l])
-    # y_tr_mat = np.matrix(y_vecs)
-    # print(len(y_vecs))
-    # print(y_tr_mat.shape)
+    ## Calculating average of multi-label vectors belonging to a single datapoint
+    Y_tr_mean_emb = avg_label_embs(Y_tr_small,label_emb_wv)
+    Y_tr_emb_mat = np.array(list(Y_tr_mean_emb.values())).reshape(len(Y_tr_small), VECTOR_LENGTH)
+    # np.save(os.path.join(dataset_path,dataset,"Y_tr_emb_mat"),Y_tr_emb_mat)
 
-    print(len(Y_tr))
-    print(len(Y_tr[0]))
-    print(Y_tr[0])
+    Y_tr_emb_mat = Y_tr_emb_mat[:DATA_SLICE, :]
 
-    ## Calculating mean of label vectors belonging to a single datapoint
-    # Y_tr_mean_emb,label_emb_mat = avg_label_embs(Y_tr,dw_vecs_tr.vectors)
-    Y_tr_mean_emb = avg_label_embs(Y_tr,label_emb_wv)
+    ## Generate zero vectors as pseudo label vectors.
+    Y = np.zeros((DATA_SLICE,1))
 
-    ## Generating average label embedding matrix.
-    print(len(Y_tr_mean_emb))
-    label_emb_mat = np.empty((len(Y_tr_mean_emb.keys()),VECTOR_LENGTH))
-    for k,v in Y_tr_mean_emb.items():
-        label_emb_mat = np.vstack([label_emb_mat,v])
-
-    print(label_emb_mat.shape)
-    dxml_obj = DXML(os.path.join(dataset_path,dataset))
-    dxml_obj.build(label_emb_mat,max_features=len(V_tr))
-    dxml_obj.train()
+    dxml_obj = DXML(dataset)
+    dxml_obj.build(x_len=X_tr.shape[1])
+    dxml_obj.train([X_tr_small, Y_tr_emb_mat], Y)
