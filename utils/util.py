@@ -219,7 +219,7 @@ def get_label_dict(label_filepath):
         with open(label_filepath,'r') as file:
             content = file.read().splitlines()
     except:
-        with open(label_filepath,'r',encoding='latin-1') as file:  # Why 'latin-1' encoding?
+        with open(label_filepath,'r',encoding='latin-1') as file:  # Why 'latin-1' encoding? - Answer: it was there for a file
             content = file.read().splitlines()
 
     label_dict = {}
